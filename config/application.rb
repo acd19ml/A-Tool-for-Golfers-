@@ -23,6 +23,15 @@ module Project
 
     config.active_job.queue_adapter = :delayed_job
 
+    config.action_mailer.smtp_settings = {
+      address:              'mailhost.shef.ac.uk',
+      port:                 587,
+      enable_starttls_auto: true,
+      openssl_verify_mode:  OpenSSL::SSL::VERIFY_PEER,
+      openssl_verify_depth: 3,
+      ca_file:              '/etc/ssl/certs/ca-certificates.crt'
+    }
+
     # Handle invalid MIME types and URIs
     config.action_dispatch.rescue_responses['ActionDispatch::Http::MimeNegotiation::InvalidType'] = :bad_request
     config.action_dispatch.rescue_responses['Mime::Type::InvalidMimeType'] = :bad_request

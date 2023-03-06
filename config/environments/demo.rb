@@ -94,7 +94,7 @@ Rails.application.configure do
   # Intentionally kept format to make it more obvious / easier to upgrade. #
   ##########################################################################
 
-  app_url = 'PUT_APP_URL_HERE' # TODO: replace this with your application's URL (e.g. 'myapp.demo.epigenesys.org.uk')
+  app_url = 'https://5e8698ec04fa4b24b991fca03e5ae3bf@sentry.shefcompsci.org.uk/350' # TODO: replace this with your application's URL (e.g. 'myapp.demo.epigenesys.org.uk')
   config.action_mailer.default_url_options    = { host: app_url, protocol: 'https' }
   config.action_mailer.asset_host             = "https://\#\{app_url\}"
   config.action_mailer.smtp_settings[:domain] = app_url
