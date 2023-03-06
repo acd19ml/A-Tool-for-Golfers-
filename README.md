@@ -1,5 +1,30 @@
 # README
 
+## Setup
+
+```
+bin/setup
+```
+
+* start postgresql if it not active below
+```
+sudo service postgresql start
+```
+* migrate database
+```
+bundle exec rails db:migrate
+```
+## start:
+
+```
+bundle exec rails s
+```
+* second panel with
+```
+bin/webpacker-dev-server
+```
+
+## default
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
