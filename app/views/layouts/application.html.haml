@@ -2,7 +2,10 @@
 %html{ lang: 'en-GB' }
   %head
     %title Project
-
+    -# TODO:
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
+    
     %meta{ :'http-equiv' => "content-type", content: "text/html; charset=utf-8" }
     %meta{ :'http-equiv' => 'X-UA-Compatible', content: 'IE=edge' }
     %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0, shrink-to-fit=no" }
@@ -26,10 +29,23 @@
         %button.navbar-toggler{ type: :button, data: { bs_toggle: :collapse, bs_target: '#navbar-content' }, aria: { controls: 'navbar-content', expanded: 'false', label: 'Toggle navigation' } }
           %span.navbar-toggler-icon
         #navbar-content.navbar-collapse.collapse
+          -# TODO:
           %nav.navbar-nav
             = link_to '/', class: 'active nav-link' do
               %i.bi-house-fill
               Home
+          %nav.navbar-nav
+            = link_to 'login', class: 'active nav-link' do
+              %i.bi-person-fill
+              Log in
+          %nav.navbar-nav
+            = link_to 'register', class: 'active nav-link' do
+              %i.bi-person-plus-fill
+              Sign up
+          %nav.navbar-nav
+            = link_to 'maps', class: 'active nav-link' do
+              %i.bi-easel-fill
+              Guest
 
     - if flash.present?
       .container-fluid.flash-messages

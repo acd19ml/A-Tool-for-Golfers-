@@ -1,0 +1,15 @@
+
+%table.table.table-striped
+  %thead 
+    %tr 
+      %th Map
+      %th View
+      %th Edit
+    %tr 
+      %td map1
+      %td 
+        .ms-auto.float-end
+          = link_to 'show', map_path, class: 'btn btn-outline-secondary ms-auto'
+      %td
+        .ms-auto.float-end
+          = link_to 'edit', edit_map_path, class: 'btn btn-outline-secondary ms-auto'
