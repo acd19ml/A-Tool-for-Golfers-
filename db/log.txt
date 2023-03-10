@@ -1,0 +1,13 @@
+# database command
+
+bundle exec rails g model Users username:string email:string password:string role:string
+
+bundle exec rails g model Courses name:string path:string
+
+bundle exec rails g model Userinfo club:string height:decimal width:decimal angle:decimal
+
+bundle exec rails g model Holes holeNumber:integer map:string
+
+bundle exec rails g model Annotations annotationMap:decimal
+
+bin/rails generate migration addForeignKey
