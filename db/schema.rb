@@ -10,9 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_07_004717) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_10_090828) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "annotations", force: :cascade do |t|
+    t.decimal "annotationMap"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "hole_id"
+    t.integer "user_id"
+  end
+
+  create_table "courses", force: :cascade do |t|
+    t.string "name"
+    t.string "path"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "delayed_jobs", force: :cascade do |t|
     t.integer "priority", default: 0, null: false
@@ -29,11 +44,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_07_004717) do
     t.index ["priority", "run_at"], name: "delayed_jobs_priority"
   end
 
-  create_table "maps", force: :cascade do |t|
-    t.string "name"
-    t.string "path"
+  create_table "holes", force: :cascade do |t|
+    t.integer "holeNumber"
+    t.string "map"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "course_id"
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -45,4 +61,27 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_07_004717) do
     t.index ["updated_at"], name: "index_sessions_on_updated_at"
   end
 
+  create_table "userinfos", force: :cascade do |t|
+    t.string "club"
+    t.decimal "height"
+    t.decimal "width"
+    t.decimal "angle"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "email"
+    t.string "password"
+    t.string "role"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "annotations", "holes"
+  add_foreign_key "annotations", "users"
+  add_foreign_key "holes", "courses"
+  add_foreign_key "userinfos", "users"
 end
