@@ -5,5 +5,9 @@ Rails.application.routes.draw do
   root "pages#home"
   
 
-  resources :maps
+  resources :courses
+  # resources :holes
+  # resources :annotations
+  # resources :userinfo
+  # resources :users
 end

@@ -1,0 +1,17 @@
+.row.justify-content-center
+  .col-sm-8.col-lg-6
+    .card
+      .card-header
+        Course Info
+      .card-body
+        %dl.row.mb-0
+          %dt.col-md-3 CID:
+          %dd.col-md-9= @course.id
+          %dt.col-md-3 Name:
+          %dd.col-md-9= @course.name
+          %dt.col-md-3 Description:
+          %dd.col-md-9= @course.path
+        -# <img src="map.png" style="border: 1px solid steelblue" />
+        = image_pack_tag @course.path, class: 'img-fluid'
+      .card-footer.d-flex
+        = link_to 'Back', courses_path, class: 'btn btn-link ms-auto'

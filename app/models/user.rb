@@ -11,5 +11,6 @@
 #  updated_at :datetime         not null
 #
 class User < ApplicationRecord
-    has_many :userinfo
+    has_many :userinfos
+    has_many :annotations
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_10_090828) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_10_090742) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -18,8 +18,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_10_090828) do
     t.decimal "annotationMap"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "hole_id"
-    t.integer "user_id"
   end
 
   create_table "courses", force: :cascade do |t|
@@ -49,7 +47,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_10_090828) do
     t.string "map"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "course_id"
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -68,7 +65,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_10_090828) do
     t.decimal "angle"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -80,8 +76,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_10_090828) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "annotations", "holes"
-  add_foreign_key "annotations", "users"
-  add_foreign_key "holes", "courses"
-  add_foreign_key "userinfos", "users"
 end
