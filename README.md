@@ -1,4 +1,8 @@
 # README
+```
+rails g devise:views
+```
+
 
 ## Setup
 

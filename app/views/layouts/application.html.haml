@@ -30,6 +30,12 @@
             = link_to '/', class: 'active nav-link' do
               %i.bi-house-fill
               Home
+          - if user_signed_in?
+            .navbar-text= current_user.email
+            .nav-item
+              = link_to destroy_user_session_path, method: :delete, class: 'nav-link' do
+                Logout
+          -# TODO: 
           %nav.navbar-nav
             = link_to 'login', class: 'active nav-link' do
               %i.bi-person-fill
@@ -42,7 +48,6 @@
             = link_to 'courses', class: 'active nav-link' do
               %i.bi-easel-fill
               Guest
-
     - if flash.present?
       .container-fluid.flash-messages
         - flash.each do |message_type, message|
