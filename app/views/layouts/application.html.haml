@@ -35,17 +35,17 @@
             .nav-item
               = link_to destroy_user_session_path, method: :delete, class: 'nav-link' do
                 Logout
-          -# TODO: 
+          -# TODO: login register
           %nav.navbar-nav
-            = link_to 'login', class: 'active nav-link' do
+            = link_to '../users/sign_in', class: 'active nav-link' do
               %i.bi-person-fill
               Log in
           %nav.navbar-nav
-            = link_to 'register', class: 'active nav-link' do
+            = link_to '../users/sign_up', class: 'active nav-link' do
               %i.bi-person-plus-fill
               Sign up
           %nav.navbar-nav
-            = link_to 'courses', class: 'active nav-link' do
+            = link_to '../courses', class: 'active nav-link' do
               %i.bi-easel-fill
               Guest
     - if flash.present?
