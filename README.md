@@ -18,6 +18,10 @@ sudo service postgresql start
 ```
 bundle exec rails db:migrate
 ```
+* create database seed
+```
+bundle exec rails db:seed
+```
 ## start:
 
 ```

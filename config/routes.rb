@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "pages#home"
   
-
+  # get "show" ,to: "pages#show"
+  
   resources :courses
   # resources :holes
   # resources :annotations

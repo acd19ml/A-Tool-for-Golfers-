@@ -18,7 +18,7 @@
     = javascript_pack_tag 'application'
 
   %body
-    %header.navbar.navbar-expand-lg.bg-light.mb-3
+    %header.navbar.navbar-expand-lg.mb-3
       .container-fluid
         = link_to '#', class: 'navbar-brand' do
           = image_pack_tag 'logo.png', height: 40
@@ -27,27 +27,34 @@
         #navbar-content.navbar-collapse.collapse
           -# TODO:
           %nav.navbar-nav
-            = link_to '/', class: 'active nav-link' do
-              %i.bi-house-fill
-              Home
-          - if user_signed_in?
-            .navbar-text= current_user.email
             .nav-item
-              = link_to destroy_user_session_path, method: :delete, class: 'nav-link' do
-                Logout
-          -# TODO: login register
-          %nav.navbar-nav
-            = link_to '../users/sign_in', class: 'active nav-link' do
-              %i.bi-person-fill
-              Log in
-          %nav.navbar-nav
-            = link_to '../users/sign_up', class: 'active nav-link' do
-              %i.bi-person-plus-fill
-              Sign up
-          %nav.navbar-nav
-            = link_to '../courses', class: 'active nav-link' do
-              %i.bi-easel-fill
-              Guest
+              = link_to '/', class: 'active nav-link' do
+                %i.bi-house-fill
+                Home
+
+            - if user_signed_in?
+              .nav-item
+                = link_to '../courses', class: 'active nav-link' do
+                  %i.bi-easel-fill
+                  View
+              .navbar-text= current_user.email
+              .nav-item
+                = link_to destroy_user_session_path, method: :delete, class: 'nav-link' do
+                  Logout
+            - else
+              .nav-item
+                = link_to '../courses', class: 'active nav-link' do
+                  %i.bi-easel-fill
+                  Guest
+              .nav-item
+                = link_to '../users/sign_in', class: 'active nav-link' do
+                  %i.bi-person-fill
+                  Log in
+              .nav-item
+                = link_to '../users/sign_up', class: 'active nav-link' do
+                  %i.bi-person-plus-fill
+                  Sign up
+
     - if flash.present?
       .container-fluid.flash-messages
         - flash.each do |message_type, message|
