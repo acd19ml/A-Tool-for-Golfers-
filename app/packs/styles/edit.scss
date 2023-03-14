@@ -1,16 +1,23 @@
 $sidebar-bg: rgb(196, 196, 196);
+$sidebar-sd-bg: rgb(186, 185, 185);
 $sidebar-hover-color: #eedcd9;
 $sidebar-hover-shadow: 0px 0px 2px rgb(79, 80, 80);
 
 #sidebar {
-  position: fixed;
+  position: relative;
+  // z-index:1;
+  display: inline-block;
   width: 80px;
-  left: -100px;
+  left: -12px;
   background: $sidebar-bg;
-  transition: all .5s ease;
-  height: 100%;
+  // transition: all .5s ease;
+  height: 90vh;
   top: 0;
-  margin: 60px 0;
+}
+
+.checkboxs {
+  display: inline-block;
+  position: relative;
 }
 
 .sidebar {
@@ -29,83 +36,51 @@ $sidebar-hover-shadow: 0px 0px 2px rgb(79, 80, 80);
 //   margin-right: 16px;
   letter-spacing: 1px;
   text-align: center;
+  
 }
 
-// #sidebar a:hover {
-//   color: $sidebar-hover-color;
-//   text-shadow: $sidebar-hover-shadow;
-// }
-
-
-// #sidebar a span {
-//   letter-spacing: 1px;
-//   text-transform: uppercase;
-// }
 
 #check{
   display: none;
 }
 
-label #btn,
-label #cancel {
-  position: absolute;
+label #btn{
+  position: relative;
   cursor: pointer;
   color: white;
   font-size: 29px;
   text-align: center;
-  transition: all .5s ease;
-  position: fixed;
-  opacity: 0.5;
+  // align-items: center;
+  // transition: all .5s ease;
+  float: middle;
+  // position: fixed;
+  // opacity: 0.5;
 }
 
-label #cancel {
-  opacity: 0;
-  visibility: hidden;
-}
 
-#check:checked~#sidebar {
-  left: 0;
-}
+// #check:checked~#sidebar {
+//   left: 0;
+// }
 
 #check:checked~label #btn {
-  margin-left: 100px;
-  opacity: 0;
-  visibility: hidden;
-}
-
-#check:checked~label #cancel {
-  margin-left: 100px;
+  // margin-left: 100px;
   opacity: 0.5;
-  visibility: visible;
+  // visibility: hidden;
 }
 
-@media screen and (min-width:1000px) {
-  label,
-  #btn,
-  #cancel {
-    display: none;
-  }
+#check:checked~#sidebar-secondary {
+  left: 68px;
+}
 
-  label-inside #btn-inside {
-  position: absolute;
-  cursor: pointer;
-  font-size: 29px;
-  text-align: center;
-  position: fixed;
-  }
-  #check-inside{
-    display: none;
-  }
-  #sidebar {
-    display: block;
-    height: 100%;
-    width: 100px;
-    left: 0;
-    margin: 60px 0;
-  }
-
-  span {
-    position: absolute;
-    // margin-left: 23px;
-  }
+#sidebar-secondary {
+  position: relative;
+  // z-index: -1;
+  display: inline-block;
+  width: 100px;
+  left: -150px;
+  top: -80px;
+  background: $sidebar-sd-bg;
+  transition: all .5s ease;
+  height: 90vh;
+  // top: 0;
 }
