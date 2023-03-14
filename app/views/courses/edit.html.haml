@@ -1,0 +1,16 @@
+%input#check{type: "checkbox"}
+%label{for: "check"}
+  %i#btn
+    = image_pack_tag 'element.png', height: 50
+  %i#cancel
+    = image_pack_tag 'element.png', height: 50
+
+#sidebar
+  %input#check-inside{type: "checkbox"}
+  %label-inside{for: "check-inside"}
+    %i#btn-inside
+      = image_pack_tag 'element.png', height: 50
+  %ul.sidebar
+    Elements
+    %ul.sub-menu
+      Fairway
