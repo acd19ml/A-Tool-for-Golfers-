@@ -34,7 +34,7 @@
 
             - if user_signed_in?
               .nav-item
-                = link_to '../courses', class: 'active nav-link' do
+                = link_to courses_path, class: 'active nav-link' do
                   %i.bi-easel-fill
                   View
               .navbar-text= current_user.email
@@ -43,15 +43,15 @@
                   Logout
             - else
               .nav-item
-                = link_to '../courses', class: 'active nav-link' do
+                = link_to courses_path, class: 'active nav-link' do
                   %i.bi-easel-fill
                   Guest
               .nav-item
-                = link_to '../users/sign_in', class: 'active nav-link' do
+                = link_to new_user_session_path, class: 'active nav-link' do
                   %i.bi-person-fill
                   Log in
               .nav-item
-                = link_to '../users/sign_up', class: 'active nav-link' do
+                = link_to new_user_registration_path, class: 'active nav-link' do
                   %i.bi-person-plus-fill
                   Sign up
 

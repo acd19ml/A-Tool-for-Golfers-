@@ -1,9 +1,18 @@
 .row.justify-content-center
-  .col-sm-8.col-lg-6
+  -# left container
+  .col-lg-7
     .card
-      .card-header
-        Course Info
       .card-body
+        .h3.text-center
+          Course Info
+
+        -# select menu
+        .row
+          %select.custom-select.text-center
+            %option{:selected => "selected"} Hole 1
+            %option{:value => "hole2"} Hole 2
+        
+        -# info
         %dl.row.mb-0
           %dt.col-md-3 CID:
           %dd.col-md-9= @course.id
@@ -13,5 +22,51 @@
           %dd.col-md-9= @course.path
         -# <img src="map.png" style="border: 1px solid steelblue" />
         = image_pack_tag @course.path, class: 'img-fluid'
-      .card-footer.d-flex
-        = link_to 'Back', courses_path, class: 'btn btn-link ms-auto'
+  -# right container
+  .col-lg-5
+    .card
+      .card-body
+        .h3.text-center
+          Selected Location
+        -# table
+        .row
+          %table.table.table-bordered.table-striped
+            %thead
+              %tr.table-dark.fw-bold
+                %th
+                  Terrain
+                %th
+                  Distance(yards)
+                %th
+                  Baseline Strokes
+            %tbody
+              %tr
+                %th
+                  data1
+                %th
+                  data2
+                %th
+                  data3
+        -# note
+        .row
+          .form-group.text-center
+            %label
+              Note:
+            %textarea.form-control{:rows => "5"}
+
+        -# checkbox
+        .row.text-center.fw-bold
+          .div
+            %input{type: "checkbox"}
+              View baselines?
+
+        -# button
+        .row
+          .ms-auto.float-end
+            -# TODO:change path, e.g. edit_course_path(course)
+            = link_to 'create', edit_course_path, class: 'btn btn-outline-primary ms-auto'
+            = link_to 'edit', edit_course_path, class: 'btn btn-outline-primary ms-auto'
+        .row
+        .card-footer.d-flex
+          = link_to 'Back', courses_path, class: 'btn btn-outline-secondary ms-auto'
+          
