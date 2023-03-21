@@ -28,6 +28,9 @@ bundle exec rails db:seed
 bundle exec rails db:reset
 # This will automatically reset the database and create seeds.
 ```
+```
+bun/setup
+```
 ## start:
 
 ```
