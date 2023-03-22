@@ -14,7 +14,8 @@
           %dd.col-md-9= @course.name
           %dt.col-md-3 Description:
           %dd.col-md-9= @course.path
-        -# <img src="map.png" style="border: 1px solid steelblue" />
+          %dt.col-md-3 Hole:
+          %dd.col-md-9= "Hole #{@hole.id}"
         = image_pack_tag @course.path, class: 'img-fluid'
   -# right container
   .col-lg-5
@@ -46,7 +47,7 @@
           .form-group.text-center
             %label
               Note:
-            %textarea.form-control{:rows => "5"}
+            %textarea.form-control{:rows => "5"}= @hole.note
 
         -# checkbox
         .row.text-center.fw-bold
@@ -57,6 +58,7 @@
         -# button
         .row
           .ms-auto.float-end
+            -# TODO:change path, e.g. edit_course_path(course)
             = link_to 'create', edit_course_path, class: 'btn btn-outline-primary ms-auto'
             = link_to 'edit', edit_course_path, class: 'btn btn-outline-primary ms-auto'
         .row

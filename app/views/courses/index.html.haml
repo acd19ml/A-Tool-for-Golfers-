@@ -1,4 +1,3 @@
-
 %table.table.table-striped
   %thead 
     %tr 
@@ -13,5 +12,5 @@
         %td= course.path
         %td
           .ms-auto.float-end
-            = link_to 'show', course, class: 'btn btn-outline-secondary ms-auto'
+            = link_to 'show', course_holes_path(course), class: 'btn btn-outline-secondary ms-auto'
             = link_to 'edit', edit_course_path(course), class: 'btn btn-outline-secondary ms-auto'

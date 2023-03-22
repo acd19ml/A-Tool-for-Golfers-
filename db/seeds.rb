@@ -9,4 +9,6 @@ User.where(email:'acd19ml@sheffield.ac.uk').first_or_create(password:'123456', p
 
 # Course.create(name:"course 1", path:"map11.svg")
 
-Hole.create(holeNumber:'1', map:'holeMap1', note:'This is hole 1 note.', course_id:'1')
+Hole.create(holeNumber:'1', map:'num1cid1', note:'This is course 1 hole 1 note.', course_id:'1')
+Hole.create(holeNumber:'2', map:'hnum2cid1', note:'This is course 1 hole 2 note.', course_id:'1')
+Hole.create(holeNumber:'1', map:'num1cid2', note:'This is course 2 hole 1 note.', course_id:'2')
