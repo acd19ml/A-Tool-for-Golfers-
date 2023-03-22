@@ -45,6 +45,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
   create_table "holes", force: :cascade do |t|
     t.integer "holeNumber"
     t.string "map"
+    t.string "note"
+    t.integer "course_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

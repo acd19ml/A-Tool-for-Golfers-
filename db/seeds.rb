@@ -7,4 +7,6 @@
 #   Character.create(name: "Luke", movie: movies.first)
 User.where(email:'acd19ml@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456')
 
-Course.create(name:"course 1", path:"map11.svg")
+# Course.create(name:"course 1", path:"map11.svg")
+
+Hole.create(holeNumber:'1', map:'holeMap1', note:'This is hole 1 note.', course_id:'1')

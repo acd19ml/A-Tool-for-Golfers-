@@ -6,16 +6,10 @@
         .h3.text-center
           Course Info
 
-        -# select menu
-        .row
-          %select.custom-select.text-center
-            %option{:selected => "selected"} Hole 1
-            %option{:value => "hole2"} Hole 2
-        
         -# info
         %dl.row.mb-0
           %dt.col-md-3 CID:
-          %dd.col-md-9= @course.id
+          %dd.col-md-9= @hole.map
           %dt.col-md-3 Name:
           %dd.col-md-9= @course.name
           %dt.col-md-3 Description:

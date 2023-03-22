@@ -1,14 +1,16 @@
 class CoursesController < ApplicationController
   before_action :set_course, only: %i[ show ]
   def index
-    @courses = Course.all
+    @courses = Course.all.includes(:holes)
   end
 
   def show
-  end
+    @hole = Hole.where(course_id: params[:id]).first
+   end
 
   def edit
   end
+
 
 
 
