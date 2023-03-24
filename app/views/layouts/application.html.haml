@@ -15,7 +15,6 @@
     = csp_meta_tag
 
     = stylesheet_pack_tag 'styles', media: 'all'
-    = javascript_pack_tag 'application'
 
   %body
     %header.navbar.navbar-expand-lg
@@ -65,6 +64,7 @@
         = yield
 
     %footer
+      = javascript_pack_tag 'application','golf'
       .container-fluid
         .d-flex.p-3
           Footer text
