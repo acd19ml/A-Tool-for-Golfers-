@@ -29,7 +29,7 @@ bundle exec rails db:reset
 # This will automatically reset the database and create seeds.
 ```
 ```
-bun/setup
+bin/setup
 ```
 ## start:
 
@@ -40,4 +40,8 @@ bundle exec rails s
 ```
 bin/webpacker-dev-server
 ```
+
+## Admin info
+Username: test@test.com
+Password: 123456
 
