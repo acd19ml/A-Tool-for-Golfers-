@@ -6,5 +6,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 User.where(email:'acd19ml@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456')
+User.where(email:'mapcreator@gmail.com').first_or_create(password:'123456', password_confirmation:'123456', role:"map_creator")
 
 Course.create(name:"course 1", path:"map11.svg")
