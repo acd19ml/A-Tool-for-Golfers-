@@ -6,12 +6,13 @@
     %tr 
       %th Course
       %th Path
+
   %tbody
     - @courses.each do |course|
       %tr 
         %td= course.name
         %td= course.path
-        %td 
+        %td
           .ms-auto.float-end
-            = link_to 'show', course, class: 'btn btn-outline-secondary ms-auto'
+            = link_to 'show', course_holes_path(course), class: 'btn btn-outline-secondary ms-auto'
             = link_to 'edit', edit_course_path(course), class: 'btn btn-outline-secondary ms-auto'

@@ -3,6 +3,8 @@ class CreateHoles < ActiveRecord::Migration[7.0]
     create_table :holes do |t|
       t.integer :holeNumber
       t.string :map
+      t.string :note
+      t.integer :course_id
 
       t.timestamps
     end

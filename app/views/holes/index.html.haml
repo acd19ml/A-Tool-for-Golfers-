@@ -1,0 +1,19 @@
+
+%table.table.table-striped
+  %thead 
+    %tr 
+      %th Hole Number
+      %th Hole note
+      %th Course ID
+
+  %tbody
+    - @holes.each do |hole|
+      %tr 
+        %td= hole.holeNumber
+        %td= hole.note
+        %td= hole.course_id
+        %td
+          .ms-auto.float-end
+            = link_to 'show', course_hole_path(@course, hole), class: 'btn btn-outline-secondary ms-auto'
+            -# TODO:
+            -# = link_to 'edit', edit_course_hole_path(@course, hole), class: 'btn btn-outline-secondary ms-auto'

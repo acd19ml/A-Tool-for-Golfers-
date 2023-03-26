@@ -18,6 +18,23 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.decimal "annotationMap"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "hole_id"
+    t.integer "user_id"
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.string "code"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.boolean "active", default: true
+  end
+
+  create_table "categories_tags", id: false, force: :cascade do |t|
+    t.bigint "category_id", null: false
+    t.bigint "tag_id", null: false
+    t.index ["category_id", "tag_id"], name: "index_categories_tags_on_category_id_and_tag_id"
+    t.index ["tag_id", "category_id"], name: "index_categories_tags_on_tag_id_and_category_id"
   end
 
   create_table "courses", force: :cascade do |t|
@@ -47,6 +64,17 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.string "map"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "course_id"
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.decimal "cost"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "category_id"
+    t.index ["category_id"], name: "index_products_on_category_id"
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -58,6 +86,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.index ["updated_at"], name: "index_sessions_on_updated_at"
   end
 
+  create_table "tags", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "userinfos", force: :cascade do |t|
     t.string "club"
     t.decimal "height"
@@ -65,6 +99,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.decimal "angle"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -85,4 +120,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "annotations", "holes"
+  add_foreign_key "annotations", "users"
+  add_foreign_key "holes", "courses"
+  add_foreign_key "products", "categories"
+  add_foreign_key "userinfos", "users"
 end

@@ -7,8 +7,9 @@ Rails.application.routes.draw do
   
   # get "show" ,to: "pages#show"
   
-  resources :courses
-  # resources :holes
+  resources :courses do
+    resources :holes
+  end
   # resources :annotations
   # resources :userinfo
   # resources :users
