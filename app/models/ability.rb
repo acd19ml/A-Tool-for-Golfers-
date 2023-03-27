@@ -4,16 +4,17 @@ class Ability
   include CanCan::Ability
 
   def initialize(user)
-
-
     user ||= User.new
-    if user.map_creator?
-      can :manage, :all
-    end
 
-    return unless user.present?
-    can :read, Course
-    can :edit, Course
+    if user.map_creator?
+      can :manage, Course
+    else
+      can [:read, :edit, :show], Course
+      can :manage, Hole
+    end
+  
+
+  
     # Define abilities for the user here. For example:
     #
     #   return unless user.present?
