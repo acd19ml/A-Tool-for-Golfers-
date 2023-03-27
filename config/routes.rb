@@ -11,6 +11,6 @@ Rails.application.routes.draw do
     resources :holes
   end
   # resources :annotations
-  resources :userinfo
+  resources :userinfos
   # resources :users
 end
