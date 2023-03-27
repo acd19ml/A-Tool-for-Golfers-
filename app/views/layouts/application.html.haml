@@ -36,6 +36,10 @@
                 = link_to courses_path, class: 'active nav-link' do
                   %i.bi-easel-fill
                   View
+              .nav-item
+                = link_to '../userinfos', class: 'active nav-link' do
+                  %i.bi-easel-fill
+                  User Info
               .navbar-text= current_user.email
               .nav-item
                 = link_to destroy_user_session_path, method: :delete, class: 'nav-link' do

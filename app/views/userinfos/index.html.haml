@@ -1,0 +1,28 @@
+.card
+  .card-header.d-flex.align-items-center
+    %span Listing Clubs 
+    %span ( You have #{@userinfos.size} club(s) )
+    .ms-auto.float-end
+      = link_to 'New Club', new_userinfo_path, class: 'btn btn-outline-secondary ms-auto'
+
+
+  %table.table
+    %head
+      %tr
+        %th Club
+        %th Height
+        %th Width
+        %th Angle       
+        %th
+    %tbody
+      - @userinfos.each do |userinfo|
+        %tr
+          %td= userinfo.club
+          %td= userinfo.height
+          %td= userinfo.width
+          %td= userinfo.angle
+          %td
+            .btn-toolbar.float-end
+              = link_to 'Show', userinfo, class: 'btn btn-outline-secondary btn-sm'
+              = link_to 'Edit', edit_userinfo_path(userinfo), class: 'btn btn-outline-secondary btn-sm'
+              = link_to 'Delete', userinfo, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-danger ms-1 btn-sm'
