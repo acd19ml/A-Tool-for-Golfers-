@@ -65,6 +65,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "course_id"
+    t.string "note"
   end
 
   create_table "products", force: :cascade do |t|
