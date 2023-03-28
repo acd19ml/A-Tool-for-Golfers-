@@ -1,0 +1,13 @@
+-# frozen_string_literal: true
+= simple_form_for(@userinfo) do |f|
+  .card-body
+    = f.input :club, wrapper_html: { class: 'mb-3' }
+    = f.input :height, wrapper_html: { class: 'mb-3' }
+    = f.input :width, wrapper_html: { class: 'mb-3' }
+    = f.input :angle, wrapper_html: { class: 'mb-3' }
+    
+
+  .card-footer.d-flex
+    %button.btn.btn-primary{ type: 'submit' }
+      Save
+    = link_to 'Back', userinfos_path, class: 'btn btn-link ms-auto'
