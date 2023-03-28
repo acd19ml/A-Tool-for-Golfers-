@@ -976,6 +976,18 @@
   resolved "https://registry.npmjs.org/@rails/ujs/-/ujs-7.0.3-1.tgz"
   integrity sha512-g3LgpBAsWmW97xFxh5OTDgyEJLt63fEENJUYb/iNFRXY6aKLI/by6MjFw7x492DSP/+vKQa3oMEdNnjI9+yZgQ==
 
+"@svgdotjs/svg.draggable.js@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.draggable.js/-/svg.draggable.js-3.0.3.tgz"
+  integrity sha512-gvktGsIe/hhU3hX7VJaB8maOV3dKLwQHtjUJN+B/4EahPBI8QWPLt3uuCUeP7sRujaOtrckZxLFhZUeQ5nK4Qw==
+  dependencies:
+    "@svgdotjs/svg.js" "^3.0.16"
+
+"@svgdotjs/svg.js@^3.0.10", "@svgdotjs/svg.js@^3.0.16", "@svgdotjs/svg.js@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.js/-/svg.js-3.1.2.tgz"
+  integrity sha512-0ZCWTiuRjCXT2SUoVDiu+8DLuRQlkxZbO680Y2QkV7jNsULzJajrx6A3MxA/IBQg6UGV5csgPZ8w7U57hZSK+A==
+
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz"
@@ -2391,7 +2403,7 @@ jest-worker@^27.4.5:
 
 jquery@^3.6.3:
   version "3.6.3"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.3.tgz#23ed2ffed8a19e048814f13391a19afcdba160e6"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-3.6.3.tgz"
   integrity sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg==
 
 js-tokens@^4.0.0:
@@ -3333,6 +3345,25 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+svg.draggable.js@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/svg.draggable.js/-/svg.draggable.js-3.0.0.tgz"
+  integrity sha512-fg7whnOG8XNAIn6bW8VhPUWXH3jG6x+SIzY06N9HIuIb+0L/NhYMjIF1OuzhA5vCN/O4GKEGfHIbihrcyFV1Pw==
+  dependencies:
+    "@svgdotjs/svg.js" "^3.0.10"
+
+svg.js@^2.6.5, svg.js@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.npmjs.org/svg.js/-/svg.js-2.7.1.tgz"
+  integrity sha512-ycbxpizEQktk3FYvn/8BH+6/EuWXg7ZpQREJvgacqn46gIddG24tNNe4Son6omdXCnSOaApnpZw6MPCBA1dODA==
+
+svg.select.js@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/svg.select.js/-/svg.select.js-3.0.1.tgz"
+  integrity sha512-h5IS/hKkuVCbKSieR9uQCj9w+zLHoPh+ce19bBYyqF53g6mnPB8sAtIbe1s9dh2S2fCmYX2xel1Ln3PJBbK4kw==
+  dependencies:
+    svg.js "^2.6.5"
 
 tapable@^2.0, tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"

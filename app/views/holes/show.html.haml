@@ -16,7 +16,8 @@
           %dd.col-md-9= @course.path
           %dt.col-md-3 Hole:
           %dd.col-md-9= "Hole #{@hole.id}"
-        = image_pack_tag @course.path, class: 'img-fluid'
+          .create{:id => "create"}
+          .display{:id => "display"}
   -# right container
   .col-lg-5
     .card
@@ -37,9 +38,9 @@
             %tbody
               %tr
                 %th
-                  data1
+                  %p{:id=>"terrainShow"}
                 %th
-                  data2
+                  %p{:id=>"distanceShow"}
                 %th
                   data3
         -# note
@@ -64,3 +65,26 @@
         .row
         .card-footer.d-flex
           = link_to 'Back', courses_path, class: 'btn btn-outline-secondary ms-auto'
+    .card 
+      .card-body
+        .h3.text-center
+          Tools
+        Hole: 
+        %input{:type=> "radio", :id=> "Hole", :onclick=>"box()",:name=>"terrain",:checked=>"checked"}
+        Green: 
+        %input{:type=> "radio", :id=> "Green", :onclick=>"box()",:name=>"terrain"}
+        Fairway: 
+        %input{:type=> "radio", :id=> "Fairway", :onclick=>"box()",:name=>"terrain"}
+        col: 
+        %input{:type=> "checkbox", :id=> "colCheck", :onclick=>"selectbox()",:name=>"terrain"}
+
+        %p{:id=>"toshow"}
+
+        %button{:type=>"button",:id=> "update",:onclick=>"updateCan()"}
+          Save and Load canvas
+
+        %button{:type=>"button",:id=> "nextpoint",:onclick=>"nextpoint()"}
+          Select Next point
+        %button{:type=>"button",:id=> "deletepoint",:onclick=>"deletepoint()"} 
+          Delete selected point
+        -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
