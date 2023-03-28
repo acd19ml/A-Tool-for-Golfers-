@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -18,6 +18,23 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.decimal "annotationMap"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "hole_id"
+    t.integer "user_id"
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.string "code"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.boolean "active", default: true
+  end
+
+  create_table "categories_tags", id: false, force: :cascade do |t|
+    t.bigint "category_id", null: false
+    t.bigint "tag_id", null: false
+    t.index ["category_id", "tag_id"], name: "index_categories_tags_on_category_id_and_tag_id"
+    t.index ["tag_id", "category_id"], name: "index_categories_tags_on_tag_id_and_category_id"
   end
 
   create_table "courses", force: :cascade do |t|
@@ -45,10 +62,19 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
   create_table "holes", force: :cascade do |t|
     t.integer "holeNumber"
     t.string "map"
-    t.string "note"
-    t.integer "course_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "course_id"
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.decimal "cost"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "category_id"
+    t.index ["category_id"], name: "index_products_on_category_id"
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -58,6 +84,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.datetime "updated_at", null: false
     t.index ["session_id"], name: "index_sessions_on_session_id", unique: true
     t.index ["updated_at"], name: "index_sessions_on_updated_at"
+  end
+
+  create_table "tags", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "userinfos", force: :cascade do |t|
@@ -73,7 +105,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
-    t.string "role", default: "customer", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -84,9 +115,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_13_123327) do
     t.string "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "map_creator", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "annotations", "holes"
+  add_foreign_key "annotations", "users"
+  add_foreign_key "holes", "courses"
+  add_foreign_key "products", "categories"
   add_foreign_key "userinfos", "users"
 end
