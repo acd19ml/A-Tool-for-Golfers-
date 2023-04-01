@@ -1,4 +1,4 @@
-import { SVG, extend as SVGextend, Element as SVGElement, A } from '@svgdotjs/svg.js'
+import { SVG, extend as SVGextend, Element as SVGElement, A, Polygon } from '@svgdotjs/svg.js'
 import '@svgdotjs/svg.draggable.js'
 // import { forEach } from 'shakapacker/package/rules'
 // import '@svgdotjs/svg.draggable.js'
@@ -6,9 +6,11 @@ import '@svgdotjs/svg.draggable.js'
 //create the drawing canvas
 var draw = SVG().addTo("#create").size(500,500)
 
+import data from './baseline.json'
+
 //creates different terrains
-var green = draw.polygon("").fill('none').stroke({color:"#000", width: 1 })
-var fair = draw.polygon("").fill('none').stroke({color:"#000", width: 1 })
+var green = draw.polygon([]).fill('none').stroke({color:"#000", width: 1 })
+var fair = draw.polygon([]).fill('none').stroke({color:"#000", width: 1 })
 var hole = draw.circle(10).draggable()
 
 //draws points to calculate shots
@@ -31,8 +33,6 @@ green.attr("name","green")
 hole.attr("name","hole")
 
 //lists of points that comprise a terrain object
-const greenpoints = []
-const fairpoints = []
 
 //state variables to be changed by buttons
 let terrain = 2
@@ -59,11 +59,13 @@ function printMousePos(event) {
     if (document.querySelector("#create").contains(event.target)){
     let point = [event.clientX-offsetx,event.clientY-offsety]
     if (terrain == 0){
-      greenpoints.push(point)
-      green.plot(greenpoints)
+      points = green.array()
+      points.push(point)
+      green.plot(points)
     } else if (terrain == 1){
-      fairpoints.push(point)
-      fair.plot(fairpoints)
+      points = fair.array()
+      points.push(point)
+      fair.plot(points)
     } 
     else if (terrain == 2){
       hole.attr({cx:point[0],cy:point[1]})
@@ -72,45 +74,6 @@ function printMousePos(event) {
   }
 }
 
-var selectionpoint = draw.circle(10).draggable()
-selectionpoint.attr({cx:-10,cy:-10})
-var selection = 0
-window.nextpoint = function(){
-  selectionpoint.show()
-  console.log(greenpoints)
-  selection += 1
-  if (selection > greenpoints.length-1){
-    selection = 0 
-  }
-  console.log(greenpoints[selection])
-  selectionpoint.attr({cx:greenpoints[selection][0],cy:greenpoints[selection][1]})
-}
-window.deletepoint = function() {
-    greenpoints.splice(selection,1)
-    green.plot(greenpoints)
-    selectionpoint.hide()
-}
-
-
-selectionpoint.on("dragmove",function(event){
-  // console.log(event.detail.event.clientX,event.detail.event.clientY)
-  // console.log(fairways)
-  greenpoints[selection] = [event.detail.event.clientX-offsetx,event.detail.event.clientY-offsety]
-  green.plot(greenpoints)
-})
-
-
-// window.deletepoint = function() {
-//   if (terrain == 0){
-//     console.log(greenpoints[greenpoints.length % selection])
-//     greenpoints.pop()
-//     green.plot(greenpoints)
-//   } else if (terrain == 1){
-//     fairpoints.pop()
-//     fair.plot(fairpoints)
-//   }
-
-// }
 
 //updates terrain state variable according to button selection
 document.addEventListener("click", printMousePos);
@@ -138,8 +101,44 @@ window.selectbox = function() {
     col = 1
     console.log("check")
   } else{
+    removeselection()
     col = 0
   }
+}
+var selectpoints = []
+var points = []
+fair.click(addSelection)
+green.click(addSelection)
+function addSelection(event){
+  if (col == 1){
+  removeselection()
+  parent = this
+  points = this.array()
+  points.forEach(alert)
+  }
+}
+
+function removeselection(){
+  selectpoints.forEach(function remove(point){
+    point.remove()
+  })
+}
+
+function alert(point,i){
+  selectpoints[i] = draw.circle(10).draggable().attr({cx:point[0],cy:point[1]}).on("dragmove",function(event){
+    // console.log(event.detail.event.clientX,event.detail.event.clientY)
+    // console.log(fairways)
+    points[i] = [event.detail.event.clientX-offsetx,event.detail.event.clientY-offsety]
+    parent.plot(points)
+  }).click(function(event){
+    if (event.shiftKey){
+      points.splice(selectpoints.indexOf(this),1)
+      removeselection()
+      this.clear()
+      parent.plot(points)
+    }
+  })
+
 }
 
 // window.getCol = function(){
@@ -168,6 +167,7 @@ var holec = display.circle(10).attr({cx: -10,cy: -10})
 var fairways = []
 var greens = []
 
+loadSvg(SVG(document.getElementById("SVGout").innerText))
 //save and load hole function
 window.updateCan = function(){
   console.log(display.children())
@@ -175,11 +175,11 @@ window.updateCan = function(){
   var greens = []
   //saves the svg to a string
   var save = draw.svg()
-  //
+  document.getElementById("SVGout").innerText = save
   // save to database here and load after
   //
   // loads the svg from string
-  let loadsvg = SVG(save)
+  let loadsvg = SVG(document.getElementById("SVGout").innerText)
 
 
   // console.log(savesvg)
@@ -188,6 +188,12 @@ window.updateCan = function(){
 
 
   //loads svg elements into correct variables
+  display.clear()
+  loadSvg(loadsvg)
+}
+
+function loadSvg(loadsvg){
+  fairways = []
   loadsvg.each(function(){
     let name = this.attr("name")
     if (name == "fairway"){
@@ -206,6 +212,7 @@ window.updateCan = function(){
       greens.push(n)
     }
     if (name == "hole"){
+      holec = display.circle(10).attr({cx: -10,cy: -10})
       let n = this.attr(["cx","cy"])
       holec.attr(n)
     }
@@ -218,23 +225,28 @@ window.updateCan = function(){
   greens.each = function(){
     this.front()
   }
-  holec.front()
-  shotlinec.front()
-  shotpointc.front()
+  setupCalculations()
 }
 
 
 //shotpoint/line calculations
-shotpointc.draggable()
-shotpointc.on("dragmove",function(event){
-  shotpointc.hide()
-  shotlinec.hide()
-  let name = document.elementFromPoint(event.detail.event.clientX,event.detail.event.clientY).getAttribute("name")
-  let distance = Math.round(Math.sqrt(Math.pow((event.detail.event.clientX-offsetxc-holec.attr("cx")),2)+Math.pow((event.detail.event.clientY-offsetyc-holec.attr("cy")),2)))
-  plotshotpoint(distance, name)
-  shotpointc.show()
-  shotlinec.show()
-})
+function setupCalculations(){
+  shotlinec = display.line().stroke({color:"#000", width: 1 })
+  shotpointc = display.circle(10).attr({cx: -10,cy: -10})
+  shotpointc.draggable()
+  shotpointc.on("dragmove",function(event){
+    shotpointc.hide()
+    shotlinec.hide()
+    let name = document.elementFromPoint(event.detail.event.clientX,event.detail.event.clientY).getAttribute("name")
+    let distance = Math.round(Math.sqrt(Math.pow((event.detail.event.clientX-offsetxc-holec.attr("cx")),2)+Math.pow((event.detail.event.clientY-offsetyc-holec.attr("cy")),2)))
+    plotshotpoint(distance, name)
+    shotpointc.show()
+    shotlinec.show()
+  })
+  holec.front()
+  shotlinec.front()
+  shotpointc.front()
+}
 function addListn(item){
   item.click(function(event){
     
@@ -248,8 +260,19 @@ function plotshotpoint(distance,name){
   shotlinec.plot(shotpointc.attr("cx"),shotpointc.attr("cy"),holec.attr("cx"),holec.attr("cy"))
   let terrainOut = name
   let distanceOut = distance
-  document.getElementById("terrainShow").innerHTML = terrainOut; 
-  document.getElementById("distanceShow").innerHTML = distanceOut; 
+  let baseline = "No Data"
+  if (name!=null){
+    baseline = name[0]+distance
+  }
+  if (data[baseline]){
+    baseline = data[baseline]["Baseline"]
+  }else{
+    baseline = "No Data"
+  }
+
+  document.getElementById("terrainShow").innerText = terrainOut; 
+  document.getElementById("distanceShow").innerText = distanceOut; 
+  document.getElementById("baselineShow").innerText = baseline; 
 
 }
 //gets offsetted mouseposition
