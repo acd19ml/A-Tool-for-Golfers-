@@ -1,0 +1,8912 @@
+{
+  "T100": {
+    "Baseline": 2.92
+  },
+  "T101": {
+    "Baseline": 2.92
+  },
+  "T102": {
+    "Baseline": 2.93
+  },
+  "T103": {
+    "Baseline": 2.93
+  },
+  "T104": {
+    "Baseline": 2.93
+  },
+  "T105": {
+    "Baseline": 2.94
+  },
+  "T106": {
+    "Baseline": 2.94
+  },
+  "T107": {
+    "Baseline": 2.94
+  },
+  "T108": {
+    "Baseline": 2.95
+  },
+  "T109": {
+    "Baseline": 2.95
+  },
+  "T110": {
+    "Baseline": 2.96
+  },
+  "T111": {
+    "Baseline": 2.96
+  },
+  "T112": {
+    "Baseline": 2.96
+  },
+  "T113": {
+    "Baseline": 2.97
+  },
+  "T114": {
+    "Baseline": 2.97
+  },
+  "T115": {
+    "Baseline": 2.97
+  },
+  "T116": {
+    "Baseline": 2.98
+  },
+  "T117": {
+    "Baseline": 2.98
+  },
+  "T118": {
+    "Baseline": 2.98
+  },
+  "T119": {
+    "Baseline": 2.99
+  },
+  "T120": {
+    "Baseline": 2.99
+  },
+  "T121": {
+    "Baseline": 2.99
+  },
+  "T122": {
+    "Baseline": 2.99
+  },
+  "T123": {
+    "Baseline": 2.99
+  },
+  "T124": {
+    "Baseline": 2.99
+  },
+  "T125": {
+    "Baseline": 2.99
+  },
+  "T126": {
+    "Baseline": 2.98
+  },
+  "T127": {
+    "Baseline": 2.98
+  },
+  "T128": {
+    "Baseline": 2.98
+  },
+  "T129": {
+    "Baseline": 2.98
+  },
+  "T130": {
+    "Baseline": 2.98
+  },
+  "T131": {
+    "Baseline": 2.98
+  },
+  "T132": {
+    "Baseline": 2.98
+  },
+  "T133": {
+    "Baseline": 2.98
+  },
+  "T134": {
+    "Baseline": 2.98
+  },
+  "T135": {
+    "Baseline": 2.98
+  },
+  "T136": {
+    "Baseline": 2.97
+  },
+  "T137": {
+    "Baseline": 2.97
+  },
+  "T138": {
+    "Baseline": 2.97
+  },
+  "T139": {
+    "Baseline": 2.97
+  },
+  "T140": {
+    "Baseline": 2.97
+  },
+  "T141": {
+    "Baseline": 2.97
+  },
+  "T142": {
+    "Baseline": 2.97
+  },
+  "T143": {
+    "Baseline": 2.97
+  },
+  "T144": {
+    "Baseline": 2.97
+  },
+  "T145": {
+    "Baseline": 2.98
+  },
+  "T146": {
+    "Baseline": 2.98
+  },
+  "T147": {
+    "Baseline": 2.98
+  },
+  "T148": {
+    "Baseline": 2.98
+  },
+  "T149": {
+    "Baseline": 2.98
+  },
+  "T150": {
+    "Baseline": 2.98
+  },
+  "T151": {
+    "Baseline": 2.98
+  },
+  "T152": {
+    "Baseline": 2.98
+  },
+  "T153": {
+    "Baseline": 2.98
+  },
+  "T154": {
+    "Baseline": 2.98
+  },
+  "T155": {
+    "Baseline": 2.99
+  },
+  "T156": {
+    "Baseline": 2.99
+  },
+  "T157": {
+    "Baseline": 2.99
+  },
+  "T158": {
+    "Baseline": 2.99
+  },
+  "T159": {
+    "Baseline": 2.99
+  },
+  "T160": {
+    "Baseline": 2.99
+  },
+  "T161": {
+    "Baseline": 2.99
+  },
+  "T162": {
+    "Baseline": 3
+  },
+  "T163": {
+    "Baseline": 3
+  },
+  "T164": {
+    "Baseline": 3
+  },
+  "T165": {
+    "Baseline": 3.01
+  },
+  "T166": {
+    "Baseline": 3.01
+  },
+  "T167": {
+    "Baseline": 3.01
+  },
+  "T168": {
+    "Baseline": 3.01
+  },
+  "T169": {
+    "Baseline": 3.02
+  },
+  "T170": {
+    "Baseline": 3.02
+  },
+  "T171": {
+    "Baseline": 3.02
+  },
+  "T172": {
+    "Baseline": 3.03
+  },
+  "T173": {
+    "Baseline": 3.03
+  },
+  "T174": {
+    "Baseline": 3.03
+  },
+  "T175": {
+    "Baseline": 3.04
+  },
+  "T176": {
+    "Baseline": 3.04
+  },
+  "T177": {
+    "Baseline": 3.04
+  },
+  "T178": {
+    "Baseline": 3.04
+  },
+  "T179": {
+    "Baseline": 3.05
+  },
+  "T180": {
+    "Baseline": 3.05
+  },
+  "T181": {
+    "Baseline": 3.05
+  },
+  "T182": {
+    "Baseline": 3.06
+  },
+  "T183": {
+    "Baseline": 3.06
+  },
+  "T184": {
+    "Baseline": 3.06
+  },
+  "T185": {
+    "Baseline": 3.07
+  },
+  "T186": {
+    "Baseline": 3.07
+  },
+  "T187": {
+    "Baseline": 3.07
+  },
+  "T188": {
+    "Baseline": 3.08
+  },
+  "T189": {
+    "Baseline": 3.08
+  },
+  "T190": {
+    "Baseline": 3.09
+  },
+  "T191": {
+    "Baseline": 3.09
+  },
+  "T192": {
+    "Baseline": 3.09
+  },
+  "T193": {
+    "Baseline": 3.1
+  },
+  "T194": {
+    "Baseline": 3.1
+  },
+  "T195": {
+    "Baseline": 3.1
+  },
+  "T196": {
+    "Baseline": 3.11
+  },
+  "T197": {
+    "Baseline": 3.11
+  },
+  "T198": {
+    "Baseline": 3.11
+  },
+  "T199": {
+    "Baseline": 3.12
+  },
+  "T200": {
+    "Baseline": 3.12
+  },
+  "T201": {
+    "Baseline": 3.12
+  },
+  "T202": {
+    "Baseline": 3.13
+  },
+  "T203": {
+    "Baseline": 3.13
+  },
+  "T204": {
+    "Baseline": 3.13
+  },
+  "T205": {
+    "Baseline": 3.13
+  },
+  "T206": {
+    "Baseline": 3.14
+  },
+  "T207": {
+    "Baseline": 3.14
+  },
+  "T208": {
+    "Baseline": 3.14
+  },
+  "T209": {
+    "Baseline": 3.14
+  },
+  "T210": {
+    "Baseline": 3.15
+  },
+  "T211": {
+    "Baseline": 3.15
+  },
+  "T212": {
+    "Baseline": 3.15
+  },
+  "T213": {
+    "Baseline": 3.15
+  },
+  "T214": {
+    "Baseline": 3.16
+  },
+  "T215": {
+    "Baseline": 3.16
+  },
+  "T216": {
+    "Baseline": 3.16
+  },
+  "T217": {
+    "Baseline": 3.16
+  },
+  "T218": {
+    "Baseline": 3.17
+  },
+  "T219": {
+    "Baseline": 3.17
+  },
+  "T220": {
+    "Baseline": 3.17
+  },
+  "T221": {
+    "Baseline": 3.17
+  },
+  "T222": {
+    "Baseline": 3.18
+  },
+  "T223": {
+    "Baseline": 3.18
+  },
+  "T224": {
+    "Baseline": 3.19
+  },
+  "T225": {
+    "Baseline": 3.19
+  },
+  "T226": {
+    "Baseline": 3.19
+  },
+  "T227": {
+    "Baseline": 3.2
+  },
+  "T228": {
+    "Baseline": 3.2
+  },
+  "T229": {
+    "Baseline": 3.21
+  },
+  "T230": {
+    "Baseline": 3.21
+  },
+  "T231": {
+    "Baseline": 3.21
+  },
+  "T232": {
+    "Baseline": 3.22
+  },
+  "T233": {
+    "Baseline": 3.22
+  },
+  "T234": {
+    "Baseline": 3.23
+  },
+  "T235": {
+    "Baseline": 3.23
+  },
+  "T236": {
+    "Baseline": 3.23
+  },
+  "T237": {
+    "Baseline": 3.24
+  },
+  "T238": {
+    "Baseline": 3.24
+  },
+  "T239": {
+    "Baseline": 3.25
+  },
+  "T240": {
+    "Baseline": 3.25
+  },
+  "T241": {
+    "Baseline": 3.26
+  },
+  "T242": {
+    "Baseline": 3.27
+  },
+  "T243": {
+    "Baseline": 3.28
+  },
+  "T244": {
+    "Baseline": 3.29
+  },
+  "T245": {
+    "Baseline": 3.3
+  },
+  "T246": {
+    "Baseline": 3.31
+  },
+  "T247": {
+    "Baseline": 3.32
+  },
+  "T248": {
+    "Baseline": 3.33
+  },
+  "T249": {
+    "Baseline": 3.34
+  },
+  "T250": {
+    "Baseline": 3.35
+  },
+  "T251": {
+    "Baseline": 3.36
+  },
+  "T252": {
+    "Baseline": 3.37
+  },
+  "T253": {
+    "Baseline": 3.38
+  },
+  "T254": {
+    "Baseline": 3.39
+  },
+  "T255": {
+    "Baseline": 3.4
+  },
+  "T256": {
+    "Baseline": 3.41
+  },
+  "T257": {
+    "Baseline": 3.42
+  },
+  "T258": {
+    "Baseline": 3.43
+  },
+  "T259": {
+    "Baseline": 3.44
+  },
+  "T260": {
+    "Baseline": 3.45
+  },
+  "T261": {
+    "Baseline": 3.46
+  },
+  "T262": {
+    "Baseline": 3.47
+  },
+  "T263": {
+    "Baseline": 3.48
+  },
+  "T264": {
+    "Baseline": 3.49
+  },
+  "T265": {
+    "Baseline": 3.5
+  },
+  "T266": {
+    "Baseline": 3.51
+  },
+  "T267": {
+    "Baseline": 3.52
+  },
+  "T268": {
+    "Baseline": 3.53
+  },
+  "T269": {
+    "Baseline": 3.54
+  },
+  "T270": {
+    "Baseline": 3.55
+  },
+  "T271": {
+    "Baseline": 3.56
+  },
+  "T272": {
+    "Baseline": 3.57
+  },
+  "T273": {
+    "Baseline": 3.58
+  },
+  "T274": {
+    "Baseline": 3.59
+  },
+  "T275": {
+    "Baseline": 3.6
+  },
+  "T276": {
+    "Baseline": 3.61
+  },
+  "T277": {
+    "Baseline": 3.62
+  },
+  "T278": {
+    "Baseline": 3.63
+  },
+  "T279": {
+    "Baseline": 3.64
+  },
+  "T280": {
+    "Baseline": 3.65
+  },
+  "T281": {
+    "Baseline": 3.65
+  },
+  "T282": {
+    "Baseline": 3.66
+  },
+  "T283": {
+    "Baseline": 3.66
+  },
+  "T284": {
+    "Baseline": 3.66
+  },
+  "T285": {
+    "Baseline": 3.67
+  },
+  "T286": {
+    "Baseline": 3.67
+  },
+  "T287": {
+    "Baseline": 3.67
+  },
+  "T288": {
+    "Baseline": 3.67
+  },
+  "T289": {
+    "Baseline": 3.68
+  },
+  "T290": {
+    "Baseline": 3.68
+  },
+  "T291": {
+    "Baseline": 3.68
+  },
+  "T292": {
+    "Baseline": 3.69
+  },
+  "T293": {
+    "Baseline": 3.69
+  },
+  "T294": {
+    "Baseline": 3.69
+  },
+  "T295": {
+    "Baseline": 3.7
+  },
+  "T296": {
+    "Baseline": 3.7
+  },
+  "T297": {
+    "Baseline": 3.7
+  },
+  "T298": {
+    "Baseline": 3.7
+  },
+  "T299": {
+    "Baseline": 3.71
+  },
+  "T300": {
+    "Baseline": 3.71
+  },
+  "T301": {
+    "Baseline": 3.71
+  },
+  "T302": {
+    "Baseline": 3.72
+  },
+  "T303": {
+    "Baseline": 3.72
+  },
+  "T304": {
+    "Baseline": 3.73
+  },
+  "T305": {
+    "Baseline": 3.73
+  },
+  "T306": {
+    "Baseline": 3.73
+  },
+  "T307": {
+    "Baseline": 3.74
+  },
+  "T308": {
+    "Baseline": 3.74
+  },
+  "T309": {
+    "Baseline": 3.75
+  },
+  "T310": {
+    "Baseline": 3.75
+  },
+  "T311": {
+    "Baseline": 3.75
+  },
+  "T312": {
+    "Baseline": 3.76
+  },
+  "T313": {
+    "Baseline": 3.76
+  },
+  "T314": {
+    "Baseline": 3.77
+  },
+  "T315": {
+    "Baseline": 3.77
+  },
+  "T316": {
+    "Baseline": 3.77
+  },
+  "T317": {
+    "Baseline": 3.78
+  },
+  "T318": {
+    "Baseline": 3.78
+  },
+  "T319": {
+    "Baseline": 3.79
+  },
+  "T320": {
+    "Baseline": 3.79
+  },
+  "T321": {
+    "Baseline": 3.79
+  },
+  "T322": {
+    "Baseline": 3.8
+  },
+  "T323": {
+    "Baseline": 3.8
+  },
+  "T324": {
+    "Baseline": 3.8
+  },
+  "T325": {
+    "Baseline": 3.81
+  },
+  "T326": {
+    "Baseline": 3.81
+  },
+  "T327": {
+    "Baseline": 3.81
+  },
+  "T328": {
+    "Baseline": 3.82
+  },
+  "T329": {
+    "Baseline": 3.82
+  },
+  "T330": {
+    "Baseline": 3.83
+  },
+  "T331": {
+    "Baseline": 3.83
+  },
+  "T332": {
+    "Baseline": 3.83
+  },
+  "T333": {
+    "Baseline": 3.84
+  },
+  "T334": {
+    "Baseline": 3.84
+  },
+  "T335": {
+    "Baseline": 3.84
+  },
+  "T336": {
+    "Baseline": 3.85
+  },
+  "T337": {
+    "Baseline": 3.85
+  },
+  "T338": {
+    "Baseline": 3.85
+  },
+  "T339": {
+    "Baseline": 3.86
+  },
+  "T340": {
+    "Baseline": 3.86
+  },
+  "T341": {
+    "Baseline": 3.86
+  },
+  "T342": {
+    "Baseline": 3.87
+  },
+  "T343": {
+    "Baseline": 3.87
+  },
+  "T344": {
+    "Baseline": 3.87
+  },
+  "T345": {
+    "Baseline": 3.88
+  },
+  "T346": {
+    "Baseline": 3.88
+  },
+  "T347": {
+    "Baseline": 3.88
+  },
+  "T348": {
+    "Baseline": 3.88
+  },
+  "T349": {
+    "Baseline": 3.89
+  },
+  "T350": {
+    "Baseline": 3.89
+  },
+  "T351": {
+    "Baseline": 3.89
+  },
+  "T352": {
+    "Baseline": 3.9
+  },
+  "T353": {
+    "Baseline": 3.9
+  },
+  "T354": {
+    "Baseline": 3.9
+  },
+  "T355": {
+    "Baseline": 3.91
+  },
+  "T356": {
+    "Baseline": 3.91
+  },
+  "T357": {
+    "Baseline": 3.91
+  },
+  "T358": {
+    "Baseline": 3.91
+  },
+  "T359": {
+    "Baseline": 3.92
+  },
+  "T360": {
+    "Baseline": 3.92
+  },
+  "T361": {
+    "Baseline": 3.92
+  },
+  "T362": {
+    "Baseline": 3.92
+  },
+  "T363": {
+    "Baseline": 3.93
+  },
+  "T364": {
+    "Baseline": 3.93
+  },
+  "T365": {
+    "Baseline": 3.93
+  },
+  "T366": {
+    "Baseline": 3.93
+  },
+  "T367": {
+    "Baseline": 3.93
+  },
+  "T368": {
+    "Baseline": 3.94
+  },
+  "T369": {
+    "Baseline": 3.94
+  },
+  "T370": {
+    "Baseline": 3.94
+  },
+  "T371": {
+    "Baseline": 3.94
+  },
+  "T372": {
+    "Baseline": 3.94
+  },
+  "T373": {
+    "Baseline": 3.95
+  },
+  "T374": {
+    "Baseline": 3.95
+  },
+  "T375": {
+    "Baseline": 3.95
+  },
+  "T376": {
+    "Baseline": 3.95
+  },
+  "T377": {
+    "Baseline": 3.95
+  },
+  "T378": {
+    "Baseline": 3.96
+  },
+  "T379": {
+    "Baseline": 3.96
+  },
+  "T380": {
+    "Baseline": 3.96
+  },
+  "T381": {
+    "Baseline": 3.96
+  },
+  "T382": {
+    "Baseline": 3.96
+  },
+  "T383": {
+    "Baseline": 3.96
+  },
+  "T384": {
+    "Baseline": 3.97
+  },
+  "T385": {
+    "Baseline": 3.97
+  },
+  "T386": {
+    "Baseline": 3.97
+  },
+  "T387": {
+    "Baseline": 3.97
+  },
+  "T388": {
+    "Baseline": 3.97
+  },
+  "T389": {
+    "Baseline": 3.97
+  },
+  "T390": {
+    "Baseline": 3.98
+  },
+  "T391": {
+    "Baseline": 3.98
+  },
+  "T392": {
+    "Baseline": 3.98
+  },
+  "T393": {
+    "Baseline": 3.98
+  },
+  "T394": {
+    "Baseline": 3.98
+  },
+  "T395": {
+    "Baseline": 3.98
+  },
+  "T396": {
+    "Baseline": 3.98
+  },
+  "T397": {
+    "Baseline": 3.99
+  },
+  "T398": {
+    "Baseline": 3.99
+  },
+  "T399": {
+    "Baseline": 3.99
+  },
+  "T400": {
+    "Baseline": 3.99
+  },
+  "T401": {
+    "Baseline": 3.99
+  },
+  "T402": {
+    "Baseline": 3.99
+  },
+  "T403": {
+    "Baseline": 3.99
+  },
+  "T404": {
+    "Baseline": 4
+  },
+  "T405": {
+    "Baseline": 4
+  },
+  "T406": {
+    "Baseline": 4
+  },
+  "T407": {
+    "Baseline": 4
+  },
+  "T408": {
+    "Baseline": 4
+  },
+  "T409": {
+    "Baseline": 4
+  },
+  "T410": {
+    "Baseline": 4.01
+  },
+  "T411": {
+    "Baseline": 4.01
+  },
+  "T412": {
+    "Baseline": 4.01
+  },
+  "T413": {
+    "Baseline": 4.01
+  },
+  "T414": {
+    "Baseline": 4.01
+  },
+  "T415": {
+    "Baseline": 4.01
+  },
+  "T416": {
+    "Baseline": 4.01
+  },
+  "T417": {
+    "Baseline": 4.02
+  },
+  "T418": {
+    "Baseline": 4.02
+  },
+  "T419": {
+    "Baseline": 4.02
+  },
+  "T420": {
+    "Baseline": 4.02
+  },
+  "T421": {
+    "Baseline": 4.02
+  },
+  "T422": {
+    "Baseline": 4.03
+  },
+  "T423": {
+    "Baseline": 4.03
+  },
+  "T424": {
+    "Baseline": 4.03
+  },
+  "T425": {
+    "Baseline": 4.04
+  },
+  "T426": {
+    "Baseline": 4.04
+  },
+  "T427": {
+    "Baseline": 4.04
+  },
+  "T428": {
+    "Baseline": 4.04
+  },
+  "T429": {
+    "Baseline": 4.05
+  },
+  "T430": {
+    "Baseline": 4.05
+  },
+  "T431": {
+    "Baseline": 4.05
+  },
+  "T432": {
+    "Baseline": 4.06
+  },
+  "T433": {
+    "Baseline": 4.06
+  },
+  "T434": {
+    "Baseline": 4.06
+  },
+  "T435": {
+    "Baseline": 4.07
+  },
+  "T436": {
+    "Baseline": 4.07
+  },
+  "T437": {
+    "Baseline": 4.07
+  },
+  "T438": {
+    "Baseline": 4.07
+  },
+  "T439": {
+    "Baseline": 4.08
+  },
+  "T440": {
+    "Baseline": 4.08
+  },
+  "T441": {
+    "Baseline": 4.08
+  },
+  "T442": {
+    "Baseline": 4.09
+  },
+  "T443": {
+    "Baseline": 4.09
+  },
+  "T444": {
+    "Baseline": 4.1
+  },
+  "T445": {
+    "Baseline": 4.1
+  },
+  "T446": {
+    "Baseline": 4.11
+  },
+  "T447": {
+    "Baseline": 4.11
+  },
+  "T448": {
+    "Baseline": 4.12
+  },
+  "T449": {
+    "Baseline": 4.12
+  },
+  "T450": {
+    "Baseline": 4.13
+  },
+  "T451": {
+    "Baseline": 4.13
+  },
+  "T452": {
+    "Baseline": 4.13
+  },
+  "T453": {
+    "Baseline": 4.14
+  },
+  "T454": {
+    "Baseline": 4.14
+  },
+  "T455": {
+    "Baseline": 4.15
+  },
+  "T456": {
+    "Baseline": 4.15
+  },
+  "T457": {
+    "Baseline": 4.16
+  },
+  "T458": {
+    "Baseline": 4.16
+  },
+  "T459": {
+    "Baseline": 4.17
+  },
+  "T460": {
+    "Baseline": 4.17
+  },
+  "T461": {
+    "Baseline": 4.18
+  },
+  "T462": {
+    "Baseline": 4.18
+  },
+  "T463": {
+    "Baseline": 4.19
+  },
+  "T464": {
+    "Baseline": 4.19
+  },
+  "T465": {
+    "Baseline": 4.2
+  },
+  "T466": {
+    "Baseline": 4.2
+  },
+  "T467": {
+    "Baseline": 4.21
+  },
+  "T468": {
+    "Baseline": 4.21
+  },
+  "T469": {
+    "Baseline": 4.22
+  },
+  "T470": {
+    "Baseline": 4.23
+  },
+  "T471": {
+    "Baseline": 4.23
+  },
+  "T472": {
+    "Baseline": 4.24
+  },
+  "T473": {
+    "Baseline": 4.24
+  },
+  "T474": {
+    "Baseline": 4.25
+  },
+  "T475": {
+    "Baseline": 4.25
+  },
+  "T476": {
+    "Baseline": 4.26
+  },
+  "T477": {
+    "Baseline": 4.26
+  },
+  "T478": {
+    "Baseline": 4.27
+  },
+  "T479": {
+    "Baseline": 4.27
+  },
+  "T480": {
+    "Baseline": 4.28
+  },
+  "T481": {
+    "Baseline": 4.29
+  },
+  "T482": {
+    "Baseline": 4.29
+  },
+  "T483": {
+    "Baseline": 4.3
+  },
+  "T484": {
+    "Baseline": 4.31
+  },
+  "T485": {
+    "Baseline": 4.31
+  },
+  "T486": {
+    "Baseline": 4.32
+  },
+  "T487": {
+    "Baseline": 4.33
+  },
+  "T488": {
+    "Baseline": 4.33
+  },
+  "T489": {
+    "Baseline": 4.34
+  },
+  "T490": {
+    "Baseline": 4.35
+  },
+  "T491": {
+    "Baseline": 4.35
+  },
+  "T492": {
+    "Baseline": 4.36
+  },
+  "T493": {
+    "Baseline": 4.36
+  },
+  "T494": {
+    "Baseline": 4.37
+  },
+  "T495": {
+    "Baseline": 4.38
+  },
+  "T496": {
+    "Baseline": 4.38
+  },
+  "T497": {
+    "Baseline": 4.39
+  },
+  "T498": {
+    "Baseline": 4.4
+  },
+  "T499": {
+    "Baseline": 4.4
+  },
+  "T500": {
+    "Baseline": 4.41
+  },
+  "T501": {
+    "Baseline": 4.42
+  },
+  "T502": {
+    "Baseline": 4.42
+  },
+  "T503": {
+    "Baseline": 4.43
+  },
+  "T504": {
+    "Baseline": 4.44
+  },
+  "T505": {
+    "Baseline": 4.44
+  },
+  "T506": {
+    "Baseline": 4.45
+  },
+  "T507": {
+    "Baseline": 4.46
+  },
+  "T508": {
+    "Baseline": 4.46
+  },
+  "T509": {
+    "Baseline": 4.47
+  },
+  "T510": {
+    "Baseline": 4.48
+  },
+  "T511": {
+    "Baseline": 4.48
+  },
+  "T512": {
+    "Baseline": 4.49
+  },
+  "T513": {
+    "Baseline": 4.49
+  },
+  "T514": {
+    "Baseline": 4.5
+  },
+  "T515": {
+    "Baseline": 4.51
+  },
+  "T516": {
+    "Baseline": 4.51
+  },
+  "T517": {
+    "Baseline": 4.52
+  },
+  "T518": {
+    "Baseline": 4.53
+  },
+  "T519": {
+    "Baseline": 4.53
+  },
+  "T520": {
+    "Baseline": 4.54
+  },
+  "T521": {
+    "Baseline": 4.55
+  },
+  "T522": {
+    "Baseline": 4.55
+  },
+  "T523": {
+    "Baseline": 4.56
+  },
+  "T524": {
+    "Baseline": 4.56
+  },
+  "T525": {
+    "Baseline": 4.57
+  },
+  "T526": {
+    "Baseline": 4.57
+  },
+  "T527": {
+    "Baseline": 4.58
+  },
+  "T528": {
+    "Baseline": 4.58
+  },
+  "T529": {
+    "Baseline": 4.59
+  },
+  "T530": {
+    "Baseline": 4.6
+  },
+  "T531": {
+    "Baseline": 4.6
+  },
+  "T532": {
+    "Baseline": 4.61
+  },
+  "T533": {
+    "Baseline": 4.61
+  },
+  "T534": {
+    "Baseline": 4.62
+  },
+  "T535": {
+    "Baseline": 4.62
+  },
+  "T536": {
+    "Baseline": 4.63
+  },
+  "T537": {
+    "Baseline": 4.63
+  },
+  "T538": {
+    "Baseline": 4.64
+  },
+  "T539": {
+    "Baseline": 4.64
+  },
+  "T540": {
+    "Baseline": 4.65
+  },
+  "T541": {
+    "Baseline": 4.65
+  },
+  "T542": {
+    "Baseline": 4.66
+  },
+  "T543": {
+    "Baseline": 4.66
+  },
+  "T544": {
+    "Baseline": 4.67
+  },
+  "T545": {
+    "Baseline": 4.67
+  },
+  "T546": {
+    "Baseline": 4.68
+  },
+  "T547": {
+    "Baseline": 4.68
+  },
+  "T548": {
+    "Baseline": 4.69
+  },
+  "T549": {
+    "Baseline": 4.69
+  },
+  "T550": {
+    "Baseline": 4.7
+  },
+  "T551": {
+    "Baseline": 4.7
+  },
+  "T552": {
+    "Baseline": 4.7
+  },
+  "T553": {
+    "Baseline": 4.71
+  },
+  "T554": {
+    "Baseline": 4.71
+  },
+  "T555": {
+    "Baseline": 4.72
+  },
+  "T556": {
+    "Baseline": 4.72
+  },
+  "T557": {
+    "Baseline": 4.73
+  },
+  "T558": {
+    "Baseline": 4.73
+  },
+  "T559": {
+    "Baseline": 4.74
+  },
+  "T560": {
+    "Baseline": 4.74
+  },
+  "T561": {
+    "Baseline": 4.74
+  },
+  "T562": {
+    "Baseline": 4.75
+  },
+  "T563": {
+    "Baseline": 4.75
+  },
+  "T564": {
+    "Baseline": 4.75
+  },
+  "T565": {
+    "Baseline": 4.75
+  },
+  "T566": {
+    "Baseline": 4.76
+  },
+  "T567": {
+    "Baseline": 4.76
+  },
+  "T568": {
+    "Baseline": 4.76
+  },
+  "T569": {
+    "Baseline": 4.76
+  },
+  "T570": {
+    "Baseline": 4.77
+  },
+  "T571": {
+    "Baseline": 4.77
+  },
+  "T572": {
+    "Baseline": 4.77
+  },
+  "T573": {
+    "Baseline": 4.77
+  },
+  "T574": {
+    "Baseline": 4.78
+  },
+  "T575": {
+    "Baseline": 4.78
+  },
+  "T576": {
+    "Baseline": 4.78
+  },
+  "T577": {
+    "Baseline": 4.78
+  },
+  "T578": {
+    "Baseline": 4.79
+  },
+  "T579": {
+    "Baseline": 4.79
+  },
+  "T580": {
+    "Baseline": 4.79
+  },
+  "T581": {
+    "Baseline": 4.79
+  },
+  "T582": {
+    "Baseline": 4.79
+  },
+  "T583": {
+    "Baseline": 4.79
+  },
+  "T584": {
+    "Baseline": 4.8
+  },
+  "T585": {
+    "Baseline": 4.8
+  },
+  "T586": {
+    "Baseline": 4.8
+  },
+  "T587": {
+    "Baseline": 4.8
+  },
+  "T588": {
+    "Baseline": 4.8
+  },
+  "T589": {
+    "Baseline": 4.8
+  },
+  "T590": {
+    "Baseline": 4.81
+  },
+  "T591": {
+    "Baseline": 4.81
+  },
+  "T592": {
+    "Baseline": 4.81
+  },
+  "T593": {
+    "Baseline": 4.81
+  },
+  "T594": {
+    "Baseline": 4.81
+  },
+  "T595": {
+    "Baseline": 4.81
+  },
+  "T596": {
+    "Baseline": 4.81
+  },
+  "T597": {
+    "Baseline": 4.82
+  },
+  "T598": {
+    "Baseline": 4.82
+  },
+  "T599": {
+    "Baseline": 4.82
+  },
+  "T600": {
+    "Baseline": 4.82
+  },
+  "F5": {
+    "Baseline": 2.03
+  },
+  "F6": {
+    "Baseline": 2.06
+  },
+  "F7": {
+    "Baseline": 2.09
+  },
+  "F8": {
+    "Baseline": 2.12
+  },
+  "F9": {
+    "Baseline": 2.15
+  },
+  "F10": {
+    "Baseline": 2.18
+  },
+  "F11": {
+    "Baseline": 2.2
+  },
+  "F12": {
+    "Baseline": 2.22
+  },
+  "F13": {
+    "Baseline": 2.25
+  },
+  "F14": {
+    "Baseline": 2.27
+  },
+  "F15": {
+    "Baseline": 2.29
+  },
+  "F16": {
+    "Baseline": 2.31
+  },
+  "F17": {
+    "Baseline": 2.33
+  },
+  "F18": {
+    "Baseline": 2.36
+  },
+  "F19": {
+    "Baseline": 2.38
+  },
+  "F20": {
+    "Baseline": 2.4
+  },
+  "F21": {
+    "Baseline": 2.41
+  },
+  "F22": {
+    "Baseline": 2.42
+  },
+  "F23": {
+    "Baseline": 2.43
+  },
+  "F24": {
+    "Baseline": 2.44
+  },
+  "F25": {
+    "Baseline": 2.45
+  },
+  "F26": {
+    "Baseline": 2.46
+  },
+  "F27": {
+    "Baseline": 2.47
+  },
+  "F28": {
+    "Baseline": 2.48
+  },
+  "F29": {
+    "Baseline": 2.49
+  },
+  "F30": {
+    "Baseline": 2.5
+  },
+  "F31": {
+    "Baseline": 2.51
+  },
+  "F32": {
+    "Baseline": 2.52
+  },
+  "F33": {
+    "Baseline": 2.53
+  },
+  "F34": {
+    "Baseline": 2.54
+  },
+  "F35": {
+    "Baseline": 2.55
+  },
+  "F36": {
+    "Baseline": 2.56
+  },
+  "F37": {
+    "Baseline": 2.57
+  },
+  "F38": {
+    "Baseline": 2.58
+  },
+  "F39": {
+    "Baseline": 2.59
+  },
+  "F40": {
+    "Baseline": 2.6
+  },
+  "F41": {
+    "Baseline": 2.61
+  },
+  "F42": {
+    "Baseline": 2.61
+  },
+  "F43": {
+    "Baseline": 2.62
+  },
+  "F44": {
+    "Baseline": 2.62
+  },
+  "F45": {
+    "Baseline": 2.63
+  },
+  "F46": {
+    "Baseline": 2.63
+  },
+  "F47": {
+    "Baseline": 2.64
+  },
+  "F48": {
+    "Baseline": 2.64
+  },
+  "F49": {
+    "Baseline": 2.65
+  },
+  "F50": {
+    "Baseline": 2.65
+  },
+  "F51": {
+    "Baseline": 2.66
+  },
+  "F52": {
+    "Baseline": 2.66
+  },
+  "F53": {
+    "Baseline": 2.67
+  },
+  "F54": {
+    "Baseline": 2.67
+  },
+  "F55": {
+    "Baseline": 2.68
+  },
+  "F56": {
+    "Baseline": 2.68
+  },
+  "F57": {
+    "Baseline": 2.69
+  },
+  "F58": {
+    "Baseline": 2.69
+  },
+  "F59": {
+    "Baseline": 2.7
+  },
+  "F60": {
+    "Baseline": 2.7
+  },
+  "F61": {
+    "Baseline": 2.7
+  },
+  "F62": {
+    "Baseline": 2.71
+  },
+  "F63": {
+    "Baseline": 2.71
+  },
+  "F64": {
+    "Baseline": 2.71
+  },
+  "F65": {
+    "Baseline": 2.71
+  },
+  "F66": {
+    "Baseline": 2.72
+  },
+  "F67": {
+    "Baseline": 2.72
+  },
+  "F68": {
+    "Baseline": 2.72
+  },
+  "F69": {
+    "Baseline": 2.72
+  },
+  "F70": {
+    "Baseline": 2.73
+  },
+  "F71": {
+    "Baseline": 2.73
+  },
+  "F72": {
+    "Baseline": 2.73
+  },
+  "F73": {
+    "Baseline": 2.73
+  },
+  "F74": {
+    "Baseline": 2.74
+  },
+  "F75": {
+    "Baseline": 2.74
+  },
+  "F76": {
+    "Baseline": 2.74
+  },
+  "F77": {
+    "Baseline": 2.74
+  },
+  "F78": {
+    "Baseline": 2.75
+  },
+  "F79": {
+    "Baseline": 2.75
+  },
+  "F80": {
+    "Baseline": 2.75
+  },
+  "F81": {
+    "Baseline": 2.75
+  },
+  "F82": {
+    "Baseline": 2.76
+  },
+  "F83": {
+    "Baseline": 2.76
+  },
+  "F84": {
+    "Baseline": 2.76
+  },
+  "F85": {
+    "Baseline": 2.76
+  },
+  "F86": {
+    "Baseline": 2.77
+  },
+  "F87": {
+    "Baseline": 2.77
+  },
+  "F88": {
+    "Baseline": 2.77
+  },
+  "F89": {
+    "Baseline": 2.77
+  },
+  "F90": {
+    "Baseline": 2.78
+  },
+  "F91": {
+    "Baseline": 2.78
+  },
+  "F92": {
+    "Baseline": 2.78
+  },
+  "F93": {
+    "Baseline": 2.78
+  },
+  "F94": {
+    "Baseline": 2.79
+  },
+  "F95": {
+    "Baseline": 2.79
+  },
+  "F96": {
+    "Baseline": 2.79
+  },
+  "F97": {
+    "Baseline": 2.79
+  },
+  "F98": {
+    "Baseline": 2.8
+  },
+  "F99": {
+    "Baseline": 2.8
+  },
+  "F100": {
+    "Baseline": 2.8
+  },
+  "F101": {
+    "Baseline": 2.8
+  },
+  "F102": {
+    "Baseline": 2.81
+  },
+  "F103": {
+    "Baseline": 2.81
+  },
+  "F104": {
+    "Baseline": 2.81
+  },
+  "F105": {
+    "Baseline": 2.81
+  },
+  "F106": {
+    "Baseline": 2.82
+  },
+  "F107": {
+    "Baseline": 2.82
+  },
+  "F108": {
+    "Baseline": 2.82
+  },
+  "F109": {
+    "Baseline": 2.82
+  },
+  "F110": {
+    "Baseline": 2.83
+  },
+  "F111": {
+    "Baseline": 2.83
+  },
+  "F112": {
+    "Baseline": 2.83
+  },
+  "F113": {
+    "Baseline": 2.83
+  },
+  "F114": {
+    "Baseline": 2.84
+  },
+  "F115": {
+    "Baseline": 2.84
+  },
+  "F116": {
+    "Baseline": 2.84
+  },
+  "F117": {
+    "Baseline": 2.84
+  },
+  "F118": {
+    "Baseline": 2.85
+  },
+  "F119": {
+    "Baseline": 2.85
+  },
+  "F120": {
+    "Baseline": 2.85
+  },
+  "F121": {
+    "Baseline": 2.85
+  },
+  "F122": {
+    "Baseline": 2.86
+  },
+  "F123": {
+    "Baseline": 2.86
+  },
+  "F124": {
+    "Baseline": 2.86
+  },
+  "F125": {
+    "Baseline": 2.87
+  },
+  "F126": {
+    "Baseline": 2.87
+  },
+  "F127": {
+    "Baseline": 2.87
+  },
+  "F128": {
+    "Baseline": 2.87
+  },
+  "F129": {
+    "Baseline": 2.88
+  },
+  "F130": {
+    "Baseline": 2.88
+  },
+  "F131": {
+    "Baseline": 2.88
+  },
+  "F132": {
+    "Baseline": 2.89
+  },
+  "F133": {
+    "Baseline": 2.89
+  },
+  "F134": {
+    "Baseline": 2.89
+  },
+  "F135": {
+    "Baseline": 2.9
+  },
+  "F136": {
+    "Baseline": 2.9
+  },
+  "F137": {
+    "Baseline": 2.9
+  },
+  "F138": {
+    "Baseline": 2.9
+  },
+  "F139": {
+    "Baseline": 2.91
+  },
+  "F140": {
+    "Baseline": 2.91
+  },
+  "F141": {
+    "Baseline": 2.91
+  },
+  "F142": {
+    "Baseline": 2.92
+  },
+  "F143": {
+    "Baseline": 2.92
+  },
+  "F144": {
+    "Baseline": 2.92
+  },
+  "F145": {
+    "Baseline": 2.93
+  },
+  "F146": {
+    "Baseline": 2.93
+  },
+  "F147": {
+    "Baseline": 2.93
+  },
+  "F148": {
+    "Baseline": 2.94
+  },
+  "F149": {
+    "Baseline": 2.94
+  },
+  "F150": {
+    "Baseline": 2.95
+  },
+  "F151": {
+    "Baseline": 2.95
+  },
+  "F152": {
+    "Baseline": 2.95
+  },
+  "F153": {
+    "Baseline": 2.96
+  },
+  "F154": {
+    "Baseline": 2.96
+  },
+  "F155": {
+    "Baseline": 2.96
+  },
+  "F156": {
+    "Baseline": 2.97
+  },
+  "F157": {
+    "Baseline": 2.97
+  },
+  "F158": {
+    "Baseline": 2.97
+  },
+  "F159": {
+    "Baseline": 2.98
+  },
+  "F160": {
+    "Baseline": 2.98
+  },
+  "F161": {
+    "Baseline": 2.99
+  },
+  "F162": {
+    "Baseline": 2.99
+  },
+  "F163": {
+    "Baseline": 3
+  },
+  "F164": {
+    "Baseline": 3
+  },
+  "F165": {
+    "Baseline": 3.01
+  },
+  "F166": {
+    "Baseline": 3.01
+  },
+  "F167": {
+    "Baseline": 3.02
+  },
+  "F168": {
+    "Baseline": 3.02
+  },
+  "F169": {
+    "Baseline": 3.03
+  },
+  "F170": {
+    "Baseline": 3.03
+  },
+  "F171": {
+    "Baseline": 3.04
+  },
+  "F172": {
+    "Baseline": 3.04
+  },
+  "F173": {
+    "Baseline": 3.05
+  },
+  "F174": {
+    "Baseline": 3.05
+  },
+  "F175": {
+    "Baseline": 3.06
+  },
+  "F176": {
+    "Baseline": 3.06
+  },
+  "F177": {
+    "Baseline": 3.07
+  },
+  "F178": {
+    "Baseline": 3.07
+  },
+  "F179": {
+    "Baseline": 3.08
+  },
+  "F180": {
+    "Baseline": 3.08
+  },
+  "F181": {
+    "Baseline": 3.09
+  },
+  "F182": {
+    "Baseline": 3.09
+  },
+  "F183": {
+    "Baseline": 3.1
+  },
+  "F184": {
+    "Baseline": 3.1
+  },
+  "F185": {
+    "Baseline": 3.11
+  },
+  "F186": {
+    "Baseline": 3.11
+  },
+  "F187": {
+    "Baseline": 3.12
+  },
+  "F188": {
+    "Baseline": 3.12
+  },
+  "F189": {
+    "Baseline": 3.13
+  },
+  "F190": {
+    "Baseline": 3.14
+  },
+  "F191": {
+    "Baseline": 3.14
+  },
+  "F192": {
+    "Baseline": 3.15
+  },
+  "F193": {
+    "Baseline": 3.15
+  },
+  "F194": {
+    "Baseline": 3.16
+  },
+  "F195": {
+    "Baseline": 3.16
+  },
+  "F196": {
+    "Baseline": 3.17
+  },
+  "F197": {
+    "Baseline": 3.17
+  },
+  "F198": {
+    "Baseline": 3.18
+  },
+  "F199": {
+    "Baseline": 3.18
+  },
+  "F200": {
+    "Baseline": 3.19
+  },
+  "F201": {
+    "Baseline": 3.2
+  },
+  "F202": {
+    "Baseline": 3.2
+  },
+  "F203": {
+    "Baseline": 3.21
+  },
+  "F204": {
+    "Baseline": 3.22
+  },
+  "F205": {
+    "Baseline": 3.22
+  },
+  "F206": {
+    "Baseline": 3.23
+  },
+  "F207": {
+    "Baseline": 3.24
+  },
+  "F208": {
+    "Baseline": 3.24
+  },
+  "F209": {
+    "Baseline": 3.25
+  },
+  "F210": {
+    "Baseline": 3.26
+  },
+  "F211": {
+    "Baseline": 3.26
+  },
+  "F212": {
+    "Baseline": 3.27
+  },
+  "F213": {
+    "Baseline": 3.27
+  },
+  "F214": {
+    "Baseline": 3.28
+  },
+  "F215": {
+    "Baseline": 3.29
+  },
+  "F216": {
+    "Baseline": 3.29
+  },
+  "F217": {
+    "Baseline": 3.3
+  },
+  "F218": {
+    "Baseline": 3.31
+  },
+  "F219": {
+    "Baseline": 3.31
+  },
+  "F220": {
+    "Baseline": 3.32
+  },
+  "F221": {
+    "Baseline": 3.33
+  },
+  "F222": {
+    "Baseline": 3.33
+  },
+  "F223": {
+    "Baseline": 3.34
+  },
+  "F224": {
+    "Baseline": 3.35
+  },
+  "F225": {
+    "Baseline": 3.35
+  },
+  "F226": {
+    "Baseline": 3.36
+  },
+  "F227": {
+    "Baseline": 3.37
+  },
+  "F228": {
+    "Baseline": 3.37
+  },
+  "F229": {
+    "Baseline": 3.38
+  },
+  "F230": {
+    "Baseline": 3.39
+  },
+  "F231": {
+    "Baseline": 3.39
+  },
+  "F232": {
+    "Baseline": 3.4
+  },
+  "F233": {
+    "Baseline": 3.4
+  },
+  "F234": {
+    "Baseline": 3.41
+  },
+  "F235": {
+    "Baseline": 3.42
+  },
+  "F236": {
+    "Baseline": 3.42
+  },
+  "F237": {
+    "Baseline": 3.43
+  },
+  "F238": {
+    "Baseline": 3.44
+  },
+  "F239": {
+    "Baseline": 3.44
+  },
+  "F240": {
+    "Baseline": 3.45
+  },
+  "F241": {
+    "Baseline": 3.46
+  },
+  "F242": {
+    "Baseline": 3.46
+  },
+  "F243": {
+    "Baseline": 3.47
+  },
+  "F244": {
+    "Baseline": 3.48
+  },
+  "F245": {
+    "Baseline": 3.48
+  },
+  "F246": {
+    "Baseline": 3.49
+  },
+  "F247": {
+    "Baseline": 3.5
+  },
+  "F248": {
+    "Baseline": 3.5
+  },
+  "F249": {
+    "Baseline": 3.51
+  },
+  "F250": {
+    "Baseline": 3.52
+  },
+  "F251": {
+    "Baseline": 3.52
+  },
+  "F252": {
+    "Baseline": 3.53
+  },
+  "F253": {
+    "Baseline": 3.53
+  },
+  "F254": {
+    "Baseline": 3.54
+  },
+  "F255": {
+    "Baseline": 3.55
+  },
+  "F256": {
+    "Baseline": 3.55
+  },
+  "F257": {
+    "Baseline": 3.56
+  },
+  "F258": {
+    "Baseline": 3.57
+  },
+  "F259": {
+    "Baseline": 3.57
+  },
+  "F260": {
+    "Baseline": 3.58
+  },
+  "F261": {
+    "Baseline": 3.59
+  },
+  "F262": {
+    "Baseline": 3.59
+  },
+  "F263": {
+    "Baseline": 3.6
+  },
+  "F264": {
+    "Baseline": 3.6
+  },
+  "F265": {
+    "Baseline": 3.61
+  },
+  "F266": {
+    "Baseline": 3.61
+  },
+  "F267": {
+    "Baseline": 3.62
+  },
+  "F268": {
+    "Baseline": 3.62
+  },
+  "F269": {
+    "Baseline": 3.63
+  },
+  "F270": {
+    "Baseline": 3.64
+  },
+  "F271": {
+    "Baseline": 3.64
+  },
+  "F272": {
+    "Baseline": 3.65
+  },
+  "F273": {
+    "Baseline": 3.65
+  },
+  "F274": {
+    "Baseline": 3.66
+  },
+  "F275": {
+    "Baseline": 3.66
+  },
+  "F276": {
+    "Baseline": 3.67
+  },
+  "F277": {
+    "Baseline": 3.67
+  },
+  "F278": {
+    "Baseline": 3.68
+  },
+  "F279": {
+    "Baseline": 3.68
+  },
+  "F280": {
+    "Baseline": 3.69
+  },
+  "F281": {
+    "Baseline": 3.69
+  },
+  "F282": {
+    "Baseline": 3.7
+  },
+  "F283": {
+    "Baseline": 3.7
+  },
+  "F284": {
+    "Baseline": 3.71
+  },
+  "F285": {
+    "Baseline": 3.71
+  },
+  "F286": {
+    "Baseline": 3.72
+  },
+  "F287": {
+    "Baseline": 3.72
+  },
+  "F288": {
+    "Baseline": 3.73
+  },
+  "F289": {
+    "Baseline": 3.73
+  },
+  "F290": {
+    "Baseline": 3.74
+  },
+  "F291": {
+    "Baseline": 3.74
+  },
+  "F292": {
+    "Baseline": 3.74
+  },
+  "F293": {
+    "Baseline": 3.75
+  },
+  "F294": {
+    "Baseline": 3.75
+  },
+  "F295": {
+    "Baseline": 3.76
+  },
+  "F296": {
+    "Baseline": 3.76
+  },
+  "F297": {
+    "Baseline": 3.77
+  },
+  "F298": {
+    "Baseline": 3.77
+  },
+  "F299": {
+    "Baseline": 3.78
+  },
+  "F300": {
+    "Baseline": 3.78
+  },
+  "F301": {
+    "Baseline": 3.78
+  },
+  "F302": {
+    "Baseline": 3.79
+  },
+  "F303": {
+    "Baseline": 3.79
+  },
+  "F304": {
+    "Baseline": 3.79
+  },
+  "F305": {
+    "Baseline": 3.8
+  },
+  "F306": {
+    "Baseline": 3.8
+  },
+  "F307": {
+    "Baseline": 3.8
+  },
+  "F308": {
+    "Baseline": 3.8
+  },
+  "F309": {
+    "Baseline": 3.81
+  },
+  "F310": {
+    "Baseline": 3.81
+  },
+  "F311": {
+    "Baseline": 3.81
+  },
+  "F312": {
+    "Baseline": 3.82
+  },
+  "F313": {
+    "Baseline": 3.82
+  },
+  "F314": {
+    "Baseline": 3.82
+  },
+  "F315": {
+    "Baseline": 3.83
+  },
+  "F316": {
+    "Baseline": 3.83
+  },
+  "F317": {
+    "Baseline": 3.83
+  },
+  "F318": {
+    "Baseline": 3.83
+  },
+  "F319": {
+    "Baseline": 3.84
+  },
+  "F320": {
+    "Baseline": 3.84
+  },
+  "F321": {
+    "Baseline": 3.84
+  },
+  "F322": {
+    "Baseline": 3.84
+  },
+  "F323": {
+    "Baseline": 3.85
+  },
+  "F324": {
+    "Baseline": 3.85
+  },
+  "F325": {
+    "Baseline": 3.85
+  },
+  "F326": {
+    "Baseline": 3.85
+  },
+  "F327": {
+    "Baseline": 3.85
+  },
+  "F328": {
+    "Baseline": 3.86
+  },
+  "F329": {
+    "Baseline": 3.86
+  },
+  "F330": {
+    "Baseline": 3.86
+  },
+  "F331": {
+    "Baseline": 3.86
+  },
+  "F332": {
+    "Baseline": 3.86
+  },
+  "F333": {
+    "Baseline": 3.87
+  },
+  "F334": {
+    "Baseline": 3.87
+  },
+  "F335": {
+    "Baseline": 3.87
+  },
+  "F336": {
+    "Baseline": 3.87
+  },
+  "F337": {
+    "Baseline": 3.87
+  },
+  "F338": {
+    "Baseline": 3.88
+  },
+  "F339": {
+    "Baseline": 3.88
+  },
+  "F340": {
+    "Baseline": 3.88
+  },
+  "F341": {
+    "Baseline": 3.88
+  },
+  "F342": {
+    "Baseline": 3.89
+  },
+  "F343": {
+    "Baseline": 3.89
+  },
+  "F344": {
+    "Baseline": 3.89
+  },
+  "F345": {
+    "Baseline": 3.9
+  },
+  "F346": {
+    "Baseline": 3.9
+  },
+  "F347": {
+    "Baseline": 3.9
+  },
+  "F348": {
+    "Baseline": 3.91
+  },
+  "F349": {
+    "Baseline": 3.91
+  },
+  "F350": {
+    "Baseline": 3.92
+  },
+  "F351": {
+    "Baseline": 3.92
+  },
+  "F352": {
+    "Baseline": 3.92
+  },
+  "F353": {
+    "Baseline": 3.93
+  },
+  "F354": {
+    "Baseline": 3.93
+  },
+  "F355": {
+    "Baseline": 3.93
+  },
+  "F356": {
+    "Baseline": 3.94
+  },
+  "F357": {
+    "Baseline": 3.94
+  },
+  "F358": {
+    "Baseline": 3.94
+  },
+  "F359": {
+    "Baseline": 3.95
+  },
+  "F360": {
+    "Baseline": 3.95
+  },
+  "F361": {
+    "Baseline": 3.95
+  },
+  "F362": {
+    "Baseline": 3.96
+  },
+  "F363": {
+    "Baseline": 3.96
+  },
+  "F364": {
+    "Baseline": 3.97
+  },
+  "F365": {
+    "Baseline": 3.97
+  },
+  "F366": {
+    "Baseline": 3.97
+  },
+  "F367": {
+    "Baseline": 3.98
+  },
+  "F368": {
+    "Baseline": 3.98
+  },
+  "F369": {
+    "Baseline": 3.99
+  },
+  "F370": {
+    "Baseline": 3.99
+  },
+  "F371": {
+    "Baseline": 3.99
+  },
+  "F372": {
+    "Baseline": 4
+  },
+  "F373": {
+    "Baseline": 4
+  },
+  "F374": {
+    "Baseline": 4.01
+  },
+  "F375": {
+    "Baseline": 4.01
+  },
+  "F376": {
+    "Baseline": 4.01
+  },
+  "F377": {
+    "Baseline": 4.02
+  },
+  "F378": {
+    "Baseline": 4.02
+  },
+  "F379": {
+    "Baseline": 4.03
+  },
+  "F380": {
+    "Baseline": 4.03
+  },
+  "F381": {
+    "Baseline": 4.03
+  },
+  "F382": {
+    "Baseline": 4.04
+  },
+  "F383": {
+    "Baseline": 4.04
+  },
+  "F384": {
+    "Baseline": 4.05
+  },
+  "F385": {
+    "Baseline": 4.05
+  },
+  "F386": {
+    "Baseline": 4.05
+  },
+  "F387": {
+    "Baseline": 4.06
+  },
+  "F388": {
+    "Baseline": 4.06
+  },
+  "F389": {
+    "Baseline": 4.07
+  },
+  "F390": {
+    "Baseline": 4.07
+  },
+  "F391": {
+    "Baseline": 4.07
+  },
+  "F392": {
+    "Baseline": 4.08
+  },
+  "F393": {
+    "Baseline": 4.08
+  },
+  "F394": {
+    "Baseline": 4.09
+  },
+  "F395": {
+    "Baseline": 4.09
+  },
+  "F396": {
+    "Baseline": 4.09
+  },
+  "F397": {
+    "Baseline": 4.1
+  },
+  "F398": {
+    "Baseline": 4.1
+  },
+  "F399": {
+    "Baseline": 4.11
+  },
+  "F400": {
+    "Baseline": 4.11
+  },
+  "F401": {
+    "Baseline": 4.11
+  },
+  "F402": {
+    "Baseline": 4.11
+  },
+  "F403": {
+    "Baseline": 4.12
+  },
+  "F404": {
+    "Baseline": 4.12
+  },
+  "F405": {
+    "Baseline": 4.12
+  },
+  "F406": {
+    "Baseline": 4.12
+  },
+  "F407": {
+    "Baseline": 4.12
+  },
+  "F408": {
+    "Baseline": 4.13
+  },
+  "F409": {
+    "Baseline": 4.13
+  },
+  "F410": {
+    "Baseline": 4.13
+  },
+  "F411": {
+    "Baseline": 4.13
+  },
+  "F412": {
+    "Baseline": 4.13
+  },
+  "F413": {
+    "Baseline": 4.14
+  },
+  "F414": {
+    "Baseline": 4.14
+  },
+  "F415": {
+    "Baseline": 4.14
+  },
+  "F416": {
+    "Baseline": 4.14
+  },
+  "F417": {
+    "Baseline": 4.14
+  },
+  "F418": {
+    "Baseline": 4.15
+  },
+  "F419": {
+    "Baseline": 4.15
+  },
+  "F420": {
+    "Baseline": 4.15
+  },
+  "F421": {
+    "Baseline": 4.15
+  },
+  "F422": {
+    "Baseline": 4.16
+  },
+  "F423": {
+    "Baseline": 4.16
+  },
+  "F424": {
+    "Baseline": 4.16
+  },
+  "F425": {
+    "Baseline": 4.16
+  },
+  "F426": {
+    "Baseline": 4.17
+  },
+  "F427": {
+    "Baseline": 4.17
+  },
+  "F428": {
+    "Baseline": 4.17
+  },
+  "F429": {
+    "Baseline": 4.17
+  },
+  "F430": {
+    "Baseline": 4.18
+  },
+  "F431": {
+    "Baseline": 4.18
+  },
+  "F432": {
+    "Baseline": 4.18
+  },
+  "F433": {
+    "Baseline": 4.18
+  },
+  "F434": {
+    "Baseline": 4.19
+  },
+  "F435": {
+    "Baseline": 4.19
+  },
+  "F436": {
+    "Baseline": 4.19
+  },
+  "F437": {
+    "Baseline": 4.19
+  },
+  "F438": {
+    "Baseline": 4.2
+  },
+  "F439": {
+    "Baseline": 4.2
+  },
+  "F440": {
+    "Baseline": 4.2
+  },
+  "F441": {
+    "Baseline": 4.2
+  },
+  "F442": {
+    "Baseline": 4.21
+  },
+  "F443": {
+    "Baseline": 4.21
+  },
+  "F444": {
+    "Baseline": 4.22
+  },
+  "F445": {
+    "Baseline": 4.22
+  },
+  "F446": {
+    "Baseline": 4.23
+  },
+  "F447": {
+    "Baseline": 4.23
+  },
+  "F448": {
+    "Baseline": 4.24
+  },
+  "F449": {
+    "Baseline": 4.24
+  },
+  "F450": {
+    "Baseline": 4.25
+  },
+  "F451": {
+    "Baseline": 4.25
+  },
+  "F452": {
+    "Baseline": 4.25
+  },
+  "F453": {
+    "Baseline": 4.26
+  },
+  "F454": {
+    "Baseline": 4.26
+  },
+  "F455": {
+    "Baseline": 4.27
+  },
+  "F456": {
+    "Baseline": 4.27
+  },
+  "F457": {
+    "Baseline": 4.28
+  },
+  "F458": {
+    "Baseline": 4.28
+  },
+  "F459": {
+    "Baseline": 4.29
+  },
+  "F460": {
+    "Baseline": 4.29
+  },
+  "F461": {
+    "Baseline": 4.3
+  },
+  "F462": {
+    "Baseline": 4.3
+  },
+  "F463": {
+    "Baseline": 4.31
+  },
+  "F464": {
+    "Baseline": 4.31
+  },
+  "F465": {
+    "Baseline": 4.32
+  },
+  "F466": {
+    "Baseline": 4.32
+  },
+  "F467": {
+    "Baseline": 4.33
+  },
+  "F468": {
+    "Baseline": 4.33
+  },
+  "F469": {
+    "Baseline": 4.34
+  },
+  "F470": {
+    "Baseline": 4.35
+  },
+  "F471": {
+    "Baseline": 4.35
+  },
+  "F472": {
+    "Baseline": 4.36
+  },
+  "F473": {
+    "Baseline": 4.36
+  },
+  "F474": {
+    "Baseline": 4.37
+  },
+  "F475": {
+    "Baseline": 4.37
+  },
+  "F476": {
+    "Baseline": 4.38
+  },
+  "F477": {
+    "Baseline": 4.38
+  },
+  "F478": {
+    "Baseline": 4.39
+  },
+  "F479": {
+    "Baseline": 4.39
+  },
+  "F480": {
+    "Baseline": 4.4
+  },
+  "F481": {
+    "Baseline": 4.41
+  },
+  "F482": {
+    "Baseline": 4.41
+  },
+  "F483": {
+    "Baseline": 4.42
+  },
+  "F484": {
+    "Baseline": 4.43
+  },
+  "F485": {
+    "Baseline": 4.43
+  },
+  "F486": {
+    "Baseline": 4.44
+  },
+  "F487": {
+    "Baseline": 4.45
+  },
+  "F488": {
+    "Baseline": 4.45
+  },
+  "F489": {
+    "Baseline": 4.46
+  },
+  "F490": {
+    "Baseline": 4.47
+  },
+  "F491": {
+    "Baseline": 4.47
+  },
+  "F492": {
+    "Baseline": 4.48
+  },
+  "F493": {
+    "Baseline": 4.48
+  },
+  "F494": {
+    "Baseline": 4.49
+  },
+  "F495": {
+    "Baseline": 4.5
+  },
+  "F496": {
+    "Baseline": 4.5
+  },
+  "F497": {
+    "Baseline": 4.51
+  },
+  "F498": {
+    "Baseline": 4.52
+  },
+  "F499": {
+    "Baseline": 4.52
+  },
+  "F500": {
+    "Baseline": 4.53
+  },
+  "F501": {
+    "Baseline": 4.54
+  },
+  "F502": {
+    "Baseline": 4.54
+  },
+  "F503": {
+    "Baseline": 4.55
+  },
+  "F504": {
+    "Baseline": 4.56
+  },
+  "F505": {
+    "Baseline": 4.56
+  },
+  "F506": {
+    "Baseline": 4.57
+  },
+  "F507": {
+    "Baseline": 4.58
+  },
+  "F508": {
+    "Baseline": 4.58
+  },
+  "F509": {
+    "Baseline": 4.59
+  },
+  "F510": {
+    "Baseline": 4.6
+  },
+  "F511": {
+    "Baseline": 4.6
+  },
+  "F512": {
+    "Baseline": 4.61
+  },
+  "F513": {
+    "Baseline": 4.61
+  },
+  "F514": {
+    "Baseline": 4.62
+  },
+  "F515": {
+    "Baseline": 4.63
+  },
+  "F516": {
+    "Baseline": 4.63
+  },
+  "F517": {
+    "Baseline": 4.64
+  },
+  "F518": {
+    "Baseline": 4.65
+  },
+  "F519": {
+    "Baseline": 4.65
+  },
+  "F520": {
+    "Baseline": 4.66
+  },
+  "F521": {
+    "Baseline": 4.67
+  },
+  "F522": {
+    "Baseline": 4.67
+  },
+  "F523": {
+    "Baseline": 4.68
+  },
+  "F524": {
+    "Baseline": 4.68
+  },
+  "F525": {
+    "Baseline": 4.69
+  },
+  "F526": {
+    "Baseline": 4.7
+  },
+  "F527": {
+    "Baseline": 4.7
+  },
+  "F528": {
+    "Baseline": 4.71
+  },
+  "F529": {
+    "Baseline": 4.71
+  },
+  "F530": {
+    "Baseline": 4.72
+  },
+  "F531": {
+    "Baseline": 4.73
+  },
+  "F532": {
+    "Baseline": 4.73
+  },
+  "F533": {
+    "Baseline": 4.74
+  },
+  "F534": {
+    "Baseline": 4.74
+  },
+  "F535": {
+    "Baseline": 4.75
+  },
+  "F536": {
+    "Baseline": 4.76
+  },
+  "F537": {
+    "Baseline": 4.76
+  },
+  "F538": {
+    "Baseline": 4.77
+  },
+  "F539": {
+    "Baseline": 4.77
+  },
+  "F540": {
+    "Baseline": 4.78
+  },
+  "F541": {
+    "Baseline": 4.78
+  },
+  "F542": {
+    "Baseline": 4.79
+  },
+  "F543": {
+    "Baseline": 4.79
+  },
+  "F544": {
+    "Baseline": 4.8
+  },
+  "F545": {
+    "Baseline": 4.8
+  },
+  "F546": {
+    "Baseline": 4.8
+  },
+  "F547": {
+    "Baseline": 4.81
+  },
+  "F548": {
+    "Baseline": 4.81
+  },
+  "F549": {
+    "Baseline": 4.82
+  },
+  "F550": {
+    "Baseline": 4.82
+  },
+  "F551": {
+    "Baseline": 4.82
+  },
+  "F552": {
+    "Baseline": 4.83
+  },
+  "F553": {
+    "Baseline": 4.83
+  },
+  "F554": {
+    "Baseline": 4.84
+  },
+  "F555": {
+    "Baseline": 4.84
+  },
+  "F556": {
+    "Baseline": 4.84
+  },
+  "F557": {
+    "Baseline": 4.85
+  },
+  "F558": {
+    "Baseline": 4.85
+  },
+  "F559": {
+    "Baseline": 4.86
+  },
+  "F560": {
+    "Baseline": 4.86
+  },
+  "F561": {
+    "Baseline": 4.86
+  },
+  "F562": {
+    "Baseline": 4.87
+  },
+  "F563": {
+    "Baseline": 4.87
+  },
+  "F564": {
+    "Baseline": 4.87
+  },
+  "F565": {
+    "Baseline": 4.87
+  },
+  "F566": {
+    "Baseline": 4.88
+  },
+  "F567": {
+    "Baseline": 4.88
+  },
+  "F568": {
+    "Baseline": 4.88
+  },
+  "F569": {
+    "Baseline": 4.88
+  },
+  "F570": {
+    "Baseline": 4.89
+  },
+  "F571": {
+    "Baseline": 4.89
+  },
+  "F572": {
+    "Baseline": 4.89
+  },
+  "F573": {
+    "Baseline": 4.89
+  },
+  "F574": {
+    "Baseline": 4.9
+  },
+  "F575": {
+    "Baseline": 4.9
+  },
+  "F576": {
+    "Baseline": 4.9
+  },
+  "F577": {
+    "Baseline": 4.9
+  },
+  "F578": {
+    "Baseline": 4.91
+  },
+  "F579": {
+    "Baseline": 4.91
+  },
+  "F580": {
+    "Baseline": 4.91
+  },
+  "F581": {
+    "Baseline": 4.91
+  },
+  "F582": {
+    "Baseline": 4.91
+  },
+  "F583": {
+    "Baseline": 4.91
+  },
+  "F584": {
+    "Baseline": 4.92
+  },
+  "F585": {
+    "Baseline": 4.92
+  },
+  "F586": {
+    "Baseline": 4.92
+  },
+  "F587": {
+    "Baseline": 4.92
+  },
+  "F588": {
+    "Baseline": 4.92
+  },
+  "F589": {
+    "Baseline": 4.92
+  },
+  "F590": {
+    "Baseline": 4.93
+  },
+  "F591": {
+    "Baseline": 4.93
+  },
+  "F592": {
+    "Baseline": 4.93
+  },
+  "F593": {
+    "Baseline": 4.93
+  },
+  "F594": {
+    "Baseline": 4.93
+  },
+  "F595": {
+    "Baseline": 4.93
+  },
+  "F596": {
+    "Baseline": 4.93
+  },
+  "F597": {
+    "Baseline": 4.94
+  },
+  "F598": {
+    "Baseline": 4.94
+  },
+  "F599": {
+    "Baseline": 4.94
+  },
+  "F600": {
+    "Baseline": 4.94
+  },
+  "R5": {
+    "Baseline": 2.19
+  },
+  "R6": {
+    "Baseline": 2.22
+  },
+  "R7": {
+    "Baseline": 2.25
+  },
+  "R8": {
+    "Baseline": 2.28
+  },
+  "R9": {
+    "Baseline": 2.31
+  },
+  "R10": {
+    "Baseline": 2.34
+  },
+  "R11": {
+    "Baseline": 2.37
+  },
+  "R12": {
+    "Baseline": 2.39
+  },
+  "R13": {
+    "Baseline": 2.42
+  },
+  "R14": {
+    "Baseline": 2.44
+  },
+  "R15": {
+    "Baseline": 2.47
+  },
+  "R16": {
+    "Baseline": 2.49
+  },
+  "R17": {
+    "Baseline": 2.52
+  },
+  "R18": {
+    "Baseline": 2.54
+  },
+  "R19": {
+    "Baseline": 2.57
+  },
+  "R20": {
+    "Baseline": 2.59
+  },
+  "R21": {
+    "Baseline": 2.6
+  },
+  "R22": {
+    "Baseline": 2.61
+  },
+  "R23": {
+    "Baseline": 2.62
+  },
+  "R24": {
+    "Baseline": 2.63
+  },
+  "R25": {
+    "Baseline": 2.64
+  },
+  "R26": {
+    "Baseline": 2.65
+  },
+  "R27": {
+    "Baseline": 2.66
+  },
+  "R28": {
+    "Baseline": 2.67
+  },
+  "R29": {
+    "Baseline": 2.68
+  },
+  "R30": {
+    "Baseline": 2.69
+  },
+  "R31": {
+    "Baseline": 2.69
+  },
+  "R32": {
+    "Baseline": 2.7
+  },
+  "R33": {
+    "Baseline": 2.71
+  },
+  "R34": {
+    "Baseline": 2.72
+  },
+  "R35": {
+    "Baseline": 2.73
+  },
+  "R36": {
+    "Baseline": 2.74
+  },
+  "R37": {
+    "Baseline": 2.75
+  },
+  "R38": {
+    "Baseline": 2.76
+  },
+  "R39": {
+    "Baseline": 2.77
+  },
+  "R40": {
+    "Baseline": 2.78
+  },
+  "R41": {
+    "Baseline": 2.79
+  },
+  "R42": {
+    "Baseline": 2.79
+  },
+  "R43": {
+    "Baseline": 2.8
+  },
+  "R44": {
+    "Baseline": 2.81
+  },
+  "R45": {
+    "Baseline": 2.81
+  },
+  "R46": {
+    "Baseline": 2.82
+  },
+  "R47": {
+    "Baseline": 2.83
+  },
+  "R48": {
+    "Baseline": 2.83
+  },
+  "R49": {
+    "Baseline": 2.84
+  },
+  "R50": {
+    "Baseline": 2.85
+  },
+  "R51": {
+    "Baseline": 2.85
+  },
+  "R52": {
+    "Baseline": 2.86
+  },
+  "R53": {
+    "Baseline": 2.86
+  },
+  "R54": {
+    "Baseline": 2.87
+  },
+  "R55": {
+    "Baseline": 2.88
+  },
+  "R56": {
+    "Baseline": 2.88
+  },
+  "R57": {
+    "Baseline": 2.89
+  },
+  "R58": {
+    "Baseline": 2.9
+  },
+  "R59": {
+    "Baseline": 2.9
+  },
+  "R60": {
+    "Baseline": 2.91
+  },
+  "R61": {
+    "Baseline": 2.91
+  },
+  "R62": {
+    "Baseline": 2.92
+  },
+  "R63": {
+    "Baseline": 2.92
+  },
+  "R64": {
+    "Baseline": 2.92
+  },
+  "R65": {
+    "Baseline": 2.92
+  },
+  "R66": {
+    "Baseline": 2.93
+  },
+  "R67": {
+    "Baseline": 2.93
+  },
+  "R68": {
+    "Baseline": 2.93
+  },
+  "R69": {
+    "Baseline": 2.93
+  },
+  "R70": {
+    "Baseline": 2.94
+  },
+  "R71": {
+    "Baseline": 2.94
+  },
+  "R72": {
+    "Baseline": 2.94
+  },
+  "R73": {
+    "Baseline": 2.94
+  },
+  "R74": {
+    "Baseline": 2.95
+  },
+  "R75": {
+    "Baseline": 2.95
+  },
+  "R76": {
+    "Baseline": 2.95
+  },
+  "R77": {
+    "Baseline": 2.95
+  },
+  "R78": {
+    "Baseline": 2.96
+  },
+  "R79": {
+    "Baseline": 2.96
+  },
+  "R80": {
+    "Baseline": 2.96
+  },
+  "R81": {
+    "Baseline": 2.96
+  },
+  "R82": {
+    "Baseline": 2.97
+  },
+  "R83": {
+    "Baseline": 2.97
+  },
+  "R84": {
+    "Baseline": 2.97
+  },
+  "R85": {
+    "Baseline": 2.98
+  },
+  "R86": {
+    "Baseline": 2.98
+  },
+  "R87": {
+    "Baseline": 2.98
+  },
+  "R88": {
+    "Baseline": 2.98
+  },
+  "R89": {
+    "Baseline": 2.99
+  },
+  "R90": {
+    "Baseline": 2.99
+  },
+  "R91": {
+    "Baseline": 2.99
+  },
+  "R92": {
+    "Baseline": 3
+  },
+  "R93": {
+    "Baseline": 3
+  },
+  "R94": {
+    "Baseline": 3
+  },
+  "R95": {
+    "Baseline": 3.01
+  },
+  "R96": {
+    "Baseline": 3.01
+  },
+  "R97": {
+    "Baseline": 3.01
+  },
+  "R98": {
+    "Baseline": 3.01
+  },
+  "R99": {
+    "Baseline": 3.02
+  },
+  "R100": {
+    "Baseline": 3.02
+  },
+  "R101": {
+    "Baseline": 3.02
+  },
+  "R102": {
+    "Baseline": 3.03
+  },
+  "R103": {
+    "Baseline": 3.03
+  },
+  "R104": {
+    "Baseline": 3.03
+  },
+  "R105": {
+    "Baseline": 3.04
+  },
+  "R106": {
+    "Baseline": 3.04
+  },
+  "R107": {
+    "Baseline": 3.04
+  },
+  "R108": {
+    "Baseline": 3.04
+  },
+  "R109": {
+    "Baseline": 3.05
+  },
+  "R110": {
+    "Baseline": 3.05
+  },
+  "R111": {
+    "Baseline": 3.05
+  },
+  "R112": {
+    "Baseline": 3.06
+  },
+  "R113": {
+    "Baseline": 3.06
+  },
+  "R114": {
+    "Baseline": 3.06
+  },
+  "R115": {
+    "Baseline": 3.07
+  },
+  "R116": {
+    "Baseline": 3.07
+  },
+  "R117": {
+    "Baseline": 3.07
+  },
+  "R118": {
+    "Baseline": 3.07
+  },
+  "R119": {
+    "Baseline": 3.08
+  },
+  "R120": {
+    "Baseline": 3.08
+  },
+  "R121": {
+    "Baseline": 3.08
+  },
+  "R122": {
+    "Baseline": 3.09
+  },
+  "R123": {
+    "Baseline": 3.09
+  },
+  "R124": {
+    "Baseline": 3.09
+  },
+  "R125": {
+    "Baseline": 3.1
+  },
+  "R126": {
+    "Baseline": 3.1
+  },
+  "R127": {
+    "Baseline": 3.1
+  },
+  "R128": {
+    "Baseline": 3.11
+  },
+  "R129": {
+    "Baseline": 3.11
+  },
+  "R130": {
+    "Baseline": 3.12
+  },
+  "R131": {
+    "Baseline": 3.12
+  },
+  "R132": {
+    "Baseline": 3.12
+  },
+  "R133": {
+    "Baseline": 3.13
+  },
+  "R134": {
+    "Baseline": 3.13
+  },
+  "R135": {
+    "Baseline": 3.13
+  },
+  "R136": {
+    "Baseline": 3.14
+  },
+  "R137": {
+    "Baseline": 3.14
+  },
+  "R138": {
+    "Baseline": 3.14
+  },
+  "R139": {
+    "Baseline": 3.15
+  },
+  "R140": {
+    "Baseline": 3.15
+  },
+  "R141": {
+    "Baseline": 3.15
+  },
+  "R142": {
+    "Baseline": 3.16
+  },
+  "R143": {
+    "Baseline": 3.16
+  },
+  "R144": {
+    "Baseline": 3.17
+  },
+  "R145": {
+    "Baseline": 3.17
+  },
+  "R146": {
+    "Baseline": 3.17
+  },
+  "R147": {
+    "Baseline": 3.18
+  },
+  "R148": {
+    "Baseline": 3.18
+  },
+  "R149": {
+    "Baseline": 3.19
+  },
+  "R150": {
+    "Baseline": 3.19
+  },
+  "R151": {
+    "Baseline": 3.19
+  },
+  "R152": {
+    "Baseline": 3.2
+  },
+  "R153": {
+    "Baseline": 3.2
+  },
+  "R154": {
+    "Baseline": 3.21
+  },
+  "R155": {
+    "Baseline": 3.21
+  },
+  "R156": {
+    "Baseline": 3.21
+  },
+  "R157": {
+    "Baseline": 3.22
+  },
+  "R158": {
+    "Baseline": 3.22
+  },
+  "R159": {
+    "Baseline": 3.23
+  },
+  "R160": {
+    "Baseline": 3.23
+  },
+  "R161": {
+    "Baseline": 3.23
+  },
+  "R162": {
+    "Baseline": 3.24
+  },
+  "R163": {
+    "Baseline": 3.24
+  },
+  "R164": {
+    "Baseline": 3.25
+  },
+  "R165": {
+    "Baseline": 3.25
+  },
+  "R166": {
+    "Baseline": 3.25
+  },
+  "R167": {
+    "Baseline": 3.26
+  },
+  "R168": {
+    "Baseline": 3.26
+  },
+  "R169": {
+    "Baseline": 3.27
+  },
+  "R170": {
+    "Baseline": 3.27
+  },
+  "R171": {
+    "Baseline": 3.27
+  },
+  "R172": {
+    "Baseline": 3.28
+  },
+  "R173": {
+    "Baseline": 3.28
+  },
+  "R174": {
+    "Baseline": 3.29
+  },
+  "R175": {
+    "Baseline": 3.29
+  },
+  "R176": {
+    "Baseline": 3.29
+  },
+  "R177": {
+    "Baseline": 3.3
+  },
+  "R178": {
+    "Baseline": 3.3
+  },
+  "R179": {
+    "Baseline": 3.31
+  },
+  "R180": {
+    "Baseline": 3.31
+  },
+  "R181": {
+    "Baseline": 3.32
+  },
+  "R182": {
+    "Baseline": 3.32
+  },
+  "R183": {
+    "Baseline": 3.33
+  },
+  "R184": {
+    "Baseline": 3.33
+  },
+  "R185": {
+    "Baseline": 3.34
+  },
+  "R186": {
+    "Baseline": 3.34
+  },
+  "R187": {
+    "Baseline": 3.35
+  },
+  "R188": {
+    "Baseline": 3.35
+  },
+  "R189": {
+    "Baseline": 3.36
+  },
+  "R190": {
+    "Baseline": 3.37
+  },
+  "R191": {
+    "Baseline": 3.37
+  },
+  "R192": {
+    "Baseline": 3.38
+  },
+  "R193": {
+    "Baseline": 3.38
+  },
+  "R194": {
+    "Baseline": 3.39
+  },
+  "R195": {
+    "Baseline": 3.39
+  },
+  "R196": {
+    "Baseline": 3.4
+  },
+  "R197": {
+    "Baseline": 3.4
+  },
+  "R198": {
+    "Baseline": 3.41
+  },
+  "R199": {
+    "Baseline": 3.41
+  },
+  "R200": {
+    "Baseline": 3.42
+  },
+  "R201": {
+    "Baseline": 3.43
+  },
+  "R202": {
+    "Baseline": 3.43
+  },
+  "R203": {
+    "Baseline": 3.44
+  },
+  "R204": {
+    "Baseline": 3.44
+  },
+  "R205": {
+    "Baseline": 3.45
+  },
+  "R206": {
+    "Baseline": 3.45
+  },
+  "R207": {
+    "Baseline": 3.46
+  },
+  "R208": {
+    "Baseline": 3.46
+  },
+  "R209": {
+    "Baseline": 3.47
+  },
+  "R210": {
+    "Baseline": 3.48
+  },
+  "R211": {
+    "Baseline": 3.48
+  },
+  "R212": {
+    "Baseline": 3.49
+  },
+  "R213": {
+    "Baseline": 3.49
+  },
+  "R214": {
+    "Baseline": 3.5
+  },
+  "R215": {
+    "Baseline": 3.5
+  },
+  "R216": {
+    "Baseline": 3.51
+  },
+  "R217": {
+    "Baseline": 3.51
+  },
+  "R218": {
+    "Baseline": 3.52
+  },
+  "R219": {
+    "Baseline": 3.52
+  },
+  "R220": {
+    "Baseline": 3.53
+  },
+  "R221": {
+    "Baseline": 3.54
+  },
+  "R222": {
+    "Baseline": 3.54
+  },
+  "R223": {
+    "Baseline": 3.55
+  },
+  "R224": {
+    "Baseline": 3.55
+  },
+  "R225": {
+    "Baseline": 3.56
+  },
+  "R226": {
+    "Baseline": 3.56
+  },
+  "R227": {
+    "Baseline": 3.57
+  },
+  "R228": {
+    "Baseline": 3.57
+  },
+  "R229": {
+    "Baseline": 3.58
+  },
+  "R230": {
+    "Baseline": 3.59
+  },
+  "R231": {
+    "Baseline": 3.59
+  },
+  "R232": {
+    "Baseline": 3.6
+  },
+  "R233": {
+    "Baseline": 3.6
+  },
+  "R234": {
+    "Baseline": 3.61
+  },
+  "R235": {
+    "Baseline": 3.61
+  },
+  "R236": {
+    "Baseline": 3.62
+  },
+  "R237": {
+    "Baseline": 3.62
+  },
+  "R238": {
+    "Baseline": 3.63
+  },
+  "R239": {
+    "Baseline": 3.63
+  },
+  "R240": {
+    "Baseline": 3.64
+  },
+  "R241": {
+    "Baseline": 3.65
+  },
+  "R242": {
+    "Baseline": 3.65
+  },
+  "R243": {
+    "Baseline": 3.66
+  },
+  "R244": {
+    "Baseline": 3.66
+  },
+  "R245": {
+    "Baseline": 3.67
+  },
+  "R246": {
+    "Baseline": 3.67
+  },
+  "R247": {
+    "Baseline": 3.68
+  },
+  "R248": {
+    "Baseline": 3.68
+  },
+  "R249": {
+    "Baseline": 3.69
+  },
+  "R250": {
+    "Baseline": 3.69
+  },
+  "R251": {
+    "Baseline": 3.7
+  },
+  "R252": {
+    "Baseline": 3.7
+  },
+  "R253": {
+    "Baseline": 3.71
+  },
+  "R254": {
+    "Baseline": 3.71
+  },
+  "R255": {
+    "Baseline": 3.72
+  },
+  "R256": {
+    "Baseline": 3.72
+  },
+  "R257": {
+    "Baseline": 3.73
+  },
+  "R258": {
+    "Baseline": 3.73
+  },
+  "R259": {
+    "Baseline": 3.74
+  },
+  "R260": {
+    "Baseline": 3.74
+  },
+  "R261": {
+    "Baseline": 3.74
+  },
+  "R262": {
+    "Baseline": 3.75
+  },
+  "R263": {
+    "Baseline": 3.75
+  },
+  "R264": {
+    "Baseline": 3.76
+  },
+  "R265": {
+    "Baseline": 3.76
+  },
+  "R266": {
+    "Baseline": 3.77
+  },
+  "R267": {
+    "Baseline": 3.77
+  },
+  "R268": {
+    "Baseline": 3.78
+  },
+  "R269": {
+    "Baseline": 3.78
+  },
+  "R270": {
+    "Baseline": 3.79
+  },
+  "R271": {
+    "Baseline": 3.79
+  },
+  "R272": {
+    "Baseline": 3.79
+  },
+  "R273": {
+    "Baseline": 3.8
+  },
+  "R274": {
+    "Baseline": 3.8
+  },
+  "R275": {
+    "Baseline": 3.81
+  },
+  "R276": {
+    "Baseline": 3.81
+  },
+  "R277": {
+    "Baseline": 3.82
+  },
+  "R278": {
+    "Baseline": 3.82
+  },
+  "R279": {
+    "Baseline": 3.83
+  },
+  "R280": {
+    "Baseline": 3.83
+  },
+  "R281": {
+    "Baseline": 3.83
+  },
+  "R282": {
+    "Baseline": 3.84
+  },
+  "R283": {
+    "Baseline": 3.84
+  },
+  "R284": {
+    "Baseline": 3.84
+  },
+  "R285": {
+    "Baseline": 3.85
+  },
+  "R286": {
+    "Baseline": 3.85
+  },
+  "R287": {
+    "Baseline": 3.85
+  },
+  "R288": {
+    "Baseline": 3.86
+  },
+  "R289": {
+    "Baseline": 3.86
+  },
+  "R290": {
+    "Baseline": 3.87
+  },
+  "R291": {
+    "Baseline": 3.87
+  },
+  "R292": {
+    "Baseline": 3.87
+  },
+  "R293": {
+    "Baseline": 3.88
+  },
+  "R294": {
+    "Baseline": 3.88
+  },
+  "R295": {
+    "Baseline": 3.88
+  },
+  "R296": {
+    "Baseline": 3.89
+  },
+  "R297": {
+    "Baseline": 3.89
+  },
+  "R298": {
+    "Baseline": 3.89
+  },
+  "R299": {
+    "Baseline": 3.9
+  },
+  "R300": {
+    "Baseline": 3.9
+  },
+  "R301": {
+    "Baseline": 3.9
+  },
+  "R302": {
+    "Baseline": 3.91
+  },
+  "R303": {
+    "Baseline": 3.91
+  },
+  "R304": {
+    "Baseline": 3.91
+  },
+  "R305": {
+    "Baseline": 3.91
+  },
+  "R306": {
+    "Baseline": 3.92
+  },
+  "R307": {
+    "Baseline": 3.92
+  },
+  "R308": {
+    "Baseline": 3.92
+  },
+  "R309": {
+    "Baseline": 3.92
+  },
+  "R310": {
+    "Baseline": 3.93
+  },
+  "R311": {
+    "Baseline": 3.93
+  },
+  "R312": {
+    "Baseline": 3.93
+  },
+  "R313": {
+    "Baseline": 3.93
+  },
+  "R314": {
+    "Baseline": 3.94
+  },
+  "R315": {
+    "Baseline": 3.94
+  },
+  "R316": {
+    "Baseline": 3.94
+  },
+  "R317": {
+    "Baseline": 3.94
+  },
+  "R318": {
+    "Baseline": 3.95
+  },
+  "R319": {
+    "Baseline": 3.95
+  },
+  "R320": {
+    "Baseline": 3.95
+  },
+  "R321": {
+    "Baseline": 3.95
+  },
+  "R322": {
+    "Baseline": 3.96
+  },
+  "R323": {
+    "Baseline": 3.96
+  },
+  "R324": {
+    "Baseline": 3.96
+  },
+  "R325": {
+    "Baseline": 3.97
+  },
+  "R326": {
+    "Baseline": 3.97
+  },
+  "R327": {
+    "Baseline": 3.97
+  },
+  "R328": {
+    "Baseline": 3.98
+  },
+  "R329": {
+    "Baseline": 3.98
+  },
+  "R330": {
+    "Baseline": 3.99
+  },
+  "R331": {
+    "Baseline": 3.99
+  },
+  "R332": {
+    "Baseline": 3.99
+  },
+  "R333": {
+    "Baseline": 4
+  },
+  "R334": {
+    "Baseline": 4
+  },
+  "R335": {
+    "Baseline": 4
+  },
+  "R336": {
+    "Baseline": 4.01
+  },
+  "R337": {
+    "Baseline": 4.01
+  },
+  "R338": {
+    "Baseline": 4.01
+  },
+  "R339": {
+    "Baseline": 4.02
+  },
+  "R340": {
+    "Baseline": 4.02
+  },
+  "R341": {
+    "Baseline": 4.02
+  },
+  "R342": {
+    "Baseline": 4.03
+  },
+  "R343": {
+    "Baseline": 4.03
+  },
+  "R344": {
+    "Baseline": 4.04
+  },
+  "R345": {
+    "Baseline": 4.04
+  },
+  "R346": {
+    "Baseline": 4.05
+  },
+  "R347": {
+    "Baseline": 4.05
+  },
+  "R348": {
+    "Baseline": 4.06
+  },
+  "R349": {
+    "Baseline": 4.06
+  },
+  "R350": {
+    "Baseline": 4.07
+  },
+  "R351": {
+    "Baseline": 4.07
+  },
+  "R352": {
+    "Baseline": 4.07
+  },
+  "R353": {
+    "Baseline": 4.08
+  },
+  "R354": {
+    "Baseline": 4.08
+  },
+  "R355": {
+    "Baseline": 4.09
+  },
+  "R356": {
+    "Baseline": 4.09
+  },
+  "R357": {
+    "Baseline": 4.1
+  },
+  "R358": {
+    "Baseline": 4.1
+  },
+  "R359": {
+    "Baseline": 4.11
+  },
+  "R360": {
+    "Baseline": 4.11
+  },
+  "R361": {
+    "Baseline": 4.12
+  },
+  "R362": {
+    "Baseline": 4.12
+  },
+  "R363": {
+    "Baseline": 4.13
+  },
+  "R364": {
+    "Baseline": 4.13
+  },
+  "R365": {
+    "Baseline": 4.14
+  },
+  "R366": {
+    "Baseline": 4.14
+  },
+  "R367": {
+    "Baseline": 4.15
+  },
+  "R368": {
+    "Baseline": 4.15
+  },
+  "R369": {
+    "Baseline": 4.16
+  },
+  "R370": {
+    "Baseline": 4.16
+  },
+  "R371": {
+    "Baseline": 4.17
+  },
+  "R372": {
+    "Baseline": 4.17
+  },
+  "R373": {
+    "Baseline": 4.18
+  },
+  "R374": {
+    "Baseline": 4.18
+  },
+  "R375": {
+    "Baseline": 4.19
+  },
+  "R376": {
+    "Baseline": 4.19
+  },
+  "R377": {
+    "Baseline": 4.2
+  },
+  "R378": {
+    "Baseline": 4.2
+  },
+  "R379": {
+    "Baseline": 4.21
+  },
+  "R380": {
+    "Baseline": 4.21
+  },
+  "R381": {
+    "Baseline": 4.21
+  },
+  "R382": {
+    "Baseline": 4.22
+  },
+  "R383": {
+    "Baseline": 4.22
+  },
+  "R384": {
+    "Baseline": 4.23
+  },
+  "R385": {
+    "Baseline": 4.23
+  },
+  "R386": {
+    "Baseline": 4.24
+  },
+  "R387": {
+    "Baseline": 4.24
+  },
+  "R388": {
+    "Baseline": 4.25
+  },
+  "R389": {
+    "Baseline": 4.25
+  },
+  "R390": {
+    "Baseline": 4.26
+  },
+  "R391": {
+    "Baseline": 4.26
+  },
+  "R392": {
+    "Baseline": 4.26
+  },
+  "R393": {
+    "Baseline": 4.27
+  },
+  "R394": {
+    "Baseline": 4.27
+  },
+  "R395": {
+    "Baseline": 4.28
+  },
+  "R396": {
+    "Baseline": 4.28
+  },
+  "R397": {
+    "Baseline": 4.29
+  },
+  "R398": {
+    "Baseline": 4.29
+  },
+  "R399": {
+    "Baseline": 4.3
+  },
+  "R400": {
+    "Baseline": 4.3
+  },
+  "R401": {
+    "Baseline": 4.3
+  },
+  "R402": {
+    "Baseline": 4.3
+  },
+  "R403": {
+    "Baseline": 4.31
+  },
+  "R404": {
+    "Baseline": 4.31
+  },
+  "R405": {
+    "Baseline": 4.31
+  },
+  "R406": {
+    "Baseline": 4.31
+  },
+  "R407": {
+    "Baseline": 4.31
+  },
+  "R408": {
+    "Baseline": 4.32
+  },
+  "R409": {
+    "Baseline": 4.32
+  },
+  "R410": {
+    "Baseline": 4.32
+  },
+  "R411": {
+    "Baseline": 4.32
+  },
+  "R412": {
+    "Baseline": 4.32
+  },
+  "R413": {
+    "Baseline": 4.33
+  },
+  "R414": {
+    "Baseline": 4.33
+  },
+  "R415": {
+    "Baseline": 4.33
+  },
+  "R416": {
+    "Baseline": 4.33
+  },
+  "R417": {
+    "Baseline": 4.33
+  },
+  "R418": {
+    "Baseline": 4.34
+  },
+  "R419": {
+    "Baseline": 4.34
+  },
+  "R420": {
+    "Baseline": 4.34
+  },
+  "R421": {
+    "Baseline": 4.34
+  },
+  "R422": {
+    "Baseline": 4.35
+  },
+  "R423": {
+    "Baseline": 4.35
+  },
+  "R424": {
+    "Baseline": 4.35
+  },
+  "R425": {
+    "Baseline": 4.35
+  },
+  "R426": {
+    "Baseline": 4.36
+  },
+  "R427": {
+    "Baseline": 4.36
+  },
+  "R428": {
+    "Baseline": 4.36
+  },
+  "R429": {
+    "Baseline": 4.36
+  },
+  "R430": {
+    "Baseline": 4.37
+  },
+  "R431": {
+    "Baseline": 4.37
+  },
+  "R432": {
+    "Baseline": 4.37
+  },
+  "R433": {
+    "Baseline": 4.37
+  },
+  "R434": {
+    "Baseline": 4.38
+  },
+  "R435": {
+    "Baseline": 4.38
+  },
+  "R436": {
+    "Baseline": 4.38
+  },
+  "R437": {
+    "Baseline": 4.38
+  },
+  "R438": {
+    "Baseline": 4.39
+  },
+  "R439": {
+    "Baseline": 4.39
+  },
+  "R440": {
+    "Baseline": 4.39
+  },
+  "R441": {
+    "Baseline": 4.39
+  },
+  "R442": {
+    "Baseline": 4.4
+  },
+  "R443": {
+    "Baseline": 4.4
+  },
+  "R444": {
+    "Baseline": 4.41
+  },
+  "R445": {
+    "Baseline": 4.41
+  },
+  "R446": {
+    "Baseline": 4.42
+  },
+  "R447": {
+    "Baseline": 4.42
+  },
+  "R448": {
+    "Baseline": 4.43
+  },
+  "R449": {
+    "Baseline": 4.43
+  },
+  "R450": {
+    "Baseline": 4.44
+  },
+  "R451": {
+    "Baseline": 4.44
+  },
+  "R452": {
+    "Baseline": 4.44
+  },
+  "R453": {
+    "Baseline": 4.45
+  },
+  "R454": {
+    "Baseline": 4.45
+  },
+  "R455": {
+    "Baseline": 4.46
+  },
+  "R456": {
+    "Baseline": 4.46
+  },
+  "R457": {
+    "Baseline": 4.47
+  },
+  "R458": {
+    "Baseline": 4.47
+  },
+  "R459": {
+    "Baseline": 4.48
+  },
+  "R460": {
+    "Baseline": 4.48
+  },
+  "R461": {
+    "Baseline": 4.49
+  },
+  "R462": {
+    "Baseline": 4.49
+  },
+  "R463": {
+    "Baseline": 4.5
+  },
+  "R464": {
+    "Baseline": 4.5
+  },
+  "R465": {
+    "Baseline": 4.51
+  },
+  "R466": {
+    "Baseline": 4.51
+  },
+  "R467": {
+    "Baseline": 4.52
+  },
+  "R468": {
+    "Baseline": 4.52
+  },
+  "R469": {
+    "Baseline": 4.53
+  },
+  "R470": {
+    "Baseline": 4.54
+  },
+  "R471": {
+    "Baseline": 4.54
+  },
+  "R472": {
+    "Baseline": 4.55
+  },
+  "R473": {
+    "Baseline": 4.55
+  },
+  "R474": {
+    "Baseline": 4.56
+  },
+  "R475": {
+    "Baseline": 4.56
+  },
+  "R476": {
+    "Baseline": 4.57
+  },
+  "R477": {
+    "Baseline": 4.57
+  },
+  "R478": {
+    "Baseline": 4.58
+  },
+  "R479": {
+    "Baseline": 4.58
+  },
+  "R480": {
+    "Baseline": 4.59
+  },
+  "R481": {
+    "Baseline": 4.6
+  },
+  "R482": {
+    "Baseline": 4.6
+  },
+  "R483": {
+    "Baseline": 4.61
+  },
+  "R484": {
+    "Baseline": 4.62
+  },
+  "R485": {
+    "Baseline": 4.62
+  },
+  "R486": {
+    "Baseline": 4.63
+  },
+  "R487": {
+    "Baseline": 4.64
+  },
+  "R488": {
+    "Baseline": 4.64
+  },
+  "R489": {
+    "Baseline": 4.65
+  },
+  "R490": {
+    "Baseline": 4.66
+  },
+  "R491": {
+    "Baseline": 4.66
+  },
+  "R492": {
+    "Baseline": 4.67
+  },
+  "R493": {
+    "Baseline": 4.67
+  },
+  "R494": {
+    "Baseline": 4.68
+  },
+  "R495": {
+    "Baseline": 4.69
+  },
+  "R496": {
+    "Baseline": 4.69
+  },
+  "R497": {
+    "Baseline": 4.7
+  },
+  "R498": {
+    "Baseline": 4.71
+  },
+  "R499": {
+    "Baseline": 4.71
+  },
+  "R500": {
+    "Baseline": 4.72
+  },
+  "R501": {
+    "Baseline": 4.73
+  },
+  "R502": {
+    "Baseline": 4.73
+  },
+  "R503": {
+    "Baseline": 4.74
+  },
+  "R504": {
+    "Baseline": 4.75
+  },
+  "R505": {
+    "Baseline": 4.75
+  },
+  "R506": {
+    "Baseline": 4.76
+  },
+  "R507": {
+    "Baseline": 4.77
+  },
+  "R508": {
+    "Baseline": 4.77
+  },
+  "R509": {
+    "Baseline": 4.78
+  },
+  "R510": {
+    "Baseline": 4.79
+  },
+  "R511": {
+    "Baseline": 4.79
+  },
+  "R512": {
+    "Baseline": 4.8
+  },
+  "R513": {
+    "Baseline": 4.8
+  },
+  "R514": {
+    "Baseline": 4.81
+  },
+  "R515": {
+    "Baseline": 4.82
+  },
+  "R516": {
+    "Baseline": 4.82
+  },
+  "R517": {
+    "Baseline": 4.83
+  },
+  "R518": {
+    "Baseline": 4.84
+  },
+  "R519": {
+    "Baseline": 4.84
+  },
+  "R520": {
+    "Baseline": 4.85
+  },
+  "R521": {
+    "Baseline": 4.86
+  },
+  "R522": {
+    "Baseline": 4.86
+  },
+  "R523": {
+    "Baseline": 4.87
+  },
+  "R524": {
+    "Baseline": 4.87
+  },
+  "R525": {
+    "Baseline": 4.88
+  },
+  "R526": {
+    "Baseline": 4.89
+  },
+  "R527": {
+    "Baseline": 4.89
+  },
+  "R528": {
+    "Baseline": 4.9
+  },
+  "R529": {
+    "Baseline": 4.9
+  },
+  "R530": {
+    "Baseline": 4.91
+  },
+  "R531": {
+    "Baseline": 4.92
+  },
+  "R532": {
+    "Baseline": 4.92
+  },
+  "R533": {
+    "Baseline": 4.93
+  },
+  "R534": {
+    "Baseline": 4.93
+  },
+  "R535": {
+    "Baseline": 4.94
+  },
+  "R536": {
+    "Baseline": 4.95
+  },
+  "R537": {
+    "Baseline": 4.95
+  },
+  "R538": {
+    "Baseline": 4.96
+  },
+  "R539": {
+    "Baseline": 4.96
+  },
+  "R540": {
+    "Baseline": 4.97
+  },
+  "R541": {
+    "Baseline": 4.97
+  },
+  "R542": {
+    "Baseline": 4.98
+  },
+  "R543": {
+    "Baseline": 4.98
+  },
+  "R544": {
+    "Baseline": 4.99
+  },
+  "R545": {
+    "Baseline": 4.99
+  },
+  "R546": {
+    "Baseline": 4.99
+  },
+  "R547": {
+    "Baseline": 5
+  },
+  "R548": {
+    "Baseline": 5
+  },
+  "R549": {
+    "Baseline": 5.01
+  },
+  "R550": {
+    "Baseline": 5.01
+  },
+  "R551": {
+    "Baseline": 5.01
+  },
+  "R552": {
+    "Baseline": 5.02
+  },
+  "R553": {
+    "Baseline": 5.02
+  },
+  "R554": {
+    "Baseline": 5.03
+  },
+  "R555": {
+    "Baseline": 5.03
+  },
+  "R556": {
+    "Baseline": 5.03
+  },
+  "R557": {
+    "Baseline": 5.04
+  },
+  "R558": {
+    "Baseline": 5.04
+  },
+  "R559": {
+    "Baseline": 5.05
+  },
+  "R560": {
+    "Baseline": 5.05
+  },
+  "R561": {
+    "Baseline": 5.05
+  },
+  "R562": {
+    "Baseline": 5.06
+  },
+  "R563": {
+    "Baseline": 5.06
+  },
+  "R564": {
+    "Baseline": 5.06
+  },
+  "R565": {
+    "Baseline": 5.06
+  },
+  "R566": {
+    "Baseline": 5.07
+  },
+  "R567": {
+    "Baseline": 5.07
+  },
+  "R568": {
+    "Baseline": 5.07
+  },
+  "R569": {
+    "Baseline": 5.07
+  },
+  "R570": {
+    "Baseline": 5.08
+  },
+  "R571": {
+    "Baseline": 5.08
+  },
+  "R572": {
+    "Baseline": 5.08
+  },
+  "R573": {
+    "Baseline": 5.08
+  },
+  "R574": {
+    "Baseline": 5.09
+  },
+  "R575": {
+    "Baseline": 5.09
+  },
+  "R576": {
+    "Baseline": 5.09
+  },
+  "R577": {
+    "Baseline": 5.09
+  },
+  "R578": {
+    "Baseline": 5.1
+  },
+  "R579": {
+    "Baseline": 5.1
+  },
+  "R580": {
+    "Baseline": 5.1
+  },
+  "R581": {
+    "Baseline": 5.1
+  },
+  "R582": {
+    "Baseline": 5.1
+  },
+  "R583": {
+    "Baseline": 5.1
+  },
+  "R584": {
+    "Baseline": 5.11
+  },
+  "R585": {
+    "Baseline": 5.11
+  },
+  "R586": {
+    "Baseline": 5.11
+  },
+  "R587": {
+    "Baseline": 5.11
+  },
+  "R588": {
+    "Baseline": 5.11
+  },
+  "R589": {
+    "Baseline": 5.11
+  },
+  "R590": {
+    "Baseline": 5.12
+  },
+  "R591": {
+    "Baseline": 5.12
+  },
+  "R592": {
+    "Baseline": 5.12
+  },
+  "R593": {
+    "Baseline": 5.12
+  },
+  "R594": {
+    "Baseline": 5.12
+  },
+  "R595": {
+    "Baseline": 5.12
+  },
+  "R596": {
+    "Baseline": 5.12
+  },
+  "R597": {
+    "Baseline": 5.13
+  },
+  "R598": {
+    "Baseline": 5.13
+  },
+  "R599": {
+    "Baseline": 5.13
+  },
+  "R600": {
+    "Baseline": 5.13
+  },
+  "S5": {
+    "Baseline": 2.28
+  },
+  "S6": {
+    "Baseline": 2.31
+  },
+  "S7": {
+    "Baseline": 2.34
+  },
+  "S8": {
+    "Baseline": 2.37
+  },
+  "S9": {
+    "Baseline": 2.4
+  },
+  "S10": {
+    "Baseline": 2.43
+  },
+  "S11": {
+    "Baseline": 2.44
+  },
+  "S12": {
+    "Baseline": 2.45
+  },
+  "S13": {
+    "Baseline": 2.46
+  },
+  "S14": {
+    "Baseline": 2.47
+  },
+  "S15": {
+    "Baseline": 2.48
+  },
+  "S16": {
+    "Baseline": 2.49
+  },
+  "S17": {
+    "Baseline": 2.5
+  },
+  "S18": {
+    "Baseline": 2.51
+  },
+  "S19": {
+    "Baseline": 2.52
+  },
+  "S20": {
+    "Baseline": 2.53
+  },
+  "S21": {
+    "Baseline": 2.54
+  },
+  "S22": {
+    "Baseline": 2.56
+  },
+  "S23": {
+    "Baseline": 2.57
+  },
+  "S24": {
+    "Baseline": 2.59
+  },
+  "S25": {
+    "Baseline": 2.6
+  },
+  "S26": {
+    "Baseline": 2.62
+  },
+  "S27": {
+    "Baseline": 2.63
+  },
+  "S28": {
+    "Baseline": 2.65
+  },
+  "S29": {
+    "Baseline": 2.66
+  },
+  "S30": {
+    "Baseline": 2.68
+  },
+  "S31": {
+    "Baseline": 2.69
+  },
+  "S32": {
+    "Baseline": 2.7
+  },
+  "S33": {
+    "Baseline": 2.72
+  },
+  "S34": {
+    "Baseline": 2.73
+  },
+  "S35": {
+    "Baseline": 2.75
+  },
+  "S36": {
+    "Baseline": 2.76
+  },
+  "S37": {
+    "Baseline": 2.78
+  },
+  "S38": {
+    "Baseline": 2.79
+  },
+  "S39": {
+    "Baseline": 2.81
+  },
+  "S40": {
+    "Baseline": 2.82
+  },
+  "S41": {
+    "Baseline": 2.84
+  },
+  "S42": {
+    "Baseline": 2.85
+  },
+  "S43": {
+    "Baseline": 2.87
+  },
+  "S44": {
+    "Baseline": 2.89
+  },
+  "S45": {
+    "Baseline": 2.9
+  },
+  "S46": {
+    "Baseline": 2.92
+  },
+  "S47": {
+    "Baseline": 2.94
+  },
+  "S48": {
+    "Baseline": 2.95
+  },
+  "S49": {
+    "Baseline": 2.97
+  },
+  "S50": {
+    "Baseline": 2.99
+  },
+  "S51": {
+    "Baseline": 3
+  },
+  "S52": {
+    "Baseline": 3.02
+  },
+  "S53": {
+    "Baseline": 3.03
+  },
+  "S54": {
+    "Baseline": 3.05
+  },
+  "S55": {
+    "Baseline": 3.07
+  },
+  "S56": {
+    "Baseline": 3.08
+  },
+  "S57": {
+    "Baseline": 3.1
+  },
+  "S58": {
+    "Baseline": 3.12
+  },
+  "S59": {
+    "Baseline": 3.13
+  },
+  "S60": {
+    "Baseline": 3.15
+  },
+  "S61": {
+    "Baseline": 3.15
+  },
+  "S62": {
+    "Baseline": 3.16
+  },
+  "S63": {
+    "Baseline": 3.16
+  },
+  "S64": {
+    "Baseline": 3.17
+  },
+  "S65": {
+    "Baseline": 3.17
+  },
+  "S66": {
+    "Baseline": 3.18
+  },
+  "S67": {
+    "Baseline": 3.18
+  },
+  "S68": {
+    "Baseline": 3.19
+  },
+  "S69": {
+    "Baseline": 3.19
+  },
+  "S70": {
+    "Baseline": 3.2
+  },
+  "S71": {
+    "Baseline": 3.2
+  },
+  "S72": {
+    "Baseline": 3.2
+  },
+  "S73": {
+    "Baseline": 3.21
+  },
+  "S74": {
+    "Baseline": 3.21
+  },
+  "S75": {
+    "Baseline": 3.22
+  },
+  "S76": {
+    "Baseline": 3.22
+  },
+  "S77": {
+    "Baseline": 3.23
+  },
+  "S78": {
+    "Baseline": 3.23
+  },
+  "S79": {
+    "Baseline": 3.24
+  },
+  "S80": {
+    "Baseline": 3.24
+  },
+  "S81": {
+    "Baseline": 3.24
+  },
+  "S82": {
+    "Baseline": 3.24
+  },
+  "S83": {
+    "Baseline": 3.24
+  },
+  "S84": {
+    "Baseline": 3.24
+  },
+  "S85": {
+    "Baseline": 3.24
+  },
+  "S86": {
+    "Baseline": 3.24
+  },
+  "S87": {
+    "Baseline": 3.24
+  },
+  "S88": {
+    "Baseline": 3.24
+  },
+  "S89": {
+    "Baseline": 3.24
+  },
+  "S90": {
+    "Baseline": 3.24
+  },
+  "S91": {
+    "Baseline": 3.23
+  },
+  "S92": {
+    "Baseline": 3.23
+  },
+  "S93": {
+    "Baseline": 3.23
+  },
+  "S94": {
+    "Baseline": 3.23
+  },
+  "S95": {
+    "Baseline": 3.23
+  },
+  "S96": {
+    "Baseline": 3.23
+  },
+  "S97": {
+    "Baseline": 3.23
+  },
+  "S98": {
+    "Baseline": 3.23
+  },
+  "S99": {
+    "Baseline": 3.23
+  },
+  "S100": {
+    "Baseline": 3.23
+  },
+  "S101": {
+    "Baseline": 3.23
+  },
+  "S102": {
+    "Baseline": 3.23
+  },
+  "S103": {
+    "Baseline": 3.23
+  },
+  "S104": {
+    "Baseline": 3.23
+  },
+  "S105": {
+    "Baseline": 3.23
+  },
+  "S106": {
+    "Baseline": 3.22
+  },
+  "S107": {
+    "Baseline": 3.22
+  },
+  "S108": {
+    "Baseline": 3.22
+  },
+  "S109": {
+    "Baseline": 3.22
+  },
+  "S110": {
+    "Baseline": 3.22
+  },
+  "S111": {
+    "Baseline": 3.22
+  },
+  "S112": {
+    "Baseline": 3.22
+  },
+  "S113": {
+    "Baseline": 3.22
+  },
+  "S114": {
+    "Baseline": 3.22
+  },
+  "S115": {
+    "Baseline": 3.22
+  },
+  "S116": {
+    "Baseline": 3.21
+  },
+  "S117": {
+    "Baseline": 3.21
+  },
+  "S118": {
+    "Baseline": 3.21
+  },
+  "S119": {
+    "Baseline": 3.21
+  },
+  "S120": {
+    "Baseline": 3.21
+  },
+  "S121": {
+    "Baseline": 3.21
+  },
+  "S122": {
+    "Baseline": 3.21
+  },
+  "S123": {
+    "Baseline": 3.21
+  },
+  "S124": {
+    "Baseline": 3.21
+  },
+  "S125": {
+    "Baseline": 3.21
+  },
+  "S126": {
+    "Baseline": 3.21
+  },
+  "S127": {
+    "Baseline": 3.21
+  },
+  "S128": {
+    "Baseline": 3.21
+  },
+  "S129": {
+    "Baseline": 3.21
+  },
+  "S130": {
+    "Baseline": 3.22
+  },
+  "S131": {
+    "Baseline": 3.22
+  },
+  "S132": {
+    "Baseline": 3.22
+  },
+  "S133": {
+    "Baseline": 3.22
+  },
+  "S134": {
+    "Baseline": 3.22
+  },
+  "S135": {
+    "Baseline": 3.22
+  },
+  "S136": {
+    "Baseline": 3.22
+  },
+  "S137": {
+    "Baseline": 3.22
+  },
+  "S138": {
+    "Baseline": 3.22
+  },
+  "S139": {
+    "Baseline": 3.22
+  },
+  "S140": {
+    "Baseline": 3.22
+  },
+  "S141": {
+    "Baseline": 3.22
+  },
+  "S142": {
+    "Baseline": 3.23
+  },
+  "S143": {
+    "Baseline": 3.23
+  },
+  "S144": {
+    "Baseline": 3.23
+  },
+  "S145": {
+    "Baseline": 3.24
+  },
+  "S146": {
+    "Baseline": 3.24
+  },
+  "S147": {
+    "Baseline": 3.24
+  },
+  "S148": {
+    "Baseline": 3.24
+  },
+  "S149": {
+    "Baseline": 3.25
+  },
+  "S150": {
+    "Baseline": 3.25
+  },
+  "S151": {
+    "Baseline": 3.25
+  },
+  "S152": {
+    "Baseline": 3.26
+  },
+  "S153": {
+    "Baseline": 3.26
+  },
+  "S154": {
+    "Baseline": 3.26
+  },
+  "S155": {
+    "Baseline": 3.27
+  },
+  "S156": {
+    "Baseline": 3.27
+  },
+  "S157": {
+    "Baseline": 3.27
+  },
+  "S158": {
+    "Baseline": 3.27
+  },
+  "S159": {
+    "Baseline": 3.28
+  },
+  "S160": {
+    "Baseline": 3.28
+  },
+  "S161": {
+    "Baseline": 3.29
+  },
+  "S162": {
+    "Baseline": 3.29
+  },
+  "S163": {
+    "Baseline": 3.3
+  },
+  "S164": {
+    "Baseline": 3.3
+  },
+  "S165": {
+    "Baseline": 3.31
+  },
+  "S166": {
+    "Baseline": 3.32
+  },
+  "S167": {
+    "Baseline": 3.32
+  },
+  "S168": {
+    "Baseline": 3.33
+  },
+  "S169": {
+    "Baseline": 3.33
+  },
+  "S170": {
+    "Baseline": 3.34
+  },
+  "S171": {
+    "Baseline": 3.35
+  },
+  "S172": {
+    "Baseline": 3.35
+  },
+  "S173": {
+    "Baseline": 3.36
+  },
+  "S174": {
+    "Baseline": 3.36
+  },
+  "S175": {
+    "Baseline": 3.37
+  },
+  "S176": {
+    "Baseline": 3.38
+  },
+  "S177": {
+    "Baseline": 3.38
+  },
+  "S178": {
+    "Baseline": 3.39
+  },
+  "S179": {
+    "Baseline": 3.39
+  },
+  "S180": {
+    "Baseline": 3.4
+  },
+  "S181": {
+    "Baseline": 3.41
+  },
+  "S182": {
+    "Baseline": 3.42
+  },
+  "S183": {
+    "Baseline": 3.42
+  },
+  "S184": {
+    "Baseline": 3.43
+  },
+  "S185": {
+    "Baseline": 3.44
+  },
+  "S186": {
+    "Baseline": 3.45
+  },
+  "S187": {
+    "Baseline": 3.45
+  },
+  "S188": {
+    "Baseline": 3.46
+  },
+  "S189": {
+    "Baseline": 3.47
+  },
+  "S190": {
+    "Baseline": 3.48
+  },
+  "S191": {
+    "Baseline": 3.48
+  },
+  "S192": {
+    "Baseline": 3.49
+  },
+  "S193": {
+    "Baseline": 3.5
+  },
+  "S194": {
+    "Baseline": 3.51
+  },
+  "S195": {
+    "Baseline": 3.51
+  },
+  "S196": {
+    "Baseline": 3.52
+  },
+  "S197": {
+    "Baseline": 3.53
+  },
+  "S198": {
+    "Baseline": 3.54
+  },
+  "S199": {
+    "Baseline": 3.54
+  },
+  "S200": {
+    "Baseline": 3.55
+  },
+  "S201": {
+    "Baseline": 3.56
+  },
+  "S202": {
+    "Baseline": 3.57
+  },
+  "S203": {
+    "Baseline": 3.57
+  },
+  "S204": {
+    "Baseline": 3.58
+  },
+  "S205": {
+    "Baseline": 3.59
+  },
+  "S206": {
+    "Baseline": 3.6
+  },
+  "S207": {
+    "Baseline": 3.6
+  },
+  "S208": {
+    "Baseline": 3.61
+  },
+  "S209": {
+    "Baseline": 3.62
+  },
+  "S210": {
+    "Baseline": 3.63
+  },
+  "S211": {
+    "Baseline": 3.63
+  },
+  "S212": {
+    "Baseline": 3.64
+  },
+  "S213": {
+    "Baseline": 3.65
+  },
+  "S214": {
+    "Baseline": 3.66
+  },
+  "S215": {
+    "Baseline": 3.66
+  },
+  "S216": {
+    "Baseline": 3.67
+  },
+  "S217": {
+    "Baseline": 3.68
+  },
+  "S218": {
+    "Baseline": 3.69
+  },
+  "S219": {
+    "Baseline": 3.69
+  },
+  "S220": {
+    "Baseline": 3.7
+  },
+  "S221": {
+    "Baseline": 3.71
+  },
+  "S222": {
+    "Baseline": 3.71
+  },
+  "S223": {
+    "Baseline": 3.72
+  },
+  "S224": {
+    "Baseline": 3.73
+  },
+  "S225": {
+    "Baseline": 3.74
+  },
+  "S226": {
+    "Baseline": 3.74
+  },
+  "S227": {
+    "Baseline": 3.75
+  },
+  "S228": {
+    "Baseline": 3.76
+  },
+  "S229": {
+    "Baseline": 3.76
+  },
+  "S230": {
+    "Baseline": 3.77
+  },
+  "S231": {
+    "Baseline": 3.78
+  },
+  "S232": {
+    "Baseline": 3.78
+  },
+  "S233": {
+    "Baseline": 3.79
+  },
+  "S234": {
+    "Baseline": 3.8
+  },
+  "S235": {
+    "Baseline": 3.81
+  },
+  "S236": {
+    "Baseline": 3.81
+  },
+  "S237": {
+    "Baseline": 3.82
+  },
+  "S238": {
+    "Baseline": 3.83
+  },
+  "S239": {
+    "Baseline": 3.83
+  },
+  "S240": {
+    "Baseline": 3.84
+  },
+  "S241": {
+    "Baseline": 3.84
+  },
+  "S242": {
+    "Baseline": 3.85
+  },
+  "S243": {
+    "Baseline": 3.85
+  },
+  "S244": {
+    "Baseline": 3.86
+  },
+  "S245": {
+    "Baseline": 3.86
+  },
+  "S246": {
+    "Baseline": 3.87
+  },
+  "S247": {
+    "Baseline": 3.87
+  },
+  "S248": {
+    "Baseline": 3.88
+  },
+  "S249": {
+    "Baseline": 3.88
+  },
+  "S250": {
+    "Baseline": 3.89
+  },
+  "S251": {
+    "Baseline": 3.89
+  },
+  "S252": {
+    "Baseline": 3.89
+  },
+  "S253": {
+    "Baseline": 3.9
+  },
+  "S254": {
+    "Baseline": 3.9
+  },
+  "S255": {
+    "Baseline": 3.91
+  },
+  "S256": {
+    "Baseline": 3.91
+  },
+  "S257": {
+    "Baseline": 3.92
+  },
+  "S258": {
+    "Baseline": 3.92
+  },
+  "S259": {
+    "Baseline": 3.93
+  },
+  "S260": {
+    "Baseline": 3.93
+  },
+  "S261": {
+    "Baseline": 3.93
+  },
+  "S262": {
+    "Baseline": 3.94
+  },
+  "S263": {
+    "Baseline": 3.94
+  },
+  "S264": {
+    "Baseline": 3.94
+  },
+  "S265": {
+    "Baseline": 3.95
+  },
+  "S266": {
+    "Baseline": 3.95
+  },
+  "S267": {
+    "Baseline": 3.95
+  },
+  "S268": {
+    "Baseline": 3.96
+  },
+  "S269": {
+    "Baseline": 3.96
+  },
+  "S270": {
+    "Baseline": 3.97
+  },
+  "S271": {
+    "Baseline": 3.97
+  },
+  "S272": {
+    "Baseline": 3.97
+  },
+  "S273": {
+    "Baseline": 3.98
+  },
+  "S274": {
+    "Baseline": 3.98
+  },
+  "S275": {
+    "Baseline": 3.98
+  },
+  "S276": {
+    "Baseline": 3.99
+  },
+  "S277": {
+    "Baseline": 3.99
+  },
+  "S278": {
+    "Baseline": 3.99
+  },
+  "S279": {
+    "Baseline": 4
+  },
+  "S280": {
+    "Baseline": 4
+  },
+  "S281": {
+    "Baseline": 4
+  },
+  "S282": {
+    "Baseline": 4
+  },
+  "S283": {
+    "Baseline": 4.01
+  },
+  "S284": {
+    "Baseline": 4.01
+  },
+  "S285": {
+    "Baseline": 4.01
+  },
+  "S286": {
+    "Baseline": 4.01
+  },
+  "S287": {
+    "Baseline": 4.01
+  },
+  "S288": {
+    "Baseline": 4.02
+  },
+  "S289": {
+    "Baseline": 4.02
+  },
+  "S290": {
+    "Baseline": 4.02
+  },
+  "S291": {
+    "Baseline": 4.02
+  },
+  "S292": {
+    "Baseline": 4.02
+  },
+  "S293": {
+    "Baseline": 4.03
+  },
+  "S294": {
+    "Baseline": 4.03
+  },
+  "S295": {
+    "Baseline": 4.03
+  },
+  "S296": {
+    "Baseline": 4.03
+  },
+  "S297": {
+    "Baseline": 4.03
+  },
+  "S298": {
+    "Baseline": 4.04
+  },
+  "S299": {
+    "Baseline": 4.04
+  },
+  "S300": {
+    "Baseline": 4.04
+  },
+  "S301": {
+    "Baseline": 4.04
+  },
+  "S302": {
+    "Baseline": 4.05
+  },
+  "S303": {
+    "Baseline": 4.05
+  },
+  "S304": {
+    "Baseline": 4.06
+  },
+  "S305": {
+    "Baseline": 4.06
+  },
+  "S306": {
+    "Baseline": 4.06
+  },
+  "S307": {
+    "Baseline": 4.07
+  },
+  "S308": {
+    "Baseline": 4.07
+  },
+  "S309": {
+    "Baseline": 4.08
+  },
+  "S310": {
+    "Baseline": 4.08
+  },
+  "S311": {
+    "Baseline": 4.08
+  },
+  "S312": {
+    "Baseline": 4.09
+  },
+  "S313": {
+    "Baseline": 4.09
+  },
+  "S314": {
+    "Baseline": 4.1
+  },
+  "S315": {
+    "Baseline": 4.1
+  },
+  "S316": {
+    "Baseline": 4.1
+  },
+  "S317": {
+    "Baseline": 4.11
+  },
+  "S318": {
+    "Baseline": 4.11
+  },
+  "S319": {
+    "Baseline": 4.12
+  },
+  "S320": {
+    "Baseline": 4.12
+  },
+  "S321": {
+    "Baseline": 4.13
+  },
+  "S322": {
+    "Baseline": 4.13
+  },
+  "S323": {
+    "Baseline": 4.14
+  },
+  "S324": {
+    "Baseline": 4.15
+  },
+  "S325": {
+    "Baseline": 4.16
+  },
+  "S326": {
+    "Baseline": 4.16
+  },
+  "S327": {
+    "Baseline": 4.17
+  },
+  "S328": {
+    "Baseline": 4.18
+  },
+  "S329": {
+    "Baseline": 4.18
+  },
+  "S330": {
+    "Baseline": 4.19
+  },
+  "S331": {
+    "Baseline": 4.2
+  },
+  "S332": {
+    "Baseline": 4.2
+  },
+  "S333": {
+    "Baseline": 4.21
+  },
+  "S334": {
+    "Baseline": 4.22
+  },
+  "S335": {
+    "Baseline": 4.23
+  },
+  "S336": {
+    "Baseline": 4.23
+  },
+  "S337": {
+    "Baseline": 4.24
+  },
+  "S338": {
+    "Baseline": 4.25
+  },
+  "S339": {
+    "Baseline": 4.25
+  },
+  "S340": {
+    "Baseline": 4.26
+  },
+  "S341": {
+    "Baseline": 4.27
+  },
+  "S342": {
+    "Baseline": 4.28
+  },
+  "S343": {
+    "Baseline": 4.28
+  },
+  "S344": {
+    "Baseline": 4.29
+  },
+  "S345": {
+    "Baseline": 4.3
+  },
+  "S346": {
+    "Baseline": 4.31
+  },
+  "S347": {
+    "Baseline": 4.31
+  },
+  "S348": {
+    "Baseline": 4.32
+  },
+  "S349": {
+    "Baseline": 4.33
+  },
+  "S350": {
+    "Baseline": 4.34
+  },
+  "S351": {
+    "Baseline": 4.34
+  },
+  "S352": {
+    "Baseline": 4.35
+  },
+  "S353": {
+    "Baseline": 4.36
+  },
+  "S354": {
+    "Baseline": 4.37
+  },
+  "S355": {
+    "Baseline": 4.37
+  },
+  "S356": {
+    "Baseline": 4.38
+  },
+  "S357": {
+    "Baseline": 4.39
+  },
+  "S358": {
+    "Baseline": 4.4
+  },
+  "S359": {
+    "Baseline": 4.4
+  },
+  "S360": {
+    "Baseline": 4.41
+  },
+  "S361": {
+    "Baseline": 4.42
+  },
+  "S362": {
+    "Baseline": 4.42
+  },
+  "S363": {
+    "Baseline": 4.43
+  },
+  "S364": {
+    "Baseline": 4.44
+  },
+  "S365": {
+    "Baseline": 4.45
+  },
+  "S366": {
+    "Baseline": 4.45
+  },
+  "S367": {
+    "Baseline": 4.46
+  },
+  "S368": {
+    "Baseline": 4.47
+  },
+  "S369": {
+    "Baseline": 4.47
+  },
+  "S370": {
+    "Baseline": 4.48
+  },
+  "S371": {
+    "Baseline": 4.49
+  },
+  "S372": {
+    "Baseline": 4.49
+  },
+  "S373": {
+    "Baseline": 4.5
+  },
+  "S374": {
+    "Baseline": 4.51
+  },
+  "S375": {
+    "Baseline": 4.52
+  },
+  "S376": {
+    "Baseline": 4.52
+  },
+  "S377": {
+    "Baseline": 4.53
+  },
+  "S378": {
+    "Baseline": 4.54
+  },
+  "S379": {
+    "Baseline": 4.54
+  },
+  "S380": {
+    "Baseline": 4.55
+  },
+  "S381": {
+    "Baseline": 4.56
+  },
+  "S382": {
+    "Baseline": 4.56
+  },
+  "S383": {
+    "Baseline": 4.57
+  },
+  "S384": {
+    "Baseline": 4.58
+  },
+  "S385": {
+    "Baseline": 4.59
+  },
+  "S386": {
+    "Baseline": 4.59
+  },
+  "S387": {
+    "Baseline": 4.6
+  },
+  "S388": {
+    "Baseline": 4.61
+  },
+  "S389": {
+    "Baseline": 4.61
+  },
+  "S390": {
+    "Baseline": 4.62
+  },
+  "S391": {
+    "Baseline": 4.63
+  },
+  "S392": {
+    "Baseline": 4.63
+  },
+  "S393": {
+    "Baseline": 4.64
+  },
+  "S394": {
+    "Baseline": 4.65
+  },
+  "S395": {
+    "Baseline": 4.66
+  },
+  "S396": {
+    "Baseline": 4.66
+  },
+  "S397": {
+    "Baseline": 4.67
+  },
+  "S398": {
+    "Baseline": 4.68
+  },
+  "S399": {
+    "Baseline": 4.68
+  },
+  "S400": {
+    "Baseline": 4.69
+  },
+  "S401": {
+    "Baseline": 4.69
+  },
+  "S402": {
+    "Baseline": 4.69
+  },
+  "S403": {
+    "Baseline": 4.7
+  },
+  "S404": {
+    "Baseline": 4.7
+  },
+  "S405": {
+    "Baseline": 4.7
+  },
+  "S406": {
+    "Baseline": 4.7
+  },
+  "S407": {
+    "Baseline": 4.7
+  },
+  "S408": {
+    "Baseline": 4.71
+  },
+  "S409": {
+    "Baseline": 4.71
+  },
+  "S410": {
+    "Baseline": 4.71
+  },
+  "S411": {
+    "Baseline": 4.71
+  },
+  "S412": {
+    "Baseline": 4.71
+  },
+  "S413": {
+    "Baseline": 4.72
+  },
+  "S414": {
+    "Baseline": 4.72
+  },
+  "S415": {
+    "Baseline": 4.72
+  },
+  "S416": {
+    "Baseline": 4.72
+  },
+  "S417": {
+    "Baseline": 4.72
+  },
+  "S418": {
+    "Baseline": 4.73
+  },
+  "S419": {
+    "Baseline": 4.73
+  },
+  "S420": {
+    "Baseline": 4.73
+  },
+  "S421": {
+    "Baseline": 4.73
+  },
+  "S422": {
+    "Baseline": 4.74
+  },
+  "S423": {
+    "Baseline": 4.74
+  },
+  "S424": {
+    "Baseline": 4.74
+  },
+  "S425": {
+    "Baseline": 4.74
+  },
+  "S426": {
+    "Baseline": 4.75
+  },
+  "S427": {
+    "Baseline": 4.75
+  },
+  "S428": {
+    "Baseline": 4.75
+  },
+  "S429": {
+    "Baseline": 4.75
+  },
+  "S430": {
+    "Baseline": 4.76
+  },
+  "S431": {
+    "Baseline": 4.76
+  },
+  "S432": {
+    "Baseline": 4.76
+  },
+  "S433": {
+    "Baseline": 4.76
+  },
+  "S434": {
+    "Baseline": 4.77
+  },
+  "S435": {
+    "Baseline": 4.77
+  },
+  "S436": {
+    "Baseline": 4.77
+  },
+  "S437": {
+    "Baseline": 4.77
+  },
+  "S438": {
+    "Baseline": 4.78
+  },
+  "S439": {
+    "Baseline": 4.78
+  },
+  "S440": {
+    "Baseline": 4.78
+  },
+  "S441": {
+    "Baseline": 4.78
+  },
+  "S442": {
+    "Baseline": 4.79
+  },
+  "S443": {
+    "Baseline": 4.79
+  },
+  "S444": {
+    "Baseline": 4.8
+  },
+  "S445": {
+    "Baseline": 4.8
+  },
+  "S446": {
+    "Baseline": 4.81
+  },
+  "S447": {
+    "Baseline": 4.81
+  },
+  "S448": {
+    "Baseline": 4.82
+  },
+  "S449": {
+    "Baseline": 4.82
+  },
+  "S450": {
+    "Baseline": 4.83
+  },
+  "S451": {
+    "Baseline": 4.83
+  },
+  "S452": {
+    "Baseline": 4.83
+  },
+  "S453": {
+    "Baseline": 4.84
+  },
+  "S454": {
+    "Baseline": 4.84
+  },
+  "S455": {
+    "Baseline": 4.85
+  },
+  "S456": {
+    "Baseline": 4.85
+  },
+  "S457": {
+    "Baseline": 4.86
+  },
+  "S458": {
+    "Baseline": 4.86
+  },
+  "S459": {
+    "Baseline": 4.87
+  },
+  "S460": {
+    "Baseline": 4.87
+  },
+  "S461": {
+    "Baseline": 4.88
+  },
+  "S462": {
+    "Baseline": 4.88
+  },
+  "S463": {
+    "Baseline": 4.89
+  },
+  "S464": {
+    "Baseline": 4.89
+  },
+  "S465": {
+    "Baseline": 4.9
+  },
+  "S466": {
+    "Baseline": 4.9
+  },
+  "S467": {
+    "Baseline": 4.91
+  },
+  "S468": {
+    "Baseline": 4.91
+  },
+  "S469": {
+    "Baseline": 4.92
+  },
+  "S470": {
+    "Baseline": 4.93
+  },
+  "S471": {
+    "Baseline": 4.93
+  },
+  "S472": {
+    "Baseline": 4.94
+  },
+  "S473": {
+    "Baseline": 4.94
+  },
+  "S474": {
+    "Baseline": 4.95
+  },
+  "S475": {
+    "Baseline": 4.95
+  },
+  "S476": {
+    "Baseline": 4.96
+  },
+  "S477": {
+    "Baseline": 4.96
+  },
+  "S478": {
+    "Baseline": 4.97
+  },
+  "S479": {
+    "Baseline": 4.97
+  },
+  "S480": {
+    "Baseline": 4.98
+  },
+  "S481": {
+    "Baseline": 4.99
+  },
+  "S482": {
+    "Baseline": 4.99
+  },
+  "S483": {
+    "Baseline": 5
+  },
+  "S484": {
+    "Baseline": 5.01
+  },
+  "S485": {
+    "Baseline": 5.01
+  },
+  "S486": {
+    "Baseline": 5.02
+  },
+  "S487": {
+    "Baseline": 5.03
+  },
+  "S488": {
+    "Baseline": 5.03
+  },
+  "S489": {
+    "Baseline": 5.04
+  },
+  "S490": {
+    "Baseline": 5.05
+  },
+  "S491": {
+    "Baseline": 5.05
+  },
+  "S492": {
+    "Baseline": 5.06
+  },
+  "S493": {
+    "Baseline": 5.06
+  },
+  "S494": {
+    "Baseline": 5.07
+  },
+  "S495": {
+    "Baseline": 5.08
+  },
+  "S496": {
+    "Baseline": 5.08
+  },
+  "S497": {
+    "Baseline": 5.09
+  },
+  "S498": {
+    "Baseline": 5.1
+  },
+  "S499": {
+    "Baseline": 5.1
+  },
+  "S500": {
+    "Baseline": 5.11
+  },
+  "S501": {
+    "Baseline": 5.12
+  },
+  "S502": {
+    "Baseline": 5.12
+  },
+  "S503": {
+    "Baseline": 5.13
+  },
+  "S504": {
+    "Baseline": 5.14
+  },
+  "S505": {
+    "Baseline": 5.14
+  },
+  "S506": {
+    "Baseline": 5.15
+  },
+  "S507": {
+    "Baseline": 5.16
+  },
+  "S508": {
+    "Baseline": 5.16
+  },
+  "S509": {
+    "Baseline": 5.17
+  },
+  "S510": {
+    "Baseline": 5.18
+  },
+  "S511": {
+    "Baseline": 5.18
+  },
+  "S512": {
+    "Baseline": 5.19
+  },
+  "S513": {
+    "Baseline": 5.19
+  },
+  "S514": {
+    "Baseline": 5.2
+  },
+  "S515": {
+    "Baseline": 5.21
+  },
+  "S516": {
+    "Baseline": 5.21
+  },
+  "S517": {
+    "Baseline": 5.22
+  },
+  "S518": {
+    "Baseline": 5.23
+  },
+  "S519": {
+    "Baseline": 5.23
+  },
+  "S520": {
+    "Baseline": 5.24
+  },
+  "S521": {
+    "Baseline": 5.25
+  },
+  "S522": {
+    "Baseline": 5.25
+  },
+  "S523": {
+    "Baseline": 5.26
+  },
+  "S524": {
+    "Baseline": 5.26
+  },
+  "S525": {
+    "Baseline": 5.27
+  },
+  "S526": {
+    "Baseline": 5.28
+  },
+  "S527": {
+    "Baseline": 5.28
+  },
+  "S528": {
+    "Baseline": 5.29
+  },
+  "S529": {
+    "Baseline": 5.29
+  },
+  "S530": {
+    "Baseline": 5.3
+  },
+  "S531": {
+    "Baseline": 5.31
+  },
+  "S532": {
+    "Baseline": 5.31
+  },
+  "S533": {
+    "Baseline": 5.32
+  },
+  "S534": {
+    "Baseline": 5.32
+  },
+  "S535": {
+    "Baseline": 5.33
+  },
+  "S536": {
+    "Baseline": 5.34
+  },
+  "S537": {
+    "Baseline": 5.34
+  },
+  "S538": {
+    "Baseline": 5.35
+  },
+  "S539": {
+    "Baseline": 5.35
+  },
+  "S540": {
+    "Baseline": 5.36
+  },
+  "S541": {
+    "Baseline": 5.36
+  },
+  "S542": {
+    "Baseline": 5.37
+  },
+  "S543": {
+    "Baseline": 5.37
+  },
+  "S544": {
+    "Baseline": 5.38
+  },
+  "S545": {
+    "Baseline": 5.38
+  },
+  "S546": {
+    "Baseline": 5.38
+  },
+  "S547": {
+    "Baseline": 5.39
+  },
+  "S548": {
+    "Baseline": 5.39
+  },
+  "S549": {
+    "Baseline": 5.4
+  },
+  "S550": {
+    "Baseline": 5.4
+  },
+  "S551": {
+    "Baseline": 5.4
+  },
+  "S552": {
+    "Baseline": 5.41
+  },
+  "S553": {
+    "Baseline": 5.41
+  },
+  "S554": {
+    "Baseline": 5.42
+  },
+  "S555": {
+    "Baseline": 5.42
+  },
+  "S556": {
+    "Baseline": 5.42
+  },
+  "S557": {
+    "Baseline": 5.43
+  },
+  "S558": {
+    "Baseline": 5.43
+  },
+  "S559": {
+    "Baseline": 5.44
+  },
+  "S560": {
+    "Baseline": 5.44
+  },
+  "S561": {
+    "Baseline": 5.44
+  },
+  "S562": {
+    "Baseline": 5.45
+  },
+  "S563": {
+    "Baseline": 5.45
+  },
+  "S564": {
+    "Baseline": 5.45
+  },
+  "S565": {
+    "Baseline": 5.45
+  },
+  "S566": {
+    "Baseline": 5.46
+  },
+  "S567": {
+    "Baseline": 5.46
+  },
+  "S568": {
+    "Baseline": 5.46
+  },
+  "S569": {
+    "Baseline": 5.46
+  },
+  "S570": {
+    "Baseline": 5.47
+  },
+  "S571": {
+    "Baseline": 5.47
+  },
+  "S572": {
+    "Baseline": 5.47
+  },
+  "S573": {
+    "Baseline": 5.47
+  },
+  "S574": {
+    "Baseline": 5.48
+  },
+  "S575": {
+    "Baseline": 5.48
+  },
+  "S576": {
+    "Baseline": 5.48
+  },
+  "S577": {
+    "Baseline": 5.48
+  },
+  "S578": {
+    "Baseline": 5.49
+  },
+  "S579": {
+    "Baseline": 5.49
+  },
+  "S580": {
+    "Baseline": 5.49
+  },
+  "S581": {
+    "Baseline": 5.49
+  },
+  "S582": {
+    "Baseline": 5.49
+  },
+  "S583": {
+    "Baseline": 5.49
+  },
+  "S584": {
+    "Baseline": 5.5
+  },
+  "S585": {
+    "Baseline": 5.5
+  },
+  "S586": {
+    "Baseline": 5.5
+  },
+  "S587": {
+    "Baseline": 5.5
+  },
+  "S588": {
+    "Baseline": 5.5
+  },
+  "S589": {
+    "Baseline": 5.5
+  },
+  "S590": {
+    "Baseline": 5.51
+  },
+  "S591": {
+    "Baseline": 5.51
+  },
+  "S592": {
+    "Baseline": 5.51
+  },
+  "S593": {
+    "Baseline": 5.51
+  },
+  "S594": {
+    "Baseline": 5.51
+  },
+  "S595": {
+    "Baseline": 5.51
+  },
+  "S596": {
+    "Baseline": 5.51
+  },
+  "S597": {
+    "Baseline": 5.52
+  },
+  "S598": {
+    "Baseline": 5.52
+  },
+  "S599": {
+    "Baseline": 5.52
+  },
+  "S600": {
+    "Baseline": 5.52
+  },
+  "RC10": {
+    "Baseline": 3.45
+  },
+  "RC11": {
+    "Baseline": 3.46
+  },
+  "RC12": {
+    "Baseline": 3.46
+  },
+  "RC13": {
+    "Baseline": 3.47
+  },
+  "RC14": {
+    "Baseline": 3.47
+  },
+  "RC15": {
+    "Baseline": 3.48
+  },
+  "RC16": {
+    "Baseline": 3.49
+  },
+  "RC17": {
+    "Baseline": 3.49
+  },
+  "RC18": {
+    "Baseline": 3.5
+  },
+  "RC19": {
+    "Baseline": 3.5
+  },
+  "RC20": {
+    "Baseline": 3.51
+  },
+  "RC21": {
+    "Baseline": 3.52
+  },
+  "RC22": {
+    "Baseline": 3.52
+  },
+  "RC23": {
+    "Baseline": 3.53
+  },
+  "RC24": {
+    "Baseline": 3.53
+  },
+  "RC25": {
+    "Baseline": 3.54
+  },
+  "RC26": {
+    "Baseline": 3.55
+  },
+  "RC27": {
+    "Baseline": 3.55
+  },
+  "RC28": {
+    "Baseline": 3.56
+  },
+  "RC29": {
+    "Baseline": 3.56
+  },
+  "RC30": {
+    "Baseline": 3.57
+  },
+  "RC31": {
+    "Baseline": 3.58
+  },
+  "RC32": {
+    "Baseline": 3.6
+  },
+  "RC33": {
+    "Baseline": 3.61
+  },
+  "RC34": {
+    "Baseline": 3.63
+  },
+  "RC35": {
+    "Baseline": 3.64
+  },
+  "RC36": {
+    "Baseline": 3.65
+  },
+  "RC37": {
+    "Baseline": 3.67
+  },
+  "RC38": {
+    "Baseline": 3.68
+  },
+  "RC39": {
+    "Baseline": 3.7
+  },
+  "RC40": {
+    "Baseline": 3.71
+  },
+  "RC41": {
+    "Baseline": 3.72
+  },
+  "RC42": {
+    "Baseline": 3.73
+  },
+  "RC43": {
+    "Baseline": 3.73
+  },
+  "RC44": {
+    "Baseline": 3.74
+  },
+  "RC45": {
+    "Baseline": 3.75
+  },
+  "RC46": {
+    "Baseline": 3.76
+  },
+  "RC47": {
+    "Baseline": 3.77
+  },
+  "RC48": {
+    "Baseline": 3.77
+  },
+  "RC49": {
+    "Baseline": 3.78
+  },
+  "RC50": {
+    "Baseline": 3.79
+  },
+  "RC51": {
+    "Baseline": 3.79
+  },
+  "RC52": {
+    "Baseline": 3.8
+  },
+  "RC53": {
+    "Baseline": 3.8
+  },
+  "RC54": {
+    "Baseline": 3.81
+  },
+  "RC55": {
+    "Baseline": 3.81
+  },
+  "RC56": {
+    "Baseline": 3.81
+  },
+  "RC57": {
+    "Baseline": 3.82
+  },
+  "RC58": {
+    "Baseline": 3.82
+  },
+  "RC59": {
+    "Baseline": 3.83
+  },
+  "RC60": {
+    "Baseline": 3.83
+  },
+  "RC61": {
+    "Baseline": 3.83
+  },
+  "RC62": {
+    "Baseline": 3.83
+  },
+  "RC63": {
+    "Baseline": 3.83
+  },
+  "RC64": {
+    "Baseline": 3.83
+  },
+  "RC65": {
+    "Baseline": 3.84
+  },
+  "RC66": {
+    "Baseline": 3.84
+  },
+  "RC67": {
+    "Baseline": 3.84
+  },
+  "RC68": {
+    "Baseline": 3.84
+  },
+  "RC69": {
+    "Baseline": 3.84
+  },
+  "RC70": {
+    "Baseline": 3.84
+  },
+  "RC71": {
+    "Baseline": 3.84
+  },
+  "RC72": {
+    "Baseline": 3.84
+  },
+  "RC73": {
+    "Baseline": 3.84
+  },
+  "RC74": {
+    "Baseline": 3.84
+  },
+  "RC75": {
+    "Baseline": 3.84
+  },
+  "RC76": {
+    "Baseline": 3.84
+  },
+  "RC77": {
+    "Baseline": 3.84
+  },
+  "RC78": {
+    "Baseline": 3.84
+  },
+  "RC79": {
+    "Baseline": 3.84
+  },
+  "RC80": {
+    "Baseline": 3.84
+  },
+  "RC81": {
+    "Baseline": 3.84
+  },
+  "RC82": {
+    "Baseline": 3.84
+  },
+  "RC83": {
+    "Baseline": 3.83
+  },
+  "RC84": {
+    "Baseline": 3.83
+  },
+  "RC85": {
+    "Baseline": 3.83
+  },
+  "RC86": {
+    "Baseline": 3.83
+  },
+  "RC87": {
+    "Baseline": 3.83
+  },
+  "RC88": {
+    "Baseline": 3.82
+  },
+  "RC89": {
+    "Baseline": 3.82
+  },
+  "RC90": {
+    "Baseline": 3.82
+  },
+  "RC91": {
+    "Baseline": 3.82
+  },
+  "RC92": {
+    "Baseline": 3.82
+  },
+  "RC93": {
+    "Baseline": 3.81
+  },
+  "RC94": {
+    "Baseline": 3.81
+  },
+  "RC95": {
+    "Baseline": 3.81
+  },
+  "RC96": {
+    "Baseline": 3.81
+  },
+  "RC97": {
+    "Baseline": 3.81
+  },
+  "RC98": {
+    "Baseline": 3.8
+  },
+  "RC99": {
+    "Baseline": 3.8
+  },
+  "RC100": {
+    "Baseline": 3.8
+  },
+  "RC101": {
+    "Baseline": 3.8
+  },
+  "RC102": {
+    "Baseline": 3.8
+  },
+  "RC103": {
+    "Baseline": 3.8
+  },
+  "RC104": {
+    "Baseline": 3.8
+  },
+  "RC105": {
+    "Baseline": 3.8
+  },
+  "RC106": {
+    "Baseline": 3.79
+  },
+  "RC107": {
+    "Baseline": 3.79
+  },
+  "RC108": {
+    "Baseline": 3.79
+  },
+  "RC109": {
+    "Baseline": 3.79
+  },
+  "RC110": {
+    "Baseline": 3.79
+  },
+  "RC111": {
+    "Baseline": 3.79
+  },
+  "RC112": {
+    "Baseline": 3.79
+  },
+  "RC113": {
+    "Baseline": 3.79
+  },
+  "RC114": {
+    "Baseline": 3.79
+  },
+  "RC115": {
+    "Baseline": 3.79
+  },
+  "RC116": {
+    "Baseline": 3.78
+  },
+  "RC117": {
+    "Baseline": 3.78
+  },
+  "RC118": {
+    "Baseline": 3.78
+  },
+  "RC119": {
+    "Baseline": 3.78
+  },
+  "RC120": {
+    "Baseline": 3.78
+  },
+  "RC121": {
+    "Baseline": 3.78
+  },
+  "RC122": {
+    "Baseline": 3.78
+  },
+  "RC123": {
+    "Baseline": 3.78
+  },
+  "RC124": {
+    "Baseline": 3.78
+  },
+  "RC125": {
+    "Baseline": 3.79
+  },
+  "RC126": {
+    "Baseline": 3.79
+  },
+  "RC127": {
+    "Baseline": 3.79
+  },
+  "RC128": {
+    "Baseline": 3.79
+  },
+  "RC129": {
+    "Baseline": 3.79
+  },
+  "RC130": {
+    "Baseline": 3.79
+  },
+  "RC131": {
+    "Baseline": 3.79
+  },
+  "RC132": {
+    "Baseline": 3.79
+  },
+  "RC133": {
+    "Baseline": 3.79
+  },
+  "RC134": {
+    "Baseline": 3.79
+  },
+  "RC135": {
+    "Baseline": 3.8
+  },
+  "RC136": {
+    "Baseline": 3.8
+  },
+  "RC137": {
+    "Baseline": 3.8
+  },
+  "RC138": {
+    "Baseline": 3.8
+  },
+  "RC139": {
+    "Baseline": 3.8
+  },
+  "RC140": {
+    "Baseline": 3.8
+  },
+  "RC141": {
+    "Baseline": 3.8
+  },
+  "RC142": {
+    "Baseline": 3.8
+  },
+  "RC143": {
+    "Baseline": 3.8
+  },
+  "RC144": {
+    "Baseline": 3.8
+  },
+  "RC145": {
+    "Baseline": 3.8
+  },
+  "RC146": {
+    "Baseline": 3.8
+  },
+  "RC147": {
+    "Baseline": 3.8
+  },
+  "RC148": {
+    "Baseline": 3.8
+  },
+  "RC149": {
+    "Baseline": 3.8
+  },
+  "RC150": {
+    "Baseline": 3.81
+  },
+  "RC151": {
+    "Baseline": 3.81
+  },
+  "RC152": {
+    "Baseline": 3.81
+  },
+  "RC153": {
+    "Baseline": 3.81
+  },
+  "RC154": {
+    "Baseline": 3.81
+  },
+  "RC155": {
+    "Baseline": 3.81
+  },
+  "RC156": {
+    "Baseline": 3.81
+  },
+  "RC157": {
+    "Baseline": 3.81
+  },
+  "RC158": {
+    "Baseline": 3.81
+  },
+  "RC159": {
+    "Baseline": 3.81
+  },
+  "RC160": {
+    "Baseline": 3.81
+  },
+  "RC161": {
+    "Baseline": 3.81
+  },
+  "RC162": {
+    "Baseline": 3.81
+  },
+  "RC163": {
+    "Baseline": 3.81
+  },
+  "RC164": {
+    "Baseline": 3.81
+  },
+  "RC165": {
+    "Baseline": 3.81
+  },
+  "RC166": {
+    "Baseline": 3.81
+  },
+  "RC167": {
+    "Baseline": 3.81
+  },
+  "RC168": {
+    "Baseline": 3.81
+  },
+  "RC169": {
+    "Baseline": 3.81
+  },
+  "RC170": {
+    "Baseline": 3.82
+  },
+  "RC171": {
+    "Baseline": 3.82
+  },
+  "RC172": {
+    "Baseline": 3.82
+  },
+  "RC173": {
+    "Baseline": 3.82
+  },
+  "RC174": {
+    "Baseline": 3.82
+  },
+  "RC175": {
+    "Baseline": 3.82
+  },
+  "RC176": {
+    "Baseline": 3.82
+  },
+  "RC177": {
+    "Baseline": 3.82
+  },
+  "RC178": {
+    "Baseline": 3.82
+  },
+  "RC179": {
+    "Baseline": 3.82
+  },
+  "RC180": {
+    "Baseline": 3.82
+  },
+  "RC181": {
+    "Baseline": 3.82
+  },
+  "RC182": {
+    "Baseline": 3.83
+  },
+  "RC183": {
+    "Baseline": 3.83
+  },
+  "RC184": {
+    "Baseline": 3.83
+  },
+  "RC185": {
+    "Baseline": 3.83
+  },
+  "RC186": {
+    "Baseline": 3.84
+  },
+  "RC187": {
+    "Baseline": 3.84
+  },
+  "RC188": {
+    "Baseline": 3.84
+  },
+  "RC189": {
+    "Baseline": 3.84
+  },
+  "RC190": {
+    "Baseline": 3.85
+  },
+  "RC191": {
+    "Baseline": 3.85
+  },
+  "RC192": {
+    "Baseline": 3.85
+  },
+  "RC193": {
+    "Baseline": 3.85
+  },
+  "RC194": {
+    "Baseline": 3.86
+  },
+  "RC195": {
+    "Baseline": 3.86
+  },
+  "RC196": {
+    "Baseline": 3.86
+  },
+  "RC197": {
+    "Baseline": 3.86
+  },
+  "RC198": {
+    "Baseline": 3.87
+  },
+  "RC199": {
+    "Baseline": 3.87
+  },
+  "RC200": {
+    "Baseline": 3.87
+  },
+  "RC201": {
+    "Baseline": 3.87
+  },
+  "RC202": {
+    "Baseline": 3.88
+  },
+  "RC203": {
+    "Baseline": 3.88
+  },
+  "RC204": {
+    "Baseline": 3.88
+  },
+  "RC205": {
+    "Baseline": 3.88
+  },
+  "RC206": {
+    "Baseline": 3.89
+  },
+  "RC207": {
+    "Baseline": 3.89
+  },
+  "RC208": {
+    "Baseline": 3.89
+  },
+  "RC209": {
+    "Baseline": 3.89
+  },
+  "RC210": {
+    "Baseline": 3.9
+  },
+  "RC211": {
+    "Baseline": 3.9
+  },
+  "RC212": {
+    "Baseline": 3.9
+  },
+  "RC213": {
+    "Baseline": 3.9
+  },
+  "RC214": {
+    "Baseline": 3.91
+  },
+  "RC215": {
+    "Baseline": 3.91
+  },
+  "RC216": {
+    "Baseline": 3.91
+  },
+  "RC217": {
+    "Baseline": 3.91
+  },
+  "RC218": {
+    "Baseline": 3.92
+  },
+  "RC219": {
+    "Baseline": 3.92
+  },
+  "RC220": {
+    "Baseline": 3.92
+  },
+  "RC221": {
+    "Baseline": 3.92
+  },
+  "RC222": {
+    "Baseline": 3.93
+  },
+  "RC223": {
+    "Baseline": 3.93
+  },
+  "RC224": {
+    "Baseline": 3.93
+  },
+  "RC225": {
+    "Baseline": 3.93
+  },
+  "RC226": {
+    "Baseline": 3.94
+  },
+  "RC227": {
+    "Baseline": 3.94
+  },
+  "RC228": {
+    "Baseline": 3.94
+  },
+  "RC229": {
+    "Baseline": 3.94
+  },
+  "RC230": {
+    "Baseline": 3.95
+  },
+  "RC231": {
+    "Baseline": 3.95
+  },
+  "RC232": {
+    "Baseline": 3.95
+  },
+  "RC233": {
+    "Baseline": 3.95
+  },
+  "RC234": {
+    "Baseline": 3.96
+  },
+  "RC235": {
+    "Baseline": 3.96
+  },
+  "RC236": {
+    "Baseline": 3.96
+  },
+  "RC237": {
+    "Baseline": 3.96
+  },
+  "RC238": {
+    "Baseline": 3.97
+  },
+  "RC239": {
+    "Baseline": 3.97
+  },
+  "RC240": {
+    "Baseline": 3.97
+  },
+  "RC241": {
+    "Baseline": 3.97
+  },
+  "RC242": {
+    "Baseline": 3.98
+  },
+  "RC243": {
+    "Baseline": 3.98
+  },
+  "RC244": {
+    "Baseline": 3.98
+  },
+  "RC245": {
+    "Baseline": 3.99
+  },
+  "RC246": {
+    "Baseline": 3.99
+  },
+  "RC247": {
+    "Baseline": 3.99
+  },
+  "RC248": {
+    "Baseline": 3.99
+  },
+  "RC249": {
+    "Baseline": 4
+  },
+  "RC250": {
+    "Baseline": 4
+  },
+  "RC251": {
+    "Baseline": 4
+  },
+  "RC252": {
+    "Baseline": 4.01
+  },
+  "RC253": {
+    "Baseline": 4.01
+  },
+  "RC254": {
+    "Baseline": 4.01
+  },
+  "RC255": {
+    "Baseline": 4.02
+  },
+  "RC256": {
+    "Baseline": 4.02
+  },
+  "RC257": {
+    "Baseline": 4.02
+  },
+  "RC258": {
+    "Baseline": 4.02
+  },
+  "RC259": {
+    "Baseline": 4.03
+  },
+  "RC260": {
+    "Baseline": 4.03
+  },
+  "RC261": {
+    "Baseline": 4.03
+  },
+  "RC262": {
+    "Baseline": 4.04
+  },
+  "RC263": {
+    "Baseline": 4.04
+  },
+  "RC264": {
+    "Baseline": 4.04
+  },
+  "RC265": {
+    "Baseline": 4.05
+  },
+  "RC266": {
+    "Baseline": 4.05
+  },
+  "RC267": {
+    "Baseline": 4.05
+  },
+  "RC268": {
+    "Baseline": 4.06
+  },
+  "RC269": {
+    "Baseline": 4.06
+  },
+  "RC270": {
+    "Baseline": 4.07
+  },
+  "RC271": {
+    "Baseline": 4.07
+  },
+  "RC272": {
+    "Baseline": 4.07
+  },
+  "RC273": {
+    "Baseline": 4.08
+  },
+  "RC274": {
+    "Baseline": 4.08
+  },
+  "RC275": {
+    "Baseline": 4.08
+  },
+  "RC276": {
+    "Baseline": 4.09
+  },
+  "RC277": {
+    "Baseline": 4.09
+  },
+  "RC278": {
+    "Baseline": 4.09
+  },
+  "RC279": {
+    "Baseline": 4.1
+  },
+  "RC280": {
+    "Baseline": 4.1
+  },
+  "RC281": {
+    "Baseline": 4.11
+  },
+  "RC282": {
+    "Baseline": 4.11
+  },
+  "RC283": {
+    "Baseline": 4.12
+  },
+  "RC284": {
+    "Baseline": 4.12
+  },
+  "RC285": {
+    "Baseline": 4.13
+  },
+  "RC286": {
+    "Baseline": 4.13
+  },
+  "RC287": {
+    "Baseline": 4.14
+  },
+  "RC288": {
+    "Baseline": 4.14
+  },
+  "RC289": {
+    "Baseline": 4.15
+  },
+  "RC290": {
+    "Baseline": 4.15
+  },
+  "RC291": {
+    "Baseline": 4.16
+  },
+  "RC292": {
+    "Baseline": 4.16
+  },
+  "RC293": {
+    "Baseline": 4.17
+  },
+  "RC294": {
+    "Baseline": 4.17
+  },
+  "RC295": {
+    "Baseline": 4.18
+  },
+  "RC296": {
+    "Baseline": 4.18
+  },
+  "RC297": {
+    "Baseline": 4.19
+  },
+  "RC298": {
+    "Baseline": 4.19
+  },
+  "RC299": {
+    "Baseline": 4.2
+  },
+  "RC300": {
+    "Baseline": 4.2
+  },
+  "RC301": {
+    "Baseline": 4.21
+  },
+  "RC302": {
+    "Baseline": 4.21
+  },
+  "RC303": {
+    "Baseline": 4.22
+  },
+  "RC304": {
+    "Baseline": 4.22
+  },
+  "RC305": {
+    "Baseline": 4.23
+  },
+  "RC306": {
+    "Baseline": 4.23
+  },
+  "RC307": {
+    "Baseline": 4.24
+  },
+  "RC308": {
+    "Baseline": 4.24
+  },
+  "RC309": {
+    "Baseline": 4.25
+  },
+  "RC310": {
+    "Baseline": 4.26
+  },
+  "RC311": {
+    "Baseline": 4.26
+  },
+  "RC312": {
+    "Baseline": 4.27
+  },
+  "RC313": {
+    "Baseline": 4.27
+  },
+  "RC314": {
+    "Baseline": 4.28
+  },
+  "RC315": {
+    "Baseline": 4.28
+  },
+  "RC316": {
+    "Baseline": 4.29
+  },
+  "RC317": {
+    "Baseline": 4.29
+  },
+  "RC318": {
+    "Baseline": 4.3
+  },
+  "RC319": {
+    "Baseline": 4.3
+  },
+  "RC320": {
+    "Baseline": 4.31
+  },
+  "RC321": {
+    "Baseline": 4.32
+  },
+  "RC322": {
+    "Baseline": 4.32
+  },
+  "RC323": {
+    "Baseline": 4.33
+  },
+  "RC324": {
+    "Baseline": 4.34
+  },
+  "RC325": {
+    "Baseline": 4.34
+  },
+  "RC326": {
+    "Baseline": 4.35
+  },
+  "RC327": {
+    "Baseline": 4.36
+  },
+  "RC328": {
+    "Baseline": 4.36
+  },
+  "RC329": {
+    "Baseline": 4.37
+  },
+  "RC330": {
+    "Baseline": 4.38
+  },
+  "RC331": {
+    "Baseline": 4.38
+  },
+  "RC332": {
+    "Baseline": 4.39
+  },
+  "RC333": {
+    "Baseline": 4.39
+  },
+  "RC334": {
+    "Baseline": 4.4
+  },
+  "RC335": {
+    "Baseline": 4.41
+  },
+  "RC336": {
+    "Baseline": 4.41
+  },
+  "RC337": {
+    "Baseline": 4.42
+  },
+  "RC338": {
+    "Baseline": 4.43
+  },
+  "RC339": {
+    "Baseline": 4.43
+  },
+  "RC340": {
+    "Baseline": 4.44
+  },
+  "RC341": {
+    "Baseline": 4.45
+  },
+  "RC342": {
+    "Baseline": 4.45
+  },
+  "RC343": {
+    "Baseline": 4.46
+  },
+  "RC344": {
+    "Baseline": 4.46
+  },
+  "RC345": {
+    "Baseline": 4.47
+  },
+  "RC346": {
+    "Baseline": 4.48
+  },
+  "RC347": {
+    "Baseline": 4.48
+  },
+  "RC348": {
+    "Baseline": 4.49
+  },
+  "RC349": {
+    "Baseline": 4.49
+  },
+  "RC350": {
+    "Baseline": 4.5
+  },
+  "RC351": {
+    "Baseline": 4.51
+  },
+  "RC352": {
+    "Baseline": 4.51
+  },
+  "RC353": {
+    "Baseline": 4.52
+  },
+  "RC354": {
+    "Baseline": 4.52
+  },
+  "RC355": {
+    "Baseline": 4.53
+  },
+  "RC356": {
+    "Baseline": 4.54
+  },
+  "RC357": {
+    "Baseline": 4.54
+  },
+  "RC358": {
+    "Baseline": 4.55
+  },
+  "RC359": {
+    "Baseline": 4.55
+  },
+  "RC360": {
+    "Baseline": 4.56
+  },
+  "RC361": {
+    "Baseline": 4.57
+  },
+  "RC362": {
+    "Baseline": 4.57
+  },
+  "RC363": {
+    "Baseline": 4.58
+  },
+  "RC364": {
+    "Baseline": 4.58
+  },
+  "RC365": {
+    "Baseline": 4.59
+  },
+  "RC366": {
+    "Baseline": 4.59
+  },
+  "RC367": {
+    "Baseline": 4.6
+  },
+  "RC368": {
+    "Baseline": 4.6
+  },
+  "RC369": {
+    "Baseline": 4.61
+  },
+  "RC370": {
+    "Baseline": 4.61
+  },
+  "RC371": {
+    "Baseline": 4.62
+  },
+  "RC372": {
+    "Baseline": 4.62
+  },
+  "RC373": {
+    "Baseline": 4.63
+  },
+  "RC374": {
+    "Baseline": 4.63
+  },
+  "RC375": {
+    "Baseline": 4.64
+  },
+  "RC376": {
+    "Baseline": 4.64
+  },
+  "RC377": {
+    "Baseline": 4.65
+  },
+  "RC378": {
+    "Baseline": 4.65
+  },
+  "RC379": {
+    "Baseline": 4.66
+  },
+  "RC380": {
+    "Baseline": 4.66
+  },
+  "RC381": {
+    "Baseline": 4.66
+  },
+  "RC382": {
+    "Baseline": 4.67
+  },
+  "RC383": {
+    "Baseline": 4.67
+  },
+  "RC384": {
+    "Baseline": 4.68
+  },
+  "RC385": {
+    "Baseline": 4.68
+  },
+  "RC386": {
+    "Baseline": 4.69
+  },
+  "RC387": {
+    "Baseline": 4.69
+  },
+  "RC388": {
+    "Baseline": 4.7
+  },
+  "RC389": {
+    "Baseline": 4.7
+  },
+  "RC390": {
+    "Baseline": 4.71
+  },
+  "RC391": {
+    "Baseline": 4.71
+  },
+  "RC392": {
+    "Baseline": 4.71
+  },
+  "RC393": {
+    "Baseline": 4.72
+  },
+  "RC394": {
+    "Baseline": 4.72
+  },
+  "RC395": {
+    "Baseline": 4.73
+  },
+  "RC396": {
+    "Baseline": 4.73
+  },
+  "RC397": {
+    "Baseline": 4.74
+  },
+  "RC398": {
+    "Baseline": 4.74
+  },
+  "RC399": {
+    "Baseline": 4.75
+  },
+  "RC400": {
+    "Baseline": 4.75
+  },
+  "RC401": {
+    "Baseline": 4.75
+  },
+  "RC402": {
+    "Baseline": 4.75
+  },
+  "RC403": {
+    "Baseline": 4.76
+  },
+  "RC404": {
+    "Baseline": 4.76
+  },
+  "RC405": {
+    "Baseline": 4.76
+  },
+  "RC406": {
+    "Baseline": 4.76
+  },
+  "RC407": {
+    "Baseline": 4.76
+  },
+  "RC408": {
+    "Baseline": 4.77
+  },
+  "RC409": {
+    "Baseline": 4.77
+  },
+  "RC410": {
+    "Baseline": 4.77
+  },
+  "RC411": {
+    "Baseline": 4.77
+  },
+  "RC412": {
+    "Baseline": 4.77
+  },
+  "RC413": {
+    "Baseline": 4.78
+  },
+  "RC414": {
+    "Baseline": 4.78
+  },
+  "RC415": {
+    "Baseline": 4.78
+  },
+  "RC416": {
+    "Baseline": 4.78
+  },
+  "RC417": {
+    "Baseline": 4.78
+  },
+  "RC418": {
+    "Baseline": 4.79
+  },
+  "RC419": {
+    "Baseline": 4.79
+  },
+  "RC420": {
+    "Baseline": 4.79
+  },
+  "RC421": {
+    "Baseline": 4.79
+  },
+  "RC422": {
+    "Baseline": 4.8
+  },
+  "RC423": {
+    "Baseline": 4.8
+  },
+  "RC424": {
+    "Baseline": 4.8
+  },
+  "RC425": {
+    "Baseline": 4.8
+  },
+  "RC426": {
+    "Baseline": 4.81
+  },
+  "RC427": {
+    "Baseline": 4.81
+  },
+  "RC428": {
+    "Baseline": 4.81
+  },
+  "RC429": {
+    "Baseline": 4.81
+  },
+  "RC430": {
+    "Baseline": 4.82
+  },
+  "RC431": {
+    "Baseline": 4.82
+  },
+  "RC432": {
+    "Baseline": 4.82
+  },
+  "RC433": {
+    "Baseline": 4.82
+  },
+  "RC434": {
+    "Baseline": 4.83
+  },
+  "RC435": {
+    "Baseline": 4.83
+  },
+  "RC436": {
+    "Baseline": 4.83
+  },
+  "RC437": {
+    "Baseline": 4.83
+  },
+  "RC438": {
+    "Baseline": 4.84
+  },
+  "RC439": {
+    "Baseline": 4.84
+  },
+  "RC440": {
+    "Baseline": 4.84
+  },
+  "RC441": {
+    "Baseline": 4.84
+  },
+  "RC442": {
+    "Baseline": 4.85
+  },
+  "RC443": {
+    "Baseline": 4.85
+  },
+  "RC444": {
+    "Baseline": 4.86
+  },
+  "RC445": {
+    "Baseline": 4.86
+  },
+  "RC446": {
+    "Baseline": 4.87
+  },
+  "RC447": {
+    "Baseline": 4.87
+  },
+  "RC448": {
+    "Baseline": 4.88
+  },
+  "RC449": {
+    "Baseline": 4.88
+  },
+  "RC450": {
+    "Baseline": 4.89
+  },
+  "RC451": {
+    "Baseline": 4.89
+  },
+  "RC452": {
+    "Baseline": 4.89
+  },
+  "RC453": {
+    "Baseline": 4.9
+  },
+  "RC454": {
+    "Baseline": 4.9
+  },
+  "RC455": {
+    "Baseline": 4.91
+  },
+  "RC456": {
+    "Baseline": 4.91
+  },
+  "RC457": {
+    "Baseline": 4.92
+  },
+  "RC458": {
+    "Baseline": 4.92
+  },
+  "RC459": {
+    "Baseline": 4.93
+  },
+  "RC460": {
+    "Baseline": 4.93
+  },
+  "RC461": {
+    "Baseline": 4.94
+  },
+  "RC462": {
+    "Baseline": 4.94
+  },
+  "RC463": {
+    "Baseline": 4.95
+  },
+  "RC464": {
+    "Baseline": 4.95
+  },
+  "RC465": {
+    "Baseline": 4.96
+  },
+  "RC466": {
+    "Baseline": 4.96
+  },
+  "RC467": {
+    "Baseline": 4.97
+  },
+  "RC468": {
+    "Baseline": 4.97
+  },
+  "RC469": {
+    "Baseline": 4.98
+  },
+  "RC470": {
+    "Baseline": 4.99
+  },
+  "RC471": {
+    "Baseline": 4.99
+  },
+  "RC472": {
+    "Baseline": 5
+  },
+  "RC473": {
+    "Baseline": 5
+  },
+  "RC474": {
+    "Baseline": 5.01
+  },
+  "RC475": {
+    "Baseline": 5.01
+  },
+  "RC476": {
+    "Baseline": 5.02
+  },
+  "RC477": {
+    "Baseline": 5.02
+  },
+  "RC478": {
+    "Baseline": 5.03
+  },
+  "RC479": {
+    "Baseline": 5.03
+  },
+  "RC480": {
+    "Baseline": 5.04
+  },
+  "RC481": {
+    "Baseline": 5.05
+  },
+  "RC482": {
+    "Baseline": 5.05
+  },
+  "RC483": {
+    "Baseline": 5.06
+  },
+  "RC484": {
+    "Baseline": 5.07
+  },
+  "RC485": {
+    "Baseline": 5.07
+  },
+  "RC486": {
+    "Baseline": 5.08
+  },
+  "RC487": {
+    "Baseline": 5.09
+  },
+  "RC488": {
+    "Baseline": 5.09
+  },
+  "RC489": {
+    "Baseline": 5.1
+  },
+  "RC490": {
+    "Baseline": 5.11
+  },
+  "RC491": {
+    "Baseline": 5.11
+  },
+  "RC492": {
+    "Baseline": 5.12
+  },
+  "RC493": {
+    "Baseline": 5.12
+  },
+  "RC494": {
+    "Baseline": 5.13
+  },
+  "RC495": {
+    "Baseline": 5.14
+  },
+  "RC496": {
+    "Baseline": 5.14
+  },
+  "RC497": {
+    "Baseline": 5.15
+  },
+  "RC498": {
+    "Baseline": 5.16
+  },
+  "RC499": {
+    "Baseline": 5.16
+  },
+  "RC500": {
+    "Baseline": 5.17
+  },
+  "RC501": {
+    "Baseline": 5.18
+  },
+  "RC502": {
+    "Baseline": 5.18
+  },
+  "RC503": {
+    "Baseline": 5.19
+  },
+  "RC504": {
+    "Baseline": 5.2
+  },
+  "RC505": {
+    "Baseline": 5.2
+  },
+  "RC506": {
+    "Baseline": 5.21
+  },
+  "RC507": {
+    "Baseline": 5.22
+  },
+  "RC508": {
+    "Baseline": 5.22
+  },
+  "RC509": {
+    "Baseline": 5.23
+  },
+  "RC510": {
+    "Baseline": 5.24
+  },
+  "RC511": {
+    "Baseline": 5.24
+  },
+  "RC512": {
+    "Baseline": 5.25
+  },
+  "RC513": {
+    "Baseline": 5.25
+  },
+  "RC514": {
+    "Baseline": 5.26
+  },
+  "RC515": {
+    "Baseline": 5.27
+  },
+  "RC516": {
+    "Baseline": 5.27
+  },
+  "RC517": {
+    "Baseline": 5.28
+  },
+  "RC518": {
+    "Baseline": 5.29
+  },
+  "RC519": {
+    "Baseline": 5.29
+  },
+  "RC520": {
+    "Baseline": 5.3
+  },
+  "RC521": {
+    "Baseline": 5.31
+  },
+  "RC522": {
+    "Baseline": 5.31
+  },
+  "RC523": {
+    "Baseline": 5.32
+  },
+  "RC524": {
+    "Baseline": 5.32
+  },
+  "RC525": {
+    "Baseline": 5.33
+  },
+  "RC526": {
+    "Baseline": 5.34
+  },
+  "RC527": {
+    "Baseline": 5.34
+  },
+  "RC528": {
+    "Baseline": 5.35
+  },
+  "RC529": {
+    "Baseline": 5.35
+  },
+  "RC530": {
+    "Baseline": 5.36
+  },
+  "RC531": {
+    "Baseline": 5.37
+  },
+  "RC532": {
+    "Baseline": 5.37
+  },
+  "RC533": {
+    "Baseline": 5.38
+  },
+  "RC534": {
+    "Baseline": 5.38
+  },
+  "RC535": {
+    "Baseline": 5.39
+  },
+  "RC536": {
+    "Baseline": 5.4
+  },
+  "RC537": {
+    "Baseline": 5.4
+  },
+  "RC538": {
+    "Baseline": 5.41
+  },
+  "RC539": {
+    "Baseline": 5.41
+  },
+  "RC540": {
+    "Baseline": 5.42
+  },
+  "RC541": {
+    "Baseline": 5.42
+  },
+  "RC542": {
+    "Baseline": 5.43
+  },
+  "RC543": {
+    "Baseline": 5.43
+  },
+  "RC544": {
+    "Baseline": 5.44
+  },
+  "RC545": {
+    "Baseline": 5.44
+  },
+  "RC546": {
+    "Baseline": 5.44
+  },
+  "RC547": {
+    "Baseline": 5.45
+  },
+  "RC548": {
+    "Baseline": 5.45
+  },
+  "RC549": {
+    "Baseline": 5.46
+  },
+  "RC550": {
+    "Baseline": 5.46
+  },
+  "RC551": {
+    "Baseline": 5.46
+  },
+  "RC552": {
+    "Baseline": 5.47
+  },
+  "RC553": {
+    "Baseline": 5.47
+  },
+  "RC554": {
+    "Baseline": 5.48
+  },
+  "RC555": {
+    "Baseline": 5.48
+  },
+  "RC556": {
+    "Baseline": 5.48
+  },
+  "RC557": {
+    "Baseline": 5.49
+  },
+  "RC558": {
+    "Baseline": 5.49
+  },
+  "RC559": {
+    "Baseline": 5.5
+  },
+  "RC560": {
+    "Baseline": 5.5
+  },
+  "RC561": {
+    "Baseline": 5.5
+  },
+  "RC562": {
+    "Baseline": 5.51
+  },
+  "RC563": {
+    "Baseline": 5.51
+  },
+  "RC564": {
+    "Baseline": 5.51
+  },
+  "RC565": {
+    "Baseline": 5.51
+  },
+  "RC566": {
+    "Baseline": 5.52
+  },
+  "RC567": {
+    "Baseline": 5.52
+  },
+  "RC568": {
+    "Baseline": 5.52
+  },
+  "RC569": {
+    "Baseline": 5.52
+  },
+  "RC570": {
+    "Baseline": 5.53
+  },
+  "RC571": {
+    "Baseline": 5.53
+  },
+  "RC572": {
+    "Baseline": 5.53
+  },
+  "RC573": {
+    "Baseline": 5.53
+  },
+  "RC574": {
+    "Baseline": 5.54
+  },
+  "RC575": {
+    "Baseline": 5.54
+  },
+  "RC576": {
+    "Baseline": 5.54
+  },
+  "RC577": {
+    "Baseline": 5.54
+  },
+  "RC578": {
+    "Baseline": 5.55
+  },
+  "RC579": {
+    "Baseline": 5.55
+  },
+  "RC580": {
+    "Baseline": 5.55
+  },
+  "RC581": {
+    "Baseline": 5.55
+  },
+  "RC582": {
+    "Baseline": 5.55
+  },
+  "RC583": {
+    "Baseline": 5.55
+  },
+  "RC584": {
+    "Baseline": 5.56
+  },
+  "RC585": {
+    "Baseline": 5.56
+  },
+  "RC586": {
+    "Baseline": 5.56
+  },
+  "RC587": {
+    "Baseline": 5.56
+  },
+  "RC588": {
+    "Baseline": 5.56
+  },
+  "RC589": {
+    "Baseline": 5.56
+  },
+  "RC590": {
+    "Baseline": 5.57
+  },
+  "RC591": {
+    "Baseline": 5.57
+  },
+  "RC592": {
+    "Baseline": 5.57
+  },
+  "RC593": {
+    "Baseline": 5.57
+  },
+  "RC594": {
+    "Baseline": 5.57
+  },
+  "RC595": {
+    "Baseline": 5.57
+  },
+  "RC596": {
+    "Baseline": 5.57
+  },
+  "RC597": {
+    "Baseline": 5.58
+  },
+  "RC598": {
+    "Baseline": 5.58
+  },
+  "RC599": {
+    "Baseline": 5.58
+  },
+  "RC600": {
+    "Baseline": 5.58
+  },
+  "G1": {
+    "Baseline": 1.01
+  },
+  "G2": {
+    "Baseline": 1.01
+  },
+  "G3": {
+    "Baseline": 1.04
+  },
+  "G4": {
+    "Baseline": 1.13
+  },
+  "G5": {
+    "Baseline": 1.23
+  },
+  "G6": {
+    "Baseline": 1.34
+  },
+  "G7": {
+    "Baseline": 1.42
+  },
+  "G8": {
+    "Baseline": 1.5
+  },
+  "G9": {
+    "Baseline": 1.56
+  },
+  "G10": {
+    "Baseline": 1.61
+  },
+  "G11": {
+    "Baseline": 1.64
+  },
+  "G12": {
+    "Baseline": 1.68
+  },
+  "G13": {
+    "Baseline": 1.71
+  },
+  "G14": {
+    "Baseline": 1.75
+  },
+  "G15": {
+    "Baseline": 1.78
+  },
+  "G16": {
+    "Baseline": 1.8
+  },
+  "G17": {
+    "Baseline": 1.83
+  },
+  "G18": {
+    "Baseline": 1.85
+  },
+  "G19": {
+    "Baseline": 1.87
+  },
+  "G20": {
+    "Baseline": 1.87
+  },
+  "G21": {
+    "Baseline": 1.88
+  },
+  "G22": {
+    "Baseline": 1.89
+  },
+  "G23": {
+    "Baseline": 1.91
+  },
+  "G24": {
+    "Baseline": 1.92
+  },
+  "G25": {
+    "Baseline": 1.93
+  },
+  "G26": {
+    "Baseline": 1.94
+  },
+  "G27": {
+    "Baseline": 1.95
+  },
+  "G28": {
+    "Baseline": 1.96
+  },
+  "G29": {
+    "Baseline": 1.97
+  },
+  "G30": {
+    "Baseline": 1.98
+  },
+  "G31": {
+    "Baseline": 1.99
+  },
+  "G32": {
+    "Baseline": 2
+  },
+  "G33": {
+    "Baseline": 2
+  },
+  "G34": {
+    "Baseline": 2.01
+  },
+  "G35": {
+    "Baseline": 2.02
+  },
+  "G36": {
+    "Baseline": 2.03
+  },
+  "G37": {
+    "Baseline": 2.04
+  },
+  "G38": {
+    "Baseline": 2.04
+  },
+  "G39": {
+    "Baseline": 2.05
+  },
+  "G40": {
+    "Baseline": 2.06
+  },
+  "G41": {
+    "Baseline": 2.07
+  },
+  "G42": {
+    "Baseline": 2.08
+  },
+  "G43": {
+    "Baseline": 2.08
+  },
+  "G44": {
+    "Baseline": 2.09
+  },
+  "G45": {
+    "Baseline": 2.1
+  },
+  "G46": {
+    "Baseline": 2.11
+  },
+  "G47": {
+    "Baseline": 2.12
+  },
+  "G48": {
+    "Baseline": 2.12
+  },
+  "G49": {
+    "Baseline": 2.13
+  },
+  "G50": {
+    "Baseline": 2.14
+  },
+  "G51": {
+    "Baseline": 2.15
+  },
+  "G52": {
+    "Baseline": 2.15
+  },
+  "G53": {
+    "Baseline": 2.16
+  },
+  "G54": {
+    "Baseline": 2.16
+  },
+  "G55": {
+    "Baseline": 2.17
+  },
+  "G56": {
+    "Baseline": 2.18
+  },
+  "G57": {
+    "Baseline": 2.19
+  },
+  "G58": {
+    "Baseline": 2.19
+  },
+  "G59": {
+    "Baseline": 2.2
+  },
+  "G60": {
+    "Baseline": 2.21
+  },
+  "G61": {
+    "Baseline": 2.22
+  },
+  "G62": {
+    "Baseline": 2.22
+  },
+  "G63": {
+    "Baseline": 2.23
+  },
+  "G64": {
+    "Baseline": 2.24
+  },
+  "G65": {
+    "Baseline": 2.25
+  },
+  "G66": {
+    "Baseline": 2.25
+  },
+  "G67": {
+    "Baseline": 2.26
+  },
+  "G68": {
+    "Baseline": 2.27
+  },
+  "G69": {
+    "Baseline": 2.27
+  },
+  "G70": {
+    "Baseline": 2.28
+  },
+  "G71": {
+    "Baseline": 2.29
+  },
+  "G72": {
+    "Baseline": 2.29
+  },
+  "G73": {
+    "Baseline": 2.3
+  },
+  "G74": {
+    "Baseline": 2.3
+  },
+  "G75": {
+    "Baseline": 2.31
+  },
+  "G76": {
+    "Baseline": 2.32
+  },
+  "G77": {
+    "Baseline": 2.32
+  },
+  "G78": {
+    "Baseline": 2.33
+  },
+  "G79": {
+    "Baseline": 2.33
+  },
+  "G80": {
+    "Baseline": 2.34
+  },
+  "G81": {
+    "Baseline": 2.35
+  },
+  "G82": {
+    "Baseline": 2.35
+  },
+  "G83": {
+    "Baseline": 2.36
+  },
+  "G84": {
+    "Baseline": 2.36
+  },
+  "G85": {
+    "Baseline": 2.37
+  },
+  "G86": {
+    "Baseline": 2.38
+  },
+  "G87": {
+    "Baseline": 2.38
+  },
+  "G88": {
+    "Baseline": 2.39
+  },
+  "G89": {
+    "Baseline": 2.39
+  },
+  "G90": {
+    "Baseline": 2.4
+  }
+}

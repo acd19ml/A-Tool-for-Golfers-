@@ -40,7 +40,7 @@
                 %th
                   %p{:id=>"distanceShow"}
                 %th
-                  data3
+                  %p{:id=>"baselineShow"}
         -# note
         .row
           .form-group.text-center
@@ -73,16 +73,14 @@
         %input{:type=> "radio", :id=> "Green", :onclick=>"box()",:name=>"terrain"}
         Fairway: 
         %input{:type=> "radio", :id=> "Fairway", :onclick=>"box()",:name=>"terrain"}
-        col: 
+        Select: 
         %input{:type=> "checkbox", :id=> "colCheck", :onclick=>"selectbox()",:name=>"terrain"}
-
-        %p{:id=>"toshow"}
-
+        %br
+        Shift+Click to delete point
+        %br
         %button{:type=>"button",:id=> "update",:onclick=>"updateCan()"}
           Save and Load canvas
-
-        %button{:type=>"button",:id=> "nextpoint",:onclick=>"nextpoint()"}
-          Select Next point
-        %button{:type=>"button",:id=> "deletepoint",:onclick=>"deletepoint()"} 
-          Delete selected point
         -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
+    .card
+      .card-body
+        %p{:id=>"SVGout"} #{@hole.map}
