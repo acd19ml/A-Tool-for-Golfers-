@@ -174,6 +174,7 @@ window.updateCan = function(){
   var fairways = []
   var greens = []
   //saves the svg to a string
+  removeselection()
   var save = draw.svg()
   document.getElementById("SVGout").innerText = save
   // save to database here and load after
