@@ -128,7 +128,7 @@ function alert(point,i){
   selectpoints[i] = draw.circle(10).draggable().attr({cx:point[0],cy:point[1]}).on("dragmove",function(event){
     // console.log(event.detail.event.clientX,event.detail.event.clientY)
     // console.log(fairways)
-    points[i] = [event.detail.event.clientX-offsetx,event.detail.event.clientY-offsety]
+    points[i] = [selectpoints[i].attr("cx"),selectpoints[i].attr("cy")]
     parent.plot(points)
   }).click(function(event){
     if (event.shiftKey){
