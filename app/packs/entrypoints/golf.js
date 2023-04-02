@@ -13,7 +13,6 @@ import data from './baseline.json'
 var Green = draw.polygon([]).fill('#49fc03')
 var fair = draw.polygon([]).fill("#46ad02")
 
-
 var Fairways = []
 var Greens = []
 
