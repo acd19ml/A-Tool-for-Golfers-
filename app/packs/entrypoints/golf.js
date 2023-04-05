@@ -213,6 +213,13 @@ window.updateCan = function(){
   //loads svg elements into correct variables
   display.clear()
   loadSvg(loadsvg,display)
+
+  //send data to controller(url) as variable 'map_data'
+  $.ajax({
+    url: "/holes/update_map",   //controller url
+    type: "POST",
+    data: { map_data: save },
+  });
 }
 
 function loadSvg(loadsvg,parent){
