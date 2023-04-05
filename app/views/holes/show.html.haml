@@ -20,6 +20,13 @@
           .display{:id => "display"}
   -# right container
   .col-lg-5
+    .card 
+      .card-body 
+        .row
+          .ms-auto.float-end
+            -# TODO:change path, e.g. edit_course_path(course)
+            = link_to 'edit', edit_course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
+            = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
         .h3.text-center
@@ -55,16 +62,6 @@
           .div
             %input{type: "checkbox"}
               View baselines?
-
-        -# button
-        .row
-          .ms-auto.float-end
-            -# TODO:change path, e.g. edit_course_path(course)
-            = link_to 'create', edit_course_path, class: 'btn btn-outline-primary ms-auto'
-            = link_to 'edit', edit_course_path, class: 'btn btn-outline-primary ms-auto'
-        .row
-        .card-footer.d-flex
-          = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
         %p{:id=>"SVGout"} #{$hole.map}
