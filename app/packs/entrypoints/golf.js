@@ -1,28 +1,31 @@
 import { SVG, extend as SVGextend, Element as SVGElement, A, Polygon } from '@svgdotjs/svg.js'
 import '@svgdotjs/svg.draggable.js'
-// import { forEach } from 'shakapacker/package/rules'
-// import '@svgdotjs/svg.draggable.js'
 
 //create the drawing canvas
 var draw = SVG().addTo("#create").size(500,500)
-
 draw.attr({name:"draw"})
+
+//imports baseline strokes data
 import data from './baseline.json'
 
 //creates different terrains
 var Green = draw.polygon([]).fill('#49fc03')
 var fair = draw.polygon([]).fill("#46ad02")
-
 var Fairways = []
 var Greens = []
+var hole = null
+var elements = 0
 
-let elements = loadSvg(SVG(document.getElementById("SVGout").innerText),draw)
+//loads svg from string
+elements = loadSvg(SVG(document.getElementById("SVGout").innerText),draw)
 
+//gets elements from svg
 Fairways = elements[0]
 Greens = elements[1]
-let hole = elements[2]
-console.log(Fairways)
-//reshapes and orders   svg elements
+hole = elements[2]
+
+
+//reshapes and orders svg elements
 Green.front()
 hole.front().draggable()
 hole.on("dragstart.namespace", removeselection)
@@ -32,47 +35,47 @@ fair.attr("name","Fairway")
 Green.attr("name","Green")
 hole.attr("name","hole")
 
+
+//setup deafult canvas
 function setupCanvas(){
   fair = draw.polygon([]).fill("#46ad02").attr("name","Fairway").click(addSelection)
   Green = draw.polygon([]).fill('#49fc03').attr("name","Green").click(addSelection)
-  hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250})
+  hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
 }
 
+//resets canvas to deafult
 window.cleardraw = function(){
   let children = draw.children()
   children.forEach(function(child){
-    console.log(child)
     child.remove()
   }
   )
   setupCanvas()
 }
-//lists of points that comprise a terrain object
 
 //state variables to be changed by buttons
 let terrain = 2
-let col = 0
+let select = 0
 
 //offset variables to make sure clicks register where mouse clicks
 document.addEventListener("scroll",updateOffset)
-let offsetx = document.getElementById("create").getBoundingClientRect().left + 11
+let offsetx = document.getElementById("create").getBoundingClientRect().left 
 let offsety = document.getElementById("create").getBoundingClientRect().top
-let offsetxc = document.getElementById("display").getBoundingClientRect().left +11
+let offsetxc = document.getElementById("display").getBoundingClientRect().left 
 let offsetyc = document.getElementById("display").getBoundingClientRect().top
 function updateOffset(){
-  offsetx = document.getElementById("create").getBoundingClientRect().left + 11
+  offsetx = document.getElementById("create").getBoundingClientRect().left 
   offsety = document.getElementById("create").getBoundingClientRect().top
-  offsetxc = document.getElementById("display").getBoundingClientRect().left +11
+  offsetxc = document.getElementById("display").getBoundingClientRect().left 
   offsetyc = document.getElementById("display").getBoundingClientRect().top
 }
 updateOffset()
 
 //mouse eventlisners
 function printMousePos(event) {
-  if (col == 0){
+  if (select == 0){
     if (document.querySelector("#create").contains(event.target)){
     let point = [event.clientX-offsetx,event.clientY-offsety]
-    console.log(point)
     if (terrain == 0){
       points = Green.array()
       points.push(point)
@@ -89,6 +92,7 @@ function printMousePos(event) {
   }
 }
 
+//BUTTONS
 
 //updates terrain state variable according to button selection
 document.addEventListener("click", printMousePos);
@@ -107,17 +111,22 @@ window.box = function() {
     terrain = 2;
   }
 }
-//toggle between select and draw -depreciated
+//toggle between select and draw
 window.selectbox = function() {
   // Get the checkbox
-  var checkBox = document.getElementById("colCheck");
+  var checkBox = document.getElementById("selectCheck");
   if (checkBox.checked == true){
-    col = 1
+    select = 1
   } else{
     removeselection()
-    col = 0
+    select = 0
   }
 }
+
+
+//EDITING
+
+//selectionpoints to edit terrain objects
 var selectpoints = []
 var points = []
 Fairways.forEach(function(Fairway){
@@ -129,15 +138,16 @@ Greens.forEach(function(Green){
 fair.click(addSelection)
 Green.click(addSelection)
 function addSelection(event){
-  if (col == 1){
+  if (select == 1){
   removeselection()
   this.stroke({color:"#000", width: 1 })
   parent = this
   points = this.array()
-  points.forEach(alert)
+  points.forEach(makeSelection)
   }
 }
 
+//remove selection points
 function removeselection(){
   Fairways.forEach(function(Fairway){
     Fairway.stroke({width: 0})
@@ -152,7 +162,8 @@ function removeselection(){
   fair.stroke({width: 0})
 }
 
-function alert(point,i){
+//makes selection points and allows editing of elements
+function makeSelection(point,i){
   selectpoints[i] = draw.circle(10).draggable().attr({cx:point[0],cy:point[1]}).on("dragmove",function(event){
     points[i] = [selectpoints[i].attr("cx"),selectpoints[i].attr("cy")]
     parent.plot(points)
@@ -168,17 +179,6 @@ function alert(point,i){
   })
 
 }
-
-// window.getCol = function(){
-//   var checkBox = document.getElementById("Green");
-//   if (checkBox.checked == true){
-//     col = 1;
-//   } 
-//   var checkBox = document.getElementById("Fairway");
-//   if (checkBox.checked == true){
-//     col = 0;
-//   } 
-// }
 
 //distance variable
 let distance = 0
@@ -206,9 +206,6 @@ window.updateCan = function(){
   let loadsvg = SVG(document.getElementById("SVGout").innerText)
 
 
-  // console.log(savesvg)
-  // console.log(savesvg.get(0).attr("points"))
-
 
   //loads svg elements into correct variables
   display.clear()
@@ -218,7 +215,6 @@ window.updateCan = function(){
 function loadSvg(loadsvg,parent){
   let Fairways = []
   let Greens = []
-  console.log(loadsvg)
   loadsvg.each(function(){
     let name = this.attr("name")
     if (name == "Fairway"){
@@ -241,7 +237,7 @@ function loadSvg(loadsvg,parent){
     if (name == "hole"){
       holec = parent.circle(10).attr({cx: -10,cy: -10})
       let n = this.attr(["cx","cy"])
-      holec.attr(n)
+      holec.attr(n).fill("#ff1100")
     }
   } 
   )
@@ -273,8 +269,8 @@ function setupCalculations(parent){
     shotpointc.show()
     shotlinec.show()
   })
-  holec.front()
   shotlinec.front()
+  holec.front()
   shotpointc.front()
 }
 function addListn(item,parent){
