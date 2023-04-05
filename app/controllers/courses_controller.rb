@@ -1,7 +1,7 @@
 class CoursesController < ApplicationController
 
   def index
-    @courses = Course.all.includes(:holes)
+    $courses = Course.all.includes(:holes)
   end
 
   def show
@@ -12,14 +12,14 @@ class CoursesController < ApplicationController
 
   # GET /products/new
   def new
-    @course = Course.new
+    $course = Course.new
   end
 
   # POST /courses
   def create
-    @course = Course.new(course_params)
+    $course = Course.new(course_params)
 
-    if @course.save
+    if $course.save
       redirect_to courses_path, notice: "Course was successfuly created"
     else
       render :new, status: :unprocessable_entity
