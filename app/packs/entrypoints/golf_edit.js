@@ -187,16 +187,11 @@ let distance = 0
 //create lists of course elements
 
 //save and load hole function
-window.updateCan = function(){
+window.saveMap = function(){
   //saves the svg to a string
   removeselection()
   var save = draw.svg()
   document.getElementById("SVGout").innerText = save
-  // save to database here and load after
-  //
-  // loads the svg from string
-
-  //loads svg elements into correct variables
 
   //send data to controller(url) as variable 'map_data'
   $.ajax({

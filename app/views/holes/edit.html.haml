@@ -10,7 +10,7 @@
         %dl.row.mb-0
           %dt.col-md-3 Hole:
           %dd.col-md-9= "Hole #{$hole.id}"
-          %dt.col-md-3 map:
+          %dt.col-md-3 Course:
           %dd.col-md-9= "#{$course.id}"
           .create{:id => "create"}
   -# right container
@@ -41,7 +41,7 @@
         %br
         Shift+Click to delete point
         %br
-        %button{:type=>"button",:id=> "update",:onclick=>"updateCan()"}
+        %button{:type=>"button",:id=> "update",:onclick=>"saveMap()"}
           Save and Load canvas
         %button{:type=>"button",:id=> "cleardraw",:onclick=>"cleardraw()"}
           Clear canvas
