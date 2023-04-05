@@ -1,20 +1,24 @@
+-# :javascript
+-#   if (document.querySelectorAll(".show")) {
+-#     console.log("yes")
+-#     import("./golf_show") // webpack will load this JS async
+-#   }
 .row.justify-content-center
   -# left container
   .col-lg-7
     .card
       .card-body
         .h3.text-center
-          Course Info
+          Hole Viewer
 
         -# info
         %dl.row.mb-0
           %dt.col-md-3 CID:
-          %dd.col-md-9= @course.id
+          %dd.col-md-9= $course.id
           %dt.col-md-3 Name:
-          %dd.col-md-9= @course.name
+          %dd.col-md-9= $course.name
           %dt.col-md-3 Hole:
-          %dd.col-md-9= "Hole #{@hole.id}"
-          .create{:id => "create"}
+          %dd.col-md-9= "Hole #{$hole.id}"
           .display{:id => "display"}
   -# right container
   .col-lg-5
@@ -46,7 +50,7 @@
           .form-group.text-center
             %label
               Note:
-            %textarea.form-control{:rows => "5"}= @hole.note
+            %textarea.form-control{:rows => "5"}= $hole.note
 
         -# checkbox
         .row.text-center.fw-bold
@@ -62,27 +66,7 @@
             = link_to 'edit', edit_course_path, class: 'btn btn-outline-primary ms-auto'
         .row
         .card-footer.d-flex
-          = link_to 'Back', courses_path, class: 'btn btn-outline-secondary ms-auto'
-    .card 
-      .card-body
-        .h3.text-center
-          Tools
-        Hole: 
-        %input{:type=> "radio", :id=> "Hole", :onclick=>"box()",:name=>"terrain",:checked=>"checked"}
-        Green: 
-        %input{:type=> "radio", :id=> "Green", :onclick=>"box()",:name=>"terrain"}
-        Fairway: 
-        %input{:type=> "radio", :id=> "Fairway", :onclick=>"box()",:name=>"terrain"}
-        Select: 
-        %input{:type=> "checkbox", :id=> "selectCheck", :onclick=>"selectbox()",:name=>"terrain"}
-        %br
-        Shift+Click to delete point
-        %br
-        %button{:type=>"button",:id=> "update",:onclick=>"updateCan()"}
-          Save and Load canvas
-        %button{:type=>"button",:id=> "cleardraw",:onclick=>"cleardraw()"}
-          Clear canvas
-        -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
+          = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
-        %p{:id=>"SVGout"} #{@hole.map}
+        %p{:id=>"SVGout"} #{$hole.map}
