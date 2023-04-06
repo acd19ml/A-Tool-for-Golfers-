@@ -33,8 +33,14 @@
         %input{:type=> "radio", :id=> "Green", :onclick=>"box(),addButton()",:name=>"terrain"}
         Fairway: 
         %input{:type=> "radio", :id=> "Fairway", :onclick=>"box(),addButton()",:name=>"terrain"}
+
+        %br
+        Draw:
+        %input{:type=> "radio",:id=> "drawCheck",:onclick=>"toolBox()",:name=>"tool"}
         Select: 
-        %input{:type=> "checkbox", :id=> "selectCheck", :onclick=>"selectbox()",:name=>"terrain"}
+        %input{:type=> "radio", :id=> "selectCheck", :onclick=>"toolBox()",:name=>"tool",:checked=>"checked"}
+        Delete: 
+        %input{:type=> "radio", :id=> "deleteCheck", :onclick=>"toolBox()",:name=>"tool"}
         %br
         Shift+Click to delete point
         %br
