@@ -30,9 +30,9 @@
         Hole: 
         %input{:type=> "radio", :id=> "Hole", :onclick=>"box()",:name=>"terrain",:checked=>"checked"}
         Green: 
-        %input{:type=> "radio", :id=> "Green", :onclick=>"box()",:name=>"terrain"}
+        %input{:type=> "radio", :id=> "Green", :onclick=>"box(),addButton()",:name=>"terrain"}
         Fairway: 
-        %input{:type=> "radio", :id=> "Fairway", :onclick=>"box()",:name=>"terrain"}
+        %input{:type=> "radio", :id=> "Fairway", :onclick=>"box(),addButton()",:name=>"terrain"}
         Select: 
         %input{:type=> "checkbox", :id=> "selectCheck", :onclick=>"selectbox()",:name=>"terrain"}
         %br
@@ -42,6 +42,8 @@
           Save Map
         %button{:type=>"button",:id=> "cleardraw",:onclick=>"cleardraw()"}
           Clear Map
+        %button{:type=>"button",:id=> "addButton",:onclick=>"addButton()"}
+          new object
         -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
     .card
       .card-body

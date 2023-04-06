@@ -12,8 +12,8 @@ var draw = SVG().addTo("#create").size(500,500)
 draw.attr({name:"draw"})
 
 //creates different terrains
-var Green = draw.polygon([]).fill('#49fc03')
-var fair = draw.polygon([]).fill("#46ad02")
+var Green = null
+var fair = null
 var Fairways = []
 var Greens = []
 var hole = null
@@ -29,22 +29,11 @@ hole = elements[2]
 
 
 //reshapes and orders svg elements
-Green.front()
 hole.front().draggable()
 hole.on("dragstart.namespace", removeselection)
 
 //adds attributes to each shape
-fair.attr("name","Fairway")
-Green.attr("name","Green")
 hole.attr("name","hole")
-
-
-//setup deafult canvas
-function setupCanvas(){
-  fair = draw.polygon([]).fill("#46ad02").attr("name","Fairway").click(addSelection)
-  Green = draw.polygon([]).fill('#49fc03').attr("name","Green").click(addSelection)
-  hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
-}
 
 //resets canvas to deafult
 window.cleardraw = function(){
@@ -53,7 +42,9 @@ window.cleardraw = function(){
     child.remove()
   }
   )
-  setupCanvas()
+  Fairways = []
+  Greens = []
+  hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
 }
 
 //state variables to be changed by buttons
@@ -70,25 +61,51 @@ function updateOffset(){
 }
 updateOffset()
 
+var newIndex = Greens.length
 //mouse eventlisners
 function printMousePos(event) {
   if (select == 0){
     if (document.querySelector("#create").contains(event.target)){
     let point = [event.clientX-offsetx,event.clientY-offsety]
     if (terrain == 0){
-      points = Green.array()
-      points.push(point)
-      Green.plot(points)
+      newObject(Greens,point,"Green",'#49fc03') 
     } else if (terrain == 1){
-      points = fair.array()
-      points.push(point)
-      fair.plot(points)
+      newObject(Fairways,point,"Fairway",'#46ad02') 
     } 
     else if (terrain == 2){
       hole.attr({cx:point[0],cy:point[1]})
     }
     }
   }
+
+}
+function orderElements(){
+  hole.back()
+  if (Greens.length != null){Greens.forEach(function(E){
+    E.back()
+  })}
+  if (Fairways.length != null){Fairways.forEach(function(E){
+    E.back()
+  })}
+}
+function newObject(terrain,point,name,fill){
+  let n = 0
+  // points = Green.array()
+  // points.push(point)
+  // Green.plot(points)
+  if (terrain[newIndex] == undefined){
+    points = [point]
+    n = draw.polygon(points).click(addSelection)
+    n.attr({name:name})
+    n.fill(fill)
+  } else {
+    n = terrain[newIndex]
+    points = terrain[newIndex].array()
+    points.push(point)
+    terrain[newIndex].plot(points)
+  }
+  terrain[newIndex] = n
+  orderElements()
 }
 
 //BUTTONS
@@ -121,6 +138,15 @@ window.selectbox = function() {
     select = 0
   }
 }
+window.addButton = function() {
+  newIndex = 0
+  if (terrain == 0){
+    newIndex = Greens.length
+  }
+  if (terrain == 1){
+    newIndex = Fairways.length
+  }
+}
 
 
 //EDITING
@@ -134,11 +160,13 @@ Fairways.forEach(function(Fairway){
 Greens.forEach(function(Green){
   Green.click(addSelection)
 })
-fair.click(addSelection)
-Green.click(addSelection)
 function addSelection(event){
   if (select == 1){
   removeselection()
+  while(this.attr('name') == this.next().attr('name')){
+    this.forward()
+  }
+  // orderElements()
   this.stroke({color:"#000", width: 1 })
   parent = this
   points = this.array()
@@ -148,18 +176,31 @@ function addSelection(event){
 
 //remove selection points
 function removeselection(){
-  Fairways.forEach(function(Fairway){
-    Fairway.stroke({width: 0})
+  Fairways.forEach(function(f){
+    f.stroke({width: 0})
   })
-  Greens.forEach(function(Green){
-    Green.stroke({width: 0})
+  Greens.forEach(function(g){
+    g.stroke({width: 0})
   })
   selectpoints.forEach(function remove(point){
     point.remove()
   })
-  Green.stroke({width: 0})
-  fair.stroke({width: 0})
+  Greens = Greens.filter(removeEmpty)
+  Fairways = Fairways.filter(removeEmpty)
+  console.log(draw)
+  orderElements()
 }
+
+function removeEmpty(v){
+  if(v.array().length < 3){
+    v.remove()
+    return false
+  } else {
+    return true
+  }
+}
+
+
 
 //makes selection points and allows editing of elements
 function makeSelection(point,i){
@@ -170,21 +211,12 @@ function makeSelection(point,i){
     if (event.shiftKey){
       points.splice(selectpoints.indexOf(this),1)
       this.hide()
-      // parent.click()
       removeselection()
-      // this.clear()
       parent.plot(points)
     }
   })
 
 }
-
-//distance variable
-let distance = 0
-
-//create display canvas
-
-//create lists of course elements
 
 //save and load hole function
 window.saveMap = function(){
