@@ -25,5 +25,27 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "associations" do
+    it { should have_many(:userinfos) }
+    it { should have_many(:annotations) }
+  end
+
+  describe "validations" do
+    it { should validate_presence_of(:email) }
+    it { should validate_uniqueness_of(:email).case_insensitive }
+    it { should validate_presence_of(:password) }
+    it { should validate_length_of(:password).is_at_least(8) }
+  end
+
+  describe "devise modules" do
+    it { should be_validatable }
+    it { should be_trackable }
+    it { should be_recoverable }
+    it { should be_rememberable }
+    it { should_not be_confirmable }
+    it { should_not be_lockable }
+    it { should_not be_timeoutable }
+    it { should_not be_omniauthable }
+  end
 end
+
