@@ -101,4 +101,3 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
   add_foreign_key "holes", "courses"
   add_foreign_key "userinfos", "users"
 end
-
