@@ -10,20 +10,26 @@ class CoursesController < ApplicationController
   def edit
   end
 
-  # GET /products/new
+  # GET /courses/new
   def new
     @course = Course.new
   end
 
   # POST /courses
   def create
-    @course = Course.new(course_params)
+    @course = Course.new(course)
 
     if @course.save
       redirect_to courses_path, notice: "Course was successfuly created"
     else
       render :new, status: :unprocessable_entity
     end
+  end
+
+  # DELETE /courses/1
+  def destroy
+    @course.destroy
+    redirect_to courses_url, notice: "Product was successfully destroyed."
   end
 
 

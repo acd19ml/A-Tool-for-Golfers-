@@ -12,15 +12,32 @@ class HolesController < ApplicationController
       # TODO:
     end
   
-    private
-        
-      def set_hole
-        @hole = Hole.find(params[:id])
-        @course = @hole.course
-      end
-  
-      def hole
-        params.require(:hole).permit(:holeNumber, :map, :note, :course_id)
-      end
-  
+  # GET /holes/new
+  def new
+    @hole = Hole.new
+  end
+
+  # POST /holes
+  def create
+    @hole = Hole.new(hole)
+
+    if @hole.save
+      redirect_to holes_path, notice: "Hole was successfuly created"
+    else
+      render :new, status: :unprocessable_entity
     end
+  end
+
+  private
+      
+    def set_hole
+      @hole = Hole.find(params[:id])
+      @course = @hole.course
+    end
+
+    def hole
+      params.require(:hole).permit(:holeNumber, :map, :note, :course_id)
+    end
+
+  end
+
