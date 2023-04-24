@@ -1,9 +1,12 @@
--# frozen_string_literal: true
-= simple_form_for(@hole) do |f|
-  .card-body
-    = f.input :name, wrapper_html: { class: 'mb-3' }
+= simple_form_for(@course) do |h|
+  = h.simple_fields_for :holes, @course.holes.build do |f|
+    .card-body 
+      = f.input :holeNumber, wrapper_html: { class: 'mb-3' }
+      = f.input :map, wrapper_html: { class: 'mb-3' }
+      = f.input :note, wrapper_html: { class: 'mb-3' }
+      = f.input :course_id, wrapper_html: { class: 'mb-3' }
 
   .card-footer.d-flex
     %button.btn.btn-primary{ type: 'submit' }
       Save
-    = link_to 'Back', course_holes_path(@course, hole), class: 'btn btn-link ms-auto'
+    = link_to 'Back', course_holes_path, class: 'btn btn-link ms-auto'

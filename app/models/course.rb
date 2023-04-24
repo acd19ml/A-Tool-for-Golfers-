@@ -9,5 +9,7 @@
 #  updated_at :datetime         not null
 #
 class Course < ApplicationRecord
-    has_many :holes
+    # deleting all holes associated if a course is destroyed
+    has_many :holes, dependent: :destroy
+    accepts_nested_attributes_for :holes, allow_destroy: true, reject_if: proc { |att| att['holeNumber'].blank? } 
 end

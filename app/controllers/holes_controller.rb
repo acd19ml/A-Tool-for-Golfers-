@@ -1,32 +1,53 @@
 class HolesController < ApplicationController
-    before_action :set_hole, only: %i[ show ]
-    def index
-        @course = Course.find(params[:course_id])
-        @holes = @course.holes
-    end
-  
-    def show
-    end
-  
-    def edit
-      # TODO:
-    end
+  before_action :set_hole, only: %i[ show ]
+  def index
+      @course = Course.find(params[:course_id])
+      @holes = @course.holes
+  end
+
+  def show
+  end
+
+  def edit
+    # TODO:
+  end
   
   # GET /holes/new
   def new
+    @course = Course.find(params[:course_id])
     @hole = Hole.new
   end
 
   # POST /holes
   def create
-    @hole = Hole.new(hole)
+    @hole = Hole.new(hole_params)
+    @course = @hole.course
 
     if @hole.save
-      redirect_to holes_path, notice: "Hole was successfuly created"
+      redirect_to course_holes_path(@course), notice: "Hole was successfuly created"
     else
-      render :new, status: :unprocessable_entity
+      render :new
     end
   end
+
+  def updated
+    if @hole.update(hole_params)
+      redirect_to course_holes_path, notice: "Hole was successfully updated."
+    else
+      render :edit, status: :unprocessable_entity
+    end
+  end
+
+
+  def destroy
+    @course = Course.find(params[:id])
+    @hole = Hole.find(params[:id])
+    if @hole.present?
+      @hole.destroy
+    end
+    redirect_to course_holes_path(@course), notice: "Hole was successfully destroyed."
+  end
+
 
   private
       
@@ -35,7 +56,7 @@ class HolesController < ApplicationController
       @course = @hole.course
     end
 
-    def hole
+    def hole_params
       params.require(:hole).permit(:holeNumber, :map, :note, :course_id)
     end
 
