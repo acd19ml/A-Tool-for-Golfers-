@@ -19,4 +19,3 @@ Course.create(name:"course 1")
 
 Hole.create(holeNumber:'1', map:'num1cid1', note:'This is course 1 hole 1 note.', course_id:'1')
 Hole.create(holeNumber:'2', map:'hnum2cid1', note:'This is course 1 hole 2 note.', course_id:'1')
-Hole.create(holeNumber:'1', map:'num1cid2', note:'This is course 2 hole 1 note.', course_id:'2')
