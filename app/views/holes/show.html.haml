@@ -1,23 +1,32 @@
+-# :javascript
+-#   if (document.querySelectorAll(".show")) {
+-#     console.log("yes")
+-#     import("./golf_show") // webpack will load this JS async
+-#   }
 .row.justify-content-center
   -# left container
   .col-lg-7
     .card
       .card-body
         .h3.text-center
-          Course Info
+          Hole Viewer
 
         -# info
         %dl.row.mb-0
-          %dt.col-md-3 CID:
-          %dd.col-md-9= @course.id
-          %dt.col-md-3 Name:
-          %dd.col-md-9= @course.name
           %dt.col-md-3 Hole:
-          %dd.col-md-9= "Hole #{@hole.id}"
-          .create{:id => "create"}
+          %dd.col-md-9= "Hole #{$hole.id}"
+          %dt.col-md-3 Course:
+          %dd.col-md-9= $course.name
           .display{:id => "display"}
   -# right container
   .col-lg-5
+    .card 
+      .card-body 
+        .row
+          .ms-auto.float-end
+            -# TODO:change path, e.g. edit_course_path(course)
+            = link_to 'edit', edit_course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
+            = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
         .h3.text-center
@@ -40,49 +49,19 @@
                 %th
                   %p{:id=>"distanceShow"}
                 %th
-                  data3
+                  %p{:id=>"baselineShow"}
         -# note
         .row
           .form-group.text-center
             %label
               Note:
-            %textarea.form-control{:rows => "5"}= @hole.note
+            %textarea.form-control{:rows => "5"}= $hole.note
 
         -# checkbox
         .row.text-center.fw-bold
           .div
             %input{type: "checkbox"}
               View baselines?
-
-        -# button
-        .row
-          .ms-auto.float-end
-            -# TODO:change path, e.g. edit_course_path(course)
-            = link_to 'create', edit_course_path, class: 'btn btn-outline-primary ms-auto'
-            = link_to 'edit', edit_course_path, class: 'btn btn-outline-primary ms-auto'
-        .row
-        .card-footer.d-flex
-          = link_to 'Back', courses_path, class: 'btn btn-outline-secondary ms-auto'
-    .card 
+    .card
       .card-body
-        .h3.text-center
-          Tools
-        Hole: 
-        %input{:type=> "radio", :id=> "Hole", :onclick=>"box()",:name=>"terrain",:checked=>"checked"}
-        Green: 
-        %input{:type=> "radio", :id=> "Green", :onclick=>"box()",:name=>"terrain"}
-        Fairway: 
-        %input{:type=> "radio", :id=> "Fairway", :onclick=>"box()",:name=>"terrain"}
-        col: 
-        %input{:type=> "checkbox", :id=> "colCheck", :onclick=>"selectbox()",:name=>"terrain"}
-
-        %p{:id=>"toshow"}
-
-        %button{:type=>"button",:id=> "update",:onclick=>"updateCan()"}
-          Save and Load canvas
-
-        %button{:type=>"button",:id=> "nextpoint",:onclick=>"nextpoint()"}
-          Select Next point
-        %button{:type=>"button",:id=> "deletepoint",:onclick=>"deletepoint()"} 
-          Delete selected point
-        -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
+        %p{:id=>"SVGout"} #{$hole.map}

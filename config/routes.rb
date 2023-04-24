@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # resources :annotations
   resources :userinfos
   # resources :users
+  post '/holes/update_map', to: 'holes#update_map'
 end

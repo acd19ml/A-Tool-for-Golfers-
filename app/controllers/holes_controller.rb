@@ -12,6 +12,15 @@ class HolesController < ApplicationController
     # TODO:
   end
   
+  # update hole map
+  def update_map
+    # post
+    map_data = params[:map_data]
+    $hole.update(map: map_data)
+    # TODO: redirect not work with no error info
+    redirect_to course_holes_path($course)
+  end
+
   # GET /holes/new
   def new
     @course = Course.find(params[:course_id])
