@@ -59,7 +59,14 @@ function showPage(){
     let distanceOut = distance
     let baseline = "No Data"
     if (name!=null){
-      baseline = name[0]+distance
+      let baselinename = name[0]
+      if (name == "Bunker"){
+        baselinename = 'S'
+      } else if (name == 'Water'){
+        baselinename = 'RC'
+      }
+      baseline = baselinename+distance
+      
     }
     if (data[baseline]){
       baseline = data[baseline]["Baseline"]
@@ -76,6 +83,10 @@ function showPage(){
   function loadSvg(loadsvg,parent){
     let Fairways = []
     let Greens = []
+    let Bunkers = []
+    let Tees = []
+    let Waters = []
+    let Roughs = []
     loadsvg.each(function(){
       let name = this.attr("name")
       if (name == "Fairway"){
@@ -95,6 +106,42 @@ function showPage(){
           Greens.push(n)
         }
       }
+      if (name == "Bunker"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr("name","Bunker")
+          n.fill('#fbff1f')
+          addListn(n,parent)
+          Bunkers.push(n)
+        }
+      }
+      if (name == "Tee"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr("name","Tee")
+          n.fill('#074d11')
+          addListn(n,parent)
+          Tees.push(n)
+        }
+      }
+      if (name == "Water"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr("name","Water")
+          n.fill('#0799fa')
+          addListn(n,parent)
+          Waters.push(n)
+        }
+      }
+      if (name == "Rough"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr("name","Rough")
+          n.fill('#02700f')
+          addListn(n,parent)
+          Roughs.push(n)
+        }
+      }
       if (name == "hole"){
         holec = parent.circle(10).attr({cx: -10,cy: -10})
         let n = this.attr(["cx","cy"])
@@ -112,7 +159,7 @@ function showPage(){
     if(parent.attr("name") == "display"){
       setupCalculations(parent)
     }
-    return [Fairways,Greens,holec]
+    return [Fairways,Greens,Bunkers,Tees,Waters,Roughs,holec]
   }
 
   //gets offsetted mouseposition
