@@ -254,6 +254,16 @@ function editPage(){
 
   }
 
+  window.downloadMap = function downloadMap(hole,course) {
+    let blob = new Blob([draw.svg()]);
+    const element = document.createElement('a');
+    element.download = "GolfMap_hole"+hole+"_course"+course+".svg";
+    element.href = window.URL.createObjectURL(blob);
+    element.click();
+    element.remove();
+  }
+
+
   //
   //Saving SVG
   //

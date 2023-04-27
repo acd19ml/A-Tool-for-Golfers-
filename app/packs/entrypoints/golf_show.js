@@ -44,14 +44,14 @@ function showPage(){
     shotpointc.front()
   }
   function addListn(item,parent){
-    if(parent.attr("name") == "display"){
+    // if(parent.attr("name") == "display"){
       item.click(function(event){
         
         shotpointc.attr(mousePos(event))
         distance = Math.round(Math.sqrt(Math.pow((event.clientX-offsetxc-holec.attr("cx")),2)+Math.pow((event.clientY-offsetyc-holec.attr("cy")),2)))
         plotshotpoint(distance, item.attr("name"))
     
-    })}}
+      })}
 
   function plotshotpoint(distance,name){
     shotlinec.plot(shotpointc.attr("cx"),shotpointc.attr("cy"),holec.attr("cx"),holec.attr("cy"))
