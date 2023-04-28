@@ -25,6 +25,7 @@ function editPage(){
   Greens = elements[1]
   hole = elements[2]
 
+  //test
 
   //hole properties
   hole.front().draggable()
