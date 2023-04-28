@@ -15,10 +15,6 @@ function editPage(){
   //creates different terrains
   var Fairways = []
   var Greens = []
-  var Bunkers = []
-  var Tees = []
-  var Waters = []
-  var Roughs = []
   var hole = null
   var elements = 0
 
@@ -27,11 +23,7 @@ function editPage(){
   //gets elements from svg
   Fairways = elements[0]
   Greens = elements[1]
-  Bunkers = elements[2]
-  Tees = elements[3]
-  Waters = elements[4]
-  Roughs = elements[5]
-  hole = elements[6]
+  hole = elements[2]
 
 
   //hole properties
@@ -48,10 +40,6 @@ function editPage(){
     )
     Fairways = []
     Greens = []
-    Bunkers = []
-    Tees = []
-    Waters = []
-    Roughs - []
     hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
   }
 
@@ -87,15 +75,7 @@ function editPage(){
         newObject(Greens,point,"Green",'#49fc03') 
       } else if (terrain == 1){
         newObject(Fairways,point,"Fairway",'#46ad02') 
-      } else if (terrain == 3){
-        newObject(Bunkers,point,"Bunker",'#fbff1f') 
-      } else if (terrain == 4){
-        newObject(Tees,point,"Tee",'#074d11') 
-      } else if (terrain == 5){
-        newObject(Waters,point,"Water",'#0799fa') 
-      } else if (terrain == 6){
-        newObject(Roughs,point,"Rough",'#02700f') 
-      }
+      } 
       else if (terrain == 2 & select == 0 & oDelete == 0){
         hole.attr({cx:point[0],cy:point[1]})
       }
@@ -108,22 +88,10 @@ function editPage(){
   //orders elements in z plane
   function orderElements(){
     hole.back()
-    if (Tees.length != null){Tees.forEach(function(E){
-      E.back()
-    })}
-    if (Waters.length != null){Waters.forEach(function(E){
-      E.back()
-    })}
-    if (Bunkers.length != null){Bunkers.forEach(function(E){
-      E.back()
-    })}
     if (Greens.length != null){Greens.forEach(function(E){
       E.back()
     })}
     if (Fairways.length != null){Fairways.forEach(function(E){
-      E.back()
-    })}
-    if (Roughs.length != null){Roughs.forEach(function(E){
       E.back()
     })}
   }
@@ -163,18 +131,6 @@ function editPage(){
   Greens.forEach(function(Green){
     Green.click(addSelection)
   })
-  Bunkers.forEach(function(Bunker){
-    Bunker.click(addSelection)
-  })
-  Tees.forEach(function(Tee){
-    Tee.click(addSelection)
-  })
-  Waters.forEach(function(Water){
-    Water.click(addSelection)
-  })
-  Roughs.forEach(function(Rough){
-    Rough.click(addSelection)
-  })
 
   //adds selection to elements
   function addSelection(){
@@ -204,27 +160,11 @@ function editPage(){
     Greens.forEach(function(g){
       g.stroke({width: 0})
     })
-    Bunkers.forEach(function(g){
-      g.stroke({width: 0})
-    })
-    Tees.forEach(function(g){
-      g.stroke({width: 0})
-    })
-    Waters.forEach(function(g){
-      g.stroke({width: 0})
-    })
-    Roughs.forEach(function(g){
-      g.stroke({width: 0})
-    })
     selectpoints.forEach(function remove(point){
       point.remove()
     })
     Greens = Greens.filter(removeEmpty)
     Fairways = Fairways.filter(removeEmpty)
-    Bunkers = Bunkers.filter(removeEmpty)
-    Tees = Tees.filter(removeEmpty)
-    Waters = Waters.filter(removeEmpty)
-    Roughs = Roughs.filter(removeEmpty)
     orderElements()
   }
 
@@ -277,10 +217,6 @@ function editPage(){
   function loadSvg(loadsvg,parent){
     let Fairways = []
     let Greens = []
-    let Bunkers = []
-    let Tees = []
-    let Waters = []
-    let Roughs = []
     loadsvg.each(function(){
       let name = this.attr("name")
       if (name == "Fairway"){
@@ -298,38 +234,6 @@ function editPage(){
           Greens.push(n)
         }
       }
-      if (name == "Bunker"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Bunker")
-          n.fill('#fbff1f')
-          Bunkers.push(n)
-        }
-      }
-      if (name == "Tee"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Tee")
-          n.fill('#074d11')
-          Tees.push(n)
-        }
-      }
-      if (name == "Water"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Water")
-          n.fill('#0799fa')
-          Waters.push(n)
-        }
-      }
-      if (name == "Rough"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Rough")
-          n.fill('#02700f')
-          Roughs.push(n)
-        }
-      }
       if (name == "hole"){
         hole = parent.circle(10).attr({cx: -10,cy: -10})
         let n = this.attr(["cx","cy"])
@@ -339,7 +243,7 @@ function editPage(){
     )
     //positions svg elements
     orderElements()
-    return [Fairways,Greens,Bunkers,Tees,Waters,Roughs,hole]
+    return [Fairways,Greens,hole]
   }
 
   //
@@ -361,22 +265,6 @@ function editPage(){
     var checkBox = document.getElementById("Hole");
     if (checkBox.checked == true){
       terrain = 2;
-    }
-    var checkBox = document.getElementById("Bunker");
-    if (checkBox.checked == true){
-      terrain = 3;
-    }
-    var checkBox = document.getElementById("Tee");
-    if (checkBox.checked == true){
-      terrain = 4;
-    }
-    var checkBox = document.getElementById("Water");
-    if (checkBox.checked == true){
-      terrain = 5;
-    }
-    var checkBox = document.getElementById("Rough");
-    if (checkBox.checked == true){
-      terrain = 6;
     }
   }
 
@@ -411,18 +299,6 @@ function editPage(){
     }
     if (terrain == 1){
       newIndex = Fairways.length
-    }
-    if (terrain == 3){
-      newIndex = Bunkers.length
-    }
-    if (terrain == 4){
-      newIndex = Tees.length
-    }
-    if (terrain == 5){
-      newIndex = Waters.length
-    }
-    if (terrain == 6){
-      newIndex = Roughs.length
     }
   }
   }
