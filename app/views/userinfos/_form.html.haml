@@ -1,7 +1,7 @@
 -# frozen_string_literal: true
 = simple_form_for(@userinfo) do |f|
   .card-body
-    = f.input :club, wrapper_html: { class: 'mb-3' }
+    = f.input :club, wrapper_html: { class: 'mb-3' }, collection: [ "Driver", "3 Wood", "5 wood", "2 Iron", "3 Iron", "4 Iron", "5 Iron", "6 Iron", "7 Iron", "8 Iron", "9 Iron", "Pitching Wedge", "Gap Wedge", "Sand Wedge", "Putter"]
     = f.input :height, wrapper_html: { class: 'mb-3' }
     = f.input :width, wrapper_html: { class: 'mb-3' }
     = f.input :angle, wrapper_html: { class: 'mb-3' }
