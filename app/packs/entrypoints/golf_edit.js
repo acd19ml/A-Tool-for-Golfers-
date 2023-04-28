@@ -51,7 +51,7 @@ function editPage(){
     Bunkers = []
     Tees = []
     Waters = []
-    Roughs - []
+    Roughs = []
     hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
   }
 
