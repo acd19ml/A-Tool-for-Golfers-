@@ -33,6 +33,7 @@ function editPage(){
   Roughs = elements[5]
   hole = elements[6]
 
+  //test
 
   //hole properties
   hole.front().draggable()
