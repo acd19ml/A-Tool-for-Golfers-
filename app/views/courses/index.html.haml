@@ -14,5 +14,3 @@
         %td
           .ms-auto.float-end
             = link_to 'show', course_holes_path(course), class: 'btn btn-outline-secondary ms-auto'
-            - if can? :destroy, course
-              = link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-danger ms-1 btn-sm'
