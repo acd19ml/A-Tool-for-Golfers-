@@ -8,6 +8,7 @@ class Ability
 
     if user.map_creator?
       can :manage, Course
+      can :manage, Hole
     else
       can [:read, :edit, :show], Course
       can :manage, Hole
