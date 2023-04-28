@@ -40,6 +40,10 @@ function editPage(){
     )
     Fairways = []
     Greens = []
+    Bunkers = []
+    Tees = []
+    Waters = []
+    Roughs = []
     hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
   }
 
@@ -165,11 +169,18 @@ function editPage(){
     })
     Greens = Greens.filter(removeEmpty)
     Fairways = Fairways.filter(removeEmpty)
+    Bunkers = Bunkers.filter(removeEmpty)
+    Tees = Tees.filter(removeEmpty)
+    Waters = Waters.filter(removeEmpty)
+    Roughs = Roughs.filter(removeEmpty)
+    console.log(Roughs.length)
     orderElements()
   }
 
   //removes elements with coordinate arrays too small
   function removeEmpty(v){
+    console.log(v)
+    console.log(v.array().length)
     if(v.array().length < 3){
       v.remove()
       return false
@@ -239,9 +250,41 @@ function editPage(){
       if (name == "Green"){
         if((this.array()).length !=0){
           let n = parent.polygon(this.array())
-          n.attr("name","Green")
+          n.attr({name:"Green"})
           n.fill('#49fc03')
           Greens.push(n)
+        }
+      }
+      if (name == "Bunker"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr({name:"Bunker"})
+          n.fill('#fbff1f')
+          Bunkers.push(n)
+        }
+      }
+      if (name == "Tee"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr({name:"Tee"})
+          n.fill('#074d11')
+          Tees.push(n)
+        }
+      }
+      if (name == "Water"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr({name:"Water"})
+          n.fill('#0799fa')
+          Waters.push(n)
+        }
+      }
+      if (name == "Rough"){
+        if((this.array()).length !=0){
+          let n = parent.polygon(this.array())
+          n.attr({name:"Rough"})
+          n.fill('#02700f')
+          Roughs.push(n)
         }
       }
       if (name == "hole"){
