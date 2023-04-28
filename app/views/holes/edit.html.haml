@@ -53,7 +53,9 @@
         -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
     .card
       .card-body
-        %p{:id=>"SVGout"} #{$hole.map}
+        %p{:id=>"SVGout",:style=>"display:none;"} #{$hole.map}
+        %button{:type=>"button",:id=> "downloadButton",:onclick=>"downloadMap(#{$hole.id},#{$course.id})"}
+          Download Map
 
 
 
