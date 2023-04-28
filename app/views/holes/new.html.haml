@@ -1,5 +1,5 @@
-= simple_form_for(@course) do |h|
-  = h.simple_fields_for :holes, @course.holes.build do |f|
+= simple_form_for($course) do |h|
+  = h.simple_fields_for :holes, $course.holes.build do |f|
     .card-body 
       = f.input :holeNumber, wrapper_html: { class: 'mb-3' }
       = f.input :map, wrapper_html: { class: 'mb-3' }

@@ -10,7 +10,7 @@ Hole.delete_all
 Course.delete_all
 
 # User.where(email:'acd19ml@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456')
-# User.where(email:'mapcreator@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456', map_creator: true)
+User.where(email:'mapcreator@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456', map_creator: true)
 User.where(email:'test@test.com').first_or_create(password:'123456', password_confirmation:'123456')
 
 Course.create(name:"course 1")

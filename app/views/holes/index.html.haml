@@ -1,3 +1,6 @@
+%br
+- if can? :create, Hole
+  = link_to 'New Hole', new_course_hole_path , class: 'btn btn-outline-secondary ms-auto'
 
 %table.table.table-striped
   %thead 
@@ -15,5 +18,6 @@
         %td
           .ms-auto.float-end
             = link_to 'show', course_hole_path($course, hole), class: 'btn btn-outline-secondary ms-auto'
-            -# TODO:
             = link_to 'edit', edit_course_hole_path($course, hole), class: 'btn btn-outline-secondary ms-auto'
+            - if can? :destroy, hole
+              = link_to 'Destroy', course_hole_path($course, hole), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-danger ms-1 btn-sm'

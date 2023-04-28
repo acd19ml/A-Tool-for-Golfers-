@@ -26,11 +26,28 @@ class CoursesController < ApplicationController
     end
   end
 
+  def update
+    $course = Course.find(params[:id])
+    if $course.update(course_params)
+      redirect_to course_holes_path($course), notice: "Course was successfully updated."
+    else
+      render :edit, status: :unprocessable_entity
+    end
+  end
+
+  # DELETE /courses/1
+  def destroy
+    $course = Course.find(params[:id])
+    if $course.present?
+      $course.destroy
+    end
+    redirect_to courses_url, notice: "Product was successfully destroyed."
+  end
 
 
   private
 
-    def course
+    def course_params
       params.require(:course).permit(:name, :path)
     end
 

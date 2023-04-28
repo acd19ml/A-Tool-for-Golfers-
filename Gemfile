@@ -102,3 +102,4 @@ group :test do
   gem 'launchy'
   gem 'simplecov'
 end
+gem "activerecord-reset-pk-sequence", "~> 0.2.1"
