@@ -14,9 +14,9 @@
         -# info
         %dl.row.mb-0
           %dt.col-md-3 Hole:
-          %dd.col-md-9= "Hole #{@hole.id}"
+          %dd.col-md-9= "Hole #{$hole.id}"
           %dt.col-md-3 Course:
-          %dd.col-md-9= @course.name
+          %dd.col-md-9= $course.name
           .display{:id => "display"}
   -# right container
   .col-lg-5
@@ -25,8 +25,8 @@
         .row
           .ms-auto.float-end
             -# TODO:change path, e.g. edit_course_path(course)
-            = link_to 'edit', edit_course_hole_path(@course, @hole), class: 'btn btn-outline-primary ms-auto'
-            = link_to 'Back', course_holes_path(@course), class: 'btn btn-outline-secondary ms-auto'
+            = link_to 'edit', edit_course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
+            = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
         .h3.text-center
@@ -55,7 +55,7 @@
           .form-group.text-center
             %label
               Note:
-            %textarea.form-control{:rows => "5"}= @hole.note
+            %textarea.form-control{:rows => "5"}= $hole.note
 
         -# checkbox
         .row.text-center.fw-bold
@@ -64,4 +64,4 @@
               View baselines?
     .card
       .card-body
-        %p{:id=>"SVGout"} #{@hole.map}
+        %p{:id=>"SVGout"} #{$hole.map}

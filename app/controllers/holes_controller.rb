@@ -16,9 +16,9 @@ class HolesController < ApplicationController
   def update_map
     # post
     map_data = params[:map_data]
-    @hole.update(map: map_data)
+    $hole.update(map: map_data)
     # TODO: redirect not work with no error info
-    redirect_to course_holes_path(@course)
+    redirect_to course_holes_path($course)
   end
 
   # GET /holes/new
@@ -49,7 +49,7 @@ class HolesController < ApplicationController
 
 
   def destroy
-    @course = Course.find(params[:course_id])
+    @course = Course.find(params[:id])
     @hole = Hole.find(params[:id])
     if @hole.present?
       @hole.destroy

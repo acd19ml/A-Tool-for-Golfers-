@@ -66,7 +66,6 @@ GEM
     activerecord (7.0.3.1)
       activemodel (= 7.0.3.1)
       activesupport (= 7.0.3.1)
-    activerecord-reset-pk-sequence (0.2.1)
     activerecord-session_store (2.0.0)
       actionpack (>= 5.2.4.1)
       activerecord (>= 5.2.4.1)
@@ -348,7 +347,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord-reset-pk-sequence
   activerecord-session_store
   annotate
   bcrypt_pbkdf (>= 1.0, < 2.0)
