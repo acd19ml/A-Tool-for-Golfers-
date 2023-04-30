@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :users
+  Rails.application.routes.draw do
+    devise_for :users, controllers: {
+      sessions: 'users/sessions'
+    }
+  end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
@@ -12,6 +16,13 @@ Rails.application.routes.draw do
   end
   # resources :annotations
   resources :userinfos
-  # resources :users
+
+  resources :users
+  
+  # users/admin
+  get "/users/admin" ,to: "users#admin"
+
+
   post '/holes/update_map', to: 'holes#update_map'
+  
 end
