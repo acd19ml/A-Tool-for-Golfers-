@@ -38,7 +38,14 @@
               .nav-item
                 = link_to userinfos_path, class: 'active nav-link' do
                   %i.bi-easel-fill
-                  User Info
+                  My Info
+
+              - if current_user.admin?
+                .nav-item
+                  = link_to users_admin_path, class: 'active nav-link' do
+                    %i.bi-people-fill
+                    Users
+
               .navbar-text= current_user.email
               .nav-item
                 = link_to destroy_user_session_path, method: :delete, class: 'nav-link' do

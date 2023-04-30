@@ -1,0 +1,13 @@
+-# TODO:
+%table.table.table-striped
+  %thead 
+    %tr 
+      %th User
+      %th Is map_creator?
+
+  %tbody
+    - $users.each do |user|
+      %tr 
+        %td= user.email
+        %td= user.map_creator
+        %td

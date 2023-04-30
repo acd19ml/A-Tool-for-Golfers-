@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   # resources :annotations
   resources :userinfos
 
-  resources :users
+  # resources :users
   
   # users/admin
   get "/users/admin" ,to: "users#admin"
