@@ -69,9 +69,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
 
   create_table "userinfos", force: :cascade do |t|
     t.string "club"
-    t.decimal "height"
+    t.decimal "distance"
+    t.decimal "length"
     t.decimal "width"
-    t.decimal "angle"
+    t.decimal "rotation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
