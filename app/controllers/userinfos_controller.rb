@@ -54,6 +54,6 @@ class UserinfosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def userinfo_params
-      params.require(:userinfo).permit(:club, :height, :width, :angle)
+      params.require(:userinfo).permit(:club, :distance, :length, :width, :rotation)
     end
 end

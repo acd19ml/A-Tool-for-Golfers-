@@ -7,12 +7,14 @@
         %dl.row.mb-0
           %dt.col-md-3 Club:
           %dd.col-md-9= @userinfo.club
-          %dt.col-md-3 Height:
-          %dd.col-md-9= @userinfo.height
+          %dt.col-md-3 Distance:
+          %dd.col-md-9= @userinfo.distance
+          %dt.col-md-3 Length:
+          %dd.col-md-9= @userinfo.length
           %dt.col-md-3 Width:
           %dd.col-md-9= @userinfo.width
-          %dt.col-md-3 Angle:
-          %dd.col-md-9= @userinfo.angle
+          %dt.col-md-3 Rotation:
+          %dd.col-md-9= @userinfo.rotation
       .card-footer.d-flex
         = link_to 'Edit', edit_userinfo_path(@userinfo), class: 'btn btn-link'
         = link_to 'Back', userinfos_path, class: 'btn btn-link ms-auto'
