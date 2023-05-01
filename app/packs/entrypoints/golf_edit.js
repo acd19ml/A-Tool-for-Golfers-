@@ -1,13 +1,13 @@
 import { SVG, extend as SVGextend, Element as SVGElement, A, Polygon } from '@svgdotjs/svg.js'
 import '@svgdotjs/svg.draggable.js'
-
+import {loadSvg} from './loadSvg.js'
 //check to see if Create canvas exists in view
 if (document.querySelectorAll("#create").length) {
   editPage()
   }
 
 function editPage(){
-  makeButtons()
+  setupButtons()
   //create the drawing canvas
   var draw = SVG().addTo("#create").size(500,500)
   draw.attr({name:"draw"})
@@ -32,7 +32,7 @@ function editPage(){
   Waters = elements[4]
   Roughs = elements[5]
   hole = elements[6]
-
+  orderElements()
 
   //hole properties
   hole.front().draggable()
@@ -51,7 +51,7 @@ function editPage(){
     Bunkers = []
     Tees = []
     Waters = []
-    Roughs - []
+    Roughs = []
     hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
   }
 
@@ -282,80 +282,9 @@ function editPage(){
   }
 
   //
-  //Loading SVG
-  //
-  function loadSvg(loadsvg,parent){
-    let Fairways = []
-    let Greens = []
-    let Bunkers = []
-    let Tees = []
-    let Waters = []
-    let Roughs = []
-    loadsvg.each(function(){
-      let name = this.attr("name")
-      if (name == "Fairway"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr({name:"Fairway"})
-          n.fill('#46ad02')
-          Fairways.push(n)
-      }}
-      if (name == "Green"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Green")
-          n.fill('#49fc03')
-          Greens.push(n)
-        }
-      }
-      if (name == "Bunker"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Bunker")
-          n.fill('#fbff1f')
-          Bunkers.push(n)
-        }
-      }
-      if (name == "Tee"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Tee")
-          n.fill('#074d11')
-          Tees.push(n)
-        }
-      }
-      if (name == "Water"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Water")
-          n.fill('#0799fa')
-          Waters.push(n)
-        }
-      }
-      if (name == "Rough"){
-        if((this.array()).length !=0){
-          let n = parent.polygon(this.array())
-          n.attr("name","Rough")
-          n.fill('#02700f')
-          Roughs.push(n)
-        }
-      }
-      if (name == "hole"){
-        hole = parent.circle(10).attr({cx: -10,cy: -10})
-        let n = this.attr(["cx","cy"])
-        hole.attr(n).fill("#ff1100")
-      }
-    } 
-    )
-    //positions svg elements
-    orderElements()
-    return [Fairways,Greens,Bunkers,Tees,Waters,Roughs,hole]
-  }
-
-  //
   //Buttons
   //
-  function makeButtons(){
+  function setupButtons(){
 
   //updates terrain state variable according to button selection
   window.box = function() {
