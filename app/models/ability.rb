@@ -10,8 +10,8 @@ class Ability
       can :manage, Course
       can :manage, Hole
     else
-      can [:read, :edit, :show], Course
-      can :manage, Hole
+      can [:read, :show], Course
+      can :read, Hole
     end
   
 
