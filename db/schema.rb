@@ -69,10 +69,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
 
   create_table "userinfos", force: :cascade do |t|
     t.string "club"
-    t.decimal "distance"
-    t.decimal "length"
+    t.decimal "height"
     t.decimal "width"
-    t.decimal "rotation"
+    t.decimal "angle"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
@@ -89,6 +88,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
     t.datetime "last_sign_in_at"
     t.string "current_sign_in_ip"
     t.string "last_sign_in_ip"
+    t.string "role", default: "golfer", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "map_creator", default: false
