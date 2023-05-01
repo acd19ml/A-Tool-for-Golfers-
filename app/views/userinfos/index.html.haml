@@ -10,17 +10,19 @@
     %head
       %tr
         %th Club
-        %th Height
+        %th Distance
+        %th Length
         %th Width
-        %th Angle       
+        %th Rotation       
         %th
     %tbody
       - @userinfos.each do |userinfo|
         %tr
           %td= userinfo.club
-          %td= userinfo.height
+          %td= userinfo.distance
+          %td= userinfo.length
           %td= userinfo.width
-          %td= userinfo.angle
+          %td= userinfo.rotation
           %td
             .btn-toolbar.float-end
               = link_to 'Show', userinfo, class: 'btn btn-outline-secondary btn-sm'
