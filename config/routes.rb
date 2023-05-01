@@ -16,11 +16,10 @@ Rails.application.routes.draw do
   end
   # resources :annotations
   resources :userinfos
-
-  # resources :users
+  resources :users
   
   # users/admin
-  get "/users/admin" ,to: "users#admin"
+  get "/users/index" ,to: "users#index"
 
 
   post '/holes/update_map', to: 'holes#update_map'

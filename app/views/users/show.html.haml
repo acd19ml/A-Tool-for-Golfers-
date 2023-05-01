@@ -1,0 +1,18 @@
+.row.justify-content-center
+  .col-sm-8.col-lg-6
+    .card
+      .card-header
+        User details
+      .card-body
+        %dl.row.mb-0
+          %dt.col-md-9 Email:
+          %dd.col-md-9= @user.email
+          %dt.col-md-9 Map_Creator:
+          %dd.col-md-9= @user.map_creator
+          %dt.col-md-9 Being Suspended:
+          %dd.col-md-9= @user.is_suspended
+          %dt.col-md-9  Admin:
+          %dd.col-md-9= @user.is_suspended
+      .card-footer.d-flex
+        = link_to 'Back', users_path, class: 'btn btn-link ms-auto'
+

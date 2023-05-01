@@ -1,0 +1,18 @@
+-# TODO:
+%table.table.table-striped
+  %thead 
+    %tr 
+      %th
+      %th User
+      %th Email
+
+  %tbody
+    - $users.each do |user|
+      %tr
+        %td 
+        %td= user.id
+        %td= user.email
+        %td
+          .ms-auto.float-end
+            = link_to 'Show', user_path(user.id), class: 'btn btn-outline-secondary btn-sm'
+            = link_to 'edit', edit_user_path(user.id), class: 'btn btn-outline-secondary ms-auto'
