@@ -25,7 +25,8 @@
         .row
           .ms-auto.float-end
             -# TODO:change path, e.g. edit_course_path(course)
-            = link_to 'edit', edit_course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
+            - if can? :edit, $hole
+              = link_to 'edit', edit_course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
             = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
