@@ -10,7 +10,7 @@ class CoursesController < ApplicationController
   def edit
   end
 
-  # GET /products/new
+  # GET /courses/new
   def new
     $course = Course.new
   end
@@ -41,7 +41,7 @@ class CoursesController < ApplicationController
     if $course.present?
       $course.destroy
     end
-    redirect_to courses_url, notice: "Product was successfully destroyed."
+    redirect_to courses_url, notice: "Course was successfully destroyed."
   end
 
 
