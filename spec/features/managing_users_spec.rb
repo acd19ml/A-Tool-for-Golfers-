@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe 'Managing users' do
+    
     specify 'I can register a user' do
         # Sign up
         visit new_user_registration_path
