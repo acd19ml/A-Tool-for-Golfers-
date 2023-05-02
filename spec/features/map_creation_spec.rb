@@ -63,7 +63,7 @@ describe 'Map creation' do
         expect(page).not_to have_content 'Destroy'
     end
 
-    specfiy 'Map creator can create a hole but other users can not' do
+    specify 'Map creator can create a hole but other users can not' do
         createusers
         logincreator
         click_link 'View'
