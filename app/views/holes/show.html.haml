@@ -24,10 +24,9 @@
       .card-body 
         .row
           .ms-auto.float-end
-            -# TODO:change path, e.g. edit_course_path(course)
             - if can? :edit, $hole
               = link_to 'edit', edit_course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
-            = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
+            = link_to 'back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card
       .card-body
         .h3.text-center
@@ -54,11 +53,12 @@
         -# note
         .row
           .form-group.text-center
-            %label
-              Note:
-            %textarea.form-control{:rows => "5"}= $hole.note
+            .h4.text-center
+              Note
+            %p= "#{$hole.note}"
 
         -# checkbox
+        -# TODO: baselines
         .row.text-center.fw-bold
           .div
             %input{type: "checkbox"}

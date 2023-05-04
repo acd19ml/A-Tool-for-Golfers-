@@ -1,4 +1,7 @@
 class CoursesController < ApplicationController
+  before_action :set_course, only: %i[ edit update ]
+  before_action :permit_validation, only: %i[ edit update ]
+
 
   def index
     $courses = Course.all.includes(:holes)
@@ -19,8 +22,8 @@ class CoursesController < ApplicationController
   def create
     $course = Course.new(course_params)
 
-    if $course.save
-      redirect_to courses_path, notice: "Course was successfuly created"
+    if $course.save 
+      redirect_to courses_path, notice: "Course was successfully created"
     else
       render :new, status: :unprocessable_entity
     end
@@ -29,7 +32,7 @@ class CoursesController < ApplicationController
   def update
     $course = Course.find(params[:id])
     if $course.update(course_params)
-      redirect_to course_holes_path($course), notice: "Course was successfully updated."
+      redirect_to courses_path, notice: "Course was successfully updated."
     else
       render :edit, status: :unprocessable_entity
     end
@@ -47,8 +50,19 @@ class CoursesController < ApplicationController
 
   private
 
+  # private @course for edit only
+    def set_course
+      @course = Course.find(params[:id])
+    end
+
     def course_params
       params.require(:course).permit(:name, :path)
     end
 
+    # role authorization
+    def permit_validation
+      unless user_signed_in? and current_user.map_creator? 
+        redirect_to root_path, alert: "You have no permission to view this page."
+      end
+    end
   end

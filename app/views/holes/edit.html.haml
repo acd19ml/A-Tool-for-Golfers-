@@ -5,28 +5,39 @@
       .card-body
         .h3.text-center
           Hole Editor
-
-        -# info
-        %dl.row.mb-0
-          %dt.col-md-3 Hole:
-          %dd.col-md-9= "Hole #{$hole.id}"
-          %dt.col-md-3 Course:
-          %dd.col-md-9= "#{$course.id}"
           .create{:id => "create"}
+
   -# right container
+    -# info editor
   .col-lg-5
-    .card
-      .card-body
-        -# button
-        .row
-          .ms-auto.float-end
-            -# TODO:change path, e.g. edit_course_path(course)
-            = link_to 'View', course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
-            = link_to 'Back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
     .card 
       .card-body
         .h3.text-center
-          Tools
+          Info Edit
+        .card-body
+        = simple_form_for([$course, @hole], url: course_hole_path($course, @hole) , method: :patch) do |f|
+          .card-body
+            = f.input :holeNumber, wrapper_html: { class: 'mb-3' }
+            = f.input :map, wrapper_html: { class: 'mb-3' }
+            = f.input :note, wrapper_html: { class: 'mb-3' }
+            %button.btn.btn-primary{ type: 'submit' }
+              Save
+
+        -# %dl.row.mb-0.text-center
+        -#   %dt.col-md-3 Hole:
+        -#   %dd.col-md-2= "Hole #{$hole.id}"
+        -#   %dt.col-md-3 Course:
+        -#   %dd.col-md-2= "#{$course.id}"
+        -# .row
+        -# .ms-auto.text-center
+        -#   = link_to 'edit', course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
+
+    %hr.border.text-success.border-5.opacity-75
+    -# map editor
+    .card 
+      .card-body
+        .h3.text-center
+          Map Tools
         Hole: 
         %input{:type=> "radio", :id=> "Hole", :onclick=>"box()",:name=>"terrain",:checked=>"checked"}
         Green: 
@@ -59,46 +70,15 @@
         %button{:type=>"button",:id=> "addButton",:onclick=>"addButton()"}
           new object
         -# col: <input type="checkbox" id="colCheck" onclick="getCol()">
-    .card
       .card-body
         %p{:id=>"SVGout",:style=>"display:none;"} #{$hole.map}
         %button{:type=>"button",:id=> "downloadButton",:onclick=>"downloadMap(#{$hole.id},#{$course.id})"}
           Download Map
 
+      .card-body
+        -# button
+        .row
+          .ms-auto.text-center
+            = link_to 'view', course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
+            = link_to 'back', course_holes_path($course), class: 'btn btn-outline-secondary ms-auto'
 
-
--# -# TODO:
--# #sidebar.container
--#   .checkboxs 
--#     %input#check{type: "checkbox"}
--#     %label{for: "check"}
--#       %i#btn
--#         = image_pack_tag 'element.png', height: 50
--#       %ul.sidebar
--#         Elements
--#     #sidebar-secondary.container
--#       %ul.sidebar
--#         Tee Shot
--#       %ul.sidebar
--#         Fairway
--#       %ul.sidebar
--#         Rough
--#       %ul.sidebar
--#         Recovery
--#       %ul.sidebar
--#         Sand
--#       %ul.sidebar
--#         Green
--#       %ul.sidebar
--#         Penalty
--#       %ul.sidebar
--#         Pick up
--#       %ul.sidebar
--#         Lake 
--#       %ul.sidebar
--#         Tree 
--#       %ul.sidebar
--#         Hole 
--#   .checkboxs 
--#     %i
--#       = image_pack_tag 'element.png', height: 50

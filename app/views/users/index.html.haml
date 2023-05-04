@@ -1,4 +1,3 @@
--# TODO:
 %table.table.table-striped
   %thead 
     %tr 
@@ -14,5 +13,5 @@
         %td= user.email
         %td
           .ms-auto.float-end
-            = link_to 'Show', user_path(user), class: 'btn btn-outline-secondary btn-sm'
+            = link_to 'show', user_path(user), class: 'btn btn-outline-secondary btn-sm'
             = link_to 'edit', edit_user_path(user), class: 'btn btn-outline-secondary ms-auto'
