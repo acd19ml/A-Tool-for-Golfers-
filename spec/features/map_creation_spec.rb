@@ -28,7 +28,7 @@ describe 'Map creation' do
         click_link 'New Course'
         fill_in 'Name', with: 'course 1'
         click_button 'Save'
-        expect(page).to have_content 'Course was successfuly created'
+        expect(page).to have_content 'Course was successfully created'
         expect(page).to have_content 'course 1'
 
         logout
@@ -63,18 +63,20 @@ describe 'Map creation' do
         expect(page).not_to have_content 'Destroy'
     end
 
-    specify 'Map creator can create a hole but other users can not' do
+    specify 'Map creator can create a hole but golfer can not' do
         createusers
         logincreator
         click_link 'View'
         click_link 'New Course'
-        fill_in 'Name', with: 'course 1'
+        fill_in 'Name', with: 'course 3'
         click_button 'Save'
         click_link 'show'
         click_link 'New Hole'
-        fill_in 'Holenumber', with: 'Hole 1'
+        fill_in 'Holenumber', with: 'Hole 5'
+        fill_in 'Map', with: 'Hole 5'
+        fill_in 'Note', with: 'Hole 5'
         click_button 'Save'
-        expect(page).to have_content 'Hole was successfuly created'
+        expect(page).to have_content 'Hole was successfully created.'
 
         logout
 

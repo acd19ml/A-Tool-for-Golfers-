@@ -1,10 +1,10 @@
-= simple_form_for($course) do |h|
-  = h.simple_fields_for :holes, $course.holes.build do |f|
-    .card-body 
-      = f.input :holeNumber, wrapper_html: { class: 'mb-3' }
-      = f.input :map, wrapper_html: { class: 'mb-3' }
-      = f.input :note, wrapper_html: { class: 'mb-3' }
-      = f.input :course_id, wrapper_html: { class: 'mb-3' }
+-# = simple_form_for([$course, @hole], url: new_course_hole($course, @hole) , method: :patch) do |f|
+= simple_form_for([$course, @hole], url: course_holes_path($course), method: :post) do |f|
+  .card-body 
+    = f.input :holeNumber, wrapper_html: { class: 'mb-3' }
+    = f.input :map, wrapper_html: { class: 'mb-3' }
+    = f.input :note, wrapper_html: { class: 'mb-3' }
+    = f.input :course_id, wrapper_html: { class: 'mb-3' }, input_html: { value: $course.id }
 
   .card-footer.d-flex
     %button.btn.btn-primary{ type: 'submit' }

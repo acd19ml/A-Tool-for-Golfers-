@@ -67,7 +67,7 @@ class UsersController < ApplicationController
   private
     # role authorization
     def auth_admin
-      unless current_user.admin?
+      unless user_signed_in? and current_user.admin? 
         redirect_to root_path, alert: "You have no permission to view this page."
       end
     end
