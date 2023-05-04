@@ -13,9 +13,17 @@ footer {
 }
 
 #create, #display{
+    background-image: url('images/golfcapture.png');
     background-color: lightblue;
-    width: 500px;
-    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: -80px;
+    background-position-y: 40px;
+    background-size: 0px;
+    position: relative;
+    overflow: hidden;
+    // background-color: lightblue;
+    width: 1000px;
+    height: 800px;
     margin: auto;
     padding: 0px;
 }

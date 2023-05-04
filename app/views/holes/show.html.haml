@@ -10,18 +10,18 @@
       .card-body
         .h3.text-center
           Hole Viewer
-
+        .display{:id => "display"}
         -# info
+  -# right container
+  .col-lg-5
+    .card 
+      .card-body
         %dl.row.mb-0
           %dt.col-md-3 Hole:
           %dd.col-md-9= "Hole #{$hole.id}"
           %dt.col-md-3 Course:
           %dd.col-md-9= $course.name
-          .display{:id => "display"}
-  -# right container
-  .col-lg-5
-    .card 
-      .card-body 
+
         .row
           .ms-auto.float-end
             - if can? :edit, $hole
