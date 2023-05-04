@@ -41,7 +41,11 @@ bundle exec rails s
 bin/webpacker-dev-server
 ```
 
-## Admin info
-Username: test@test.com
-Password: 123456
+## User info
+
+```
+email:'golfer@test.com', password:'123456'
+email:'creator@test.com', password:'123456'
+email:'admin@test.com', password:'123456'
+```
 
