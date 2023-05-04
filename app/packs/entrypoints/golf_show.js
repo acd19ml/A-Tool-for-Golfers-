@@ -13,7 +13,7 @@ if (document.querySelectorAll("#display").length) {
 function showPage(){
 
   //create display canvas
-  var display = SVG().addTo("#display").size(500,500)
+  var display = SVG().addTo("#display").size(1000,800)
   display.attr({name:"display"})
 
 
@@ -33,6 +33,7 @@ function showPage(){
   document.addEventListener('mousedown',function() {plotshot(event,"click")}) 
   
   function plotshot(event,updatetype){
+    if (document.querySelector("#display").contains(event.target)){
     shotpoint.hide()
     shotlinec.hide()
     if (updatetype == "drag"){
@@ -44,11 +45,12 @@ function showPage(){
       shotpoint.attr({cx: x-offsetx,cy: y-offsety})
     }
     shotlinec.plot(shotpoint.attr("cx"),shotpoint.attr("cy"),hole.attr("cx"),hole.attr("cy"))
-    distance = Math.round(Math.sqrt(Math.pow((x-offsetx-hole.attr("cx")),2)+Math.pow((y-offsety-hole.attr("cy")),2)))
+    distance = Math.round(0.5*Math.sqrt(Math.pow((x-offsetx-hole.attr("cx")),2)+Math.pow((y-offsety-hole.attr("cy")),2)))
     name = document.elementFromPoint(x,y).getAttribute("name")
     shotpoint.show()
     shotlinec.show()
     UpdateSelectedLocation(distance,name)
+  }
   }
 
   //shotpoint/line calculations

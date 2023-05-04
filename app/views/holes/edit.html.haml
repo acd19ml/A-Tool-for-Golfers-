@@ -74,7 +74,21 @@
         %p{:id=>"SVGout",:style=>"display:none;"} #{$hole.map}
         %button{:type=>"button",:id=> "downloadButton",:onclick=>"downloadMap(#{$hole.id},#{$course.id})"}
           Download Map
-
+      .card-body 
+        %button{:type=>"button",:id=> "leftButton",:onclick=>"BackgroundLeft()"}
+          Left
+        %button{:type=>"button",:id=> "rightButton",:onclick=>"BackgroundRight()"}
+          Right
+        %button{:type=>"button",:id=> "upButton",:onclick=>"BackgroundUp()"}
+          Up
+        %button{:type=>"button",:id=> "downButton",:onclick=>"BackgroundDown()"}
+          Down
+        %button{:type=>"button",:id=> "largerButton",:onclick=>"BackgroundLarger()"}
+          Larger
+        %button{:type=>"button",:id=> "smallerButton",:onclick=>"BackgroundSmaller()"}
+          Smaller
+        %input{:type=> "checkbox", :id=> "traceButton", :onclick=>"Trace()"}
+          Overlay Mode
       .card-body
         -# button
         .row

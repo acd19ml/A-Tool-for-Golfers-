@@ -9,7 +9,7 @@ if (document.querySelectorAll("#create").length) {
 function editPage(){
   setupButtons()
   //create the drawing canvas
-  var draw = SVG().addTo("#create").size(500,500)
+  var draw = SVG().addTo("#create").size(1000,800)
   draw.attr({name:"draw"})
 
   //creates different terrains
@@ -84,7 +84,7 @@ function editPage(){
       if (document.querySelector("#create").contains(event.target)){
       let point = [event.clientX-offsetx,event.clientY-offsety]
       if (terrain == 0){
-        newObject(Greens,point,"Green",'#49fc03') 
+        newObject(Greens,point,"Green",'#49fc03')
       } else if (terrain == 1){
         newObject(Fairways,point,"Fairway",'#46ad02') 
       } else if (terrain == 3){
@@ -134,11 +134,18 @@ function editPage(){
     // points = Green.array()
     // points.push(point)
     // Green.plot(points)
+    let opacity = 1
+      if (trace == 1){
+        opacity = 0.4
+      }
+      if (trace == 0){
+        opacity = 1
+      }
     if (terrain[newIndex] == undefined){
       points = [point]
       n = draw.polygon(points).click(addSelection)
       n.attr({name:name})
-      n.fill(fill)
+      n.fill(fill).opacity(opacity)
     } else {
       n = terrain[newIndex]
       points = terrain[newIndex].array()
@@ -364,6 +371,85 @@ function editPage(){
       newIndex = Roughs.length
     }
   }
+  }
+  let backgroundx = parseInt(window.getComputedStyle(document.getElementById('create')).getPropertyValue("background-Position-X").replace(/px/,""))
+  let backgroundy= parseInt(window.getComputedStyle(document.getElementById('create')).getPropertyValue("background-Position-Y").replace(/px/,""))
+  let backgroundsize = 500
+  let movevalue = 10
+  // var backgroundx = parseInt(document.getElementById('create').style.backgroundPositionY)
+  window.BackgroundLeft = function(){
+    backgroundx -= movevalue
+    document.getElementById('create').style.backgroundPositionX = backgroundx +"px"
+  }
+  window.BackgroundRight = function(){
+    backgroundx += movevalue
+    document.getElementById('create').style.backgroundPositionX = backgroundx +"px"
+  }
+  window.BackgroundUp = function(){
+    backgroundy -= movevalue
+    document.getElementById('create').style.backgroundPositionY = backgroundy +"px"
+  }
+  window.BackgroundDown = function(){
+    backgroundy += movevalue
+    document.getElementById('create').style.backgroundPositionY = backgroundy +"px"
+  }
+  window.BackgroundLarger = function(){
+    console.log(backgroundsize)
+    backgroundsize += 20
+    document.getElementById('create').style.backgroundSize = backgroundsize +"px"
+  }
+  window.BackgroundSmaller = function(){
+    console.log(backgroundsize)
+    backgroundsize -= 20
+    document.getElementById('create').style.backgroundSize = backgroundsize +"px"
+  }
+  let trace = 0
+  window.Trace = function(){
+    let tracebutton = document.getElementById('traceButton')
+    if (tracebutton.checked){
+      document.getElementById('create').style.backgroundSize = backgroundsize +"px"
+      trace = 1
+      Fairways.forEach(function(f){
+        f.opacity(0.4)
+      })
+      Greens.forEach(function(g){
+        g.opacity(0.4)
+      })
+      Bunkers.forEach(function(g){
+        g.opacity(0.4)
+      })
+      Tees.forEach(function(g){
+        g.opacity(0.4)
+      })
+      Waters.forEach(function(g){
+        g.opacity(0.4)
+      })
+      Roughs.forEach(function(g){
+        g.opacity(0.4)
+      })
+    } else {
+      trace = 0
+      document.getElementById('create').style.backgroundSize = 0
+      Fairways.forEach(function(f){
+        f.opacity(1)
+      })
+      Greens.forEach(function(g){
+        g.opacity(1)
+      })
+      Bunkers.forEach(function(g){
+        g.opacity(1)
+      })
+      Tees.forEach(function(g){
+        g.opacity(1)
+      })
+      Waters.forEach(function(g){
+        g.opacity(1)
+      })
+      Roughs.forEach(function(g){
+        g.opacity(1)
+      })
+    }
+
   }
 
 }
