@@ -46,6 +46,9 @@ function showPage(){
       y = event.clientY
       shotpoint.attr({cx: x-offsetx,cy: y-offsety})
     }
+    if (scalingFactor == undefined){
+      scalingFactor = 1
+    }
     shotlinec.plot(shotpoint.attr("cx"),shotpoint.attr("cy"),hole.attr("cx"),hole.attr("cy"))
     distance = Math.round(scalingFactor*Math.sqrt(Math.pow((x-offsetx-hole.attr("cx")),2)+Math.pow((y-offsety-hole.attr("cy")),2)))
     name = document.elementFromPoint(x,y).getAttribute("name")
