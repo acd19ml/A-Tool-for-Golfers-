@@ -11,6 +11,5 @@
 FactoryBot.define do
   factory :course do
     name { "MyString" }
-    path { "MyString" }
   end
 end
