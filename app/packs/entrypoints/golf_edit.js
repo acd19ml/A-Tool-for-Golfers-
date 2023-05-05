@@ -56,9 +56,9 @@ function editPage(){
     Waters = []
     Roughs = []
     hole = draw.circle(10).attr("name","hole").attr({cx:500,cy:400}).fill("#ff1100").draggable()
-    let calibrate1 = draw.circle(10).draggable().hide().attr({cx:100,cy:400})
-    let calibrate2 = draw.circle(10).draggable().hide().attr({cx:900,cy:400})
-    let calibrateLine = draw.line().stroke({color:"#000", width: 1 }).hide()
+    let calibrate1 = draw.circle(15).draggable().hide().attr({cx:100,cy:400}).front()
+    let calibrate2 = draw.circle(15).draggable().hide().attr({cx:900,cy:400}).front()
+    let calibrateLine = draw.line().stroke({color:"#000", width: 2 }).hide()
   }
 
   //state variables to be changed by buttons
@@ -80,9 +80,9 @@ function editPage(){
   updateOffset()
 
 
-  let calibrate1 = draw.circle(10).draggable().hide().attr({cx:100,cy:400})
-  let calibrate2 = draw.circle(10).draggable().hide().attr({cx:900,cy:400})
-  let calibrateLine = draw.line().stroke({color:"#000", width: 1 }).hide()
+  let calibrate1 = draw.circle(15).draggable().hide().attr({cx:100,cy:400}).front()
+  let calibrate2 = draw.circle(15).draggable().hide().attr({cx:900,cy:400}).front()
+  let calibrateLine = draw.line().stroke({color:"#000", width: 2 }).hide()
   calibrate1.on('dragmove',function(){
     drawCalibrate()
   })
