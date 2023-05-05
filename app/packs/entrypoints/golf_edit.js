@@ -277,6 +277,8 @@ function editPage(){
   }
 
   window.downloadMap = function downloadMap(hole,course) {
+    removeselection()
+    hideCalibrate()
     let blob = new Blob([draw.svg()]);
     const element = document.createElement('a');
     element.download = "GolfMap_hole"+hole+"_course"+course+".svg";
@@ -304,8 +306,11 @@ function editPage(){
   }
   let calibrateDistance = 0
   function drawCalibrate(){
+    // calibrate1 = draw.circle(10).draggable().attr({cx:100,cy:400})
+    // calibrate2 = draw.circle(10).draggable().attr({cx:900,cy:400})
     calibrate1.show()
     calibrate2.show()
+    // calibrateLine = draw.line().stroke({color:"#000", width: 1 })
     calibrateLine.show()
     calibrateLine.plot(calibrate1.attr("cx"),calibrate1.attr("cy"),calibrate2.attr("cx"),calibrate2.attr("cy"))
     calibrateDistance = Math.sqrt(Math.pow((calibrate1.attr("cx")-calibrate2.attr("cx")),2)+Math.pow((calibrate1.attr("cy")-calibrate2.attr("cy")),2))
@@ -313,9 +318,9 @@ function editPage(){
     // calibrateLine.plot(200,200,400,400)
   }
   function hideCalibrate(){
-    calibrate1.hide()
-    calibrate2.hide()
-    calibrateLine.hide()
+    calibrate1.remove()
+    calibrate2.remove()
+    calibrateLine.remove()
   }
   
   //
@@ -391,8 +396,8 @@ function editPage(){
       select = 0
       oDelete = 0
       removeselection()
-      calibrate1.attr({cx:100,cy:400})
-      calibrate2.attr({cx:900,cy:400})
+      calibrate1.attr({cx:100,cy:400}).show()
+      calibrate2.attr({cx:900,cy:400}).show()
       drawCalibrate()
 
     }
