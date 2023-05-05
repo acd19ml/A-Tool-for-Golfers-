@@ -60,6 +60,11 @@
         %input{:type=> "radio", :id=> "selectCheck", :onclick=>"toolBox()",:name=>"tool",:checked=>"checked"}
         Delete: 
         %input{:type=> "radio", :id=> "deleteCheck", :onclick=>"toolBox()",:name=>"tool"}
+        Calibration: 
+        %input{:type=> "radio", :id=> "calibrationCheck", :onclick=>"toolBox()",:name=>"tool"}
+        %input{:type=> "text", :id=> "calibrationNum", :onclick=>"",:name=>""}
+        %button{:type=>"button",:id=> "calibrate",:onclick=>"calibrateMap()"}
+          Calibrate 
         %br
         Shift+Click to delete point
         %br

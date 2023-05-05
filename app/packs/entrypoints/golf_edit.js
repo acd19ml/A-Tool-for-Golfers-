@@ -11,6 +11,7 @@ function editPage(){
   //create the drawing canvas
   var draw = SVG().addTo("#create").size(1000,800)
   draw.attr({name:"draw"})
+  draw.attr({scale: 1})
 
   //creates different terrains
   var Fairways = []
@@ -34,6 +35,8 @@ function editPage(){
   hole = elements[6]
   orderElements()
 
+  draw.attr({scale: SVG(document.getElementById("SVGout").innerText).attr('scale')})
+
   //hole properties
   hole.front().draggable()
   hole.on("dragstart.namespace", removeselection)
@@ -52,12 +55,16 @@ function editPage(){
     Tees = []
     Waters = []
     Roughs = []
-    hole = draw.circle(10).attr("name","hole").attr({cx:250,cy:250}).fill("#ff1100").draggable()
+    hole = draw.circle(10).attr("name","hole").attr({cx:500,cy:400}).fill("#ff1100").draggable()
+    let calibrate1 = draw.circle(10).draggable().hide().attr({cx:100,cy:400})
+    let calibrate2 = draw.circle(10).draggable().hide().attr({cx:900,cy:400})
+    let calibrateLine = draw.line().stroke({color:"#000", width: 1 }).hide()
   }
 
   //state variables to be changed by buttons
   var terrain = 2
   var select = 1
+  var calibrate = 0
   var oDelete = 0
 
   //offset variables to make sure clicks register where mouse clicks
@@ -73,6 +80,15 @@ function editPage(){
   updateOffset()
 
 
+  let calibrate1 = draw.circle(10).draggable().hide().attr({cx:100,cy:400})
+  let calibrate2 = draw.circle(10).draggable().hide().attr({cx:900,cy:400})
+  let calibrateLine = draw.line().stroke({color:"#000", width: 1 }).hide()
+  calibrate1.on('dragmove',function(){
+    drawCalibrate()
+  })
+  calibrate2.on('dragmove',function(){
+    drawCalibrate()
+  })
   //
   //Drawing
   //
@@ -80,7 +96,7 @@ function editPage(){
   var newIndex = Greens.length
   //mouse eventlisner for drawing
   function printMousePos(event) {
-    if (select == 0){
+    if (select == 0 && calibrate ==0){
       if (document.querySelector("#create").contains(event.target)){
       let point = [event.clientX-offsetx,event.clientY-offsety]
       if (terrain == 0){
@@ -101,7 +117,6 @@ function editPage(){
       }
       }
     }
-
   }
 
 
@@ -287,7 +302,22 @@ function editPage(){
       data: { map_data: save },
     });
   }
-
+  let calibrateDistance = 0
+  function drawCalibrate(){
+    calibrate1.show()
+    calibrate2.show()
+    calibrateLine.show()
+    calibrateLine.plot(calibrate1.attr("cx"),calibrate1.attr("cy"),calibrate2.attr("cx"),calibrate2.attr("cy"))
+    calibrateDistance = Math.sqrt(Math.pow((calibrate1.attr("cx")-calibrate2.attr("cx")),2)+Math.pow((calibrate1.attr("cy")-calibrate2.attr("cy")),2))
+    console.log(calibrateDistance)
+    // calibrateLine.plot(200,200,400,400)
+  }
+  function hideCalibrate(){
+    calibrate1.hide()
+    calibrate2.hide()
+    calibrateLine.hide()
+  }
+  
   //
   //Buttons
   //
@@ -331,24 +361,43 @@ function editPage(){
     var drawCheckBox = document.getElementById("drawCheck");
     var selectCheckBox = document.getElementById("selectCheck");
     var deleteCheckBox = document.getElementById("deleteCheck");
+    var calibrateCheckBox = document.getElementById("calibrationCheck");
     if (drawCheckBox.checked == true){
       removeselection()
       hole.draggable(false)
+      hideCalibrate()
       select = 0
       oDelete = 0
+      calibrate = 0
     }
     if (selectCheckBox.checked == true){
       hole.draggable()
+      hideCalibrate()
       select = 1
       oDelete = 0
+      calibrate = 0
     }
     if (deleteCheckBox.checked == true){
       hole.draggable(false)
       removeselection()
+      hideCalibrate()
       oDelete = 1
       select = 0
+      calibrate = 0
+    }
+    if (calibrateCheckBox.checked == true){
+      console.log(draw.attr('scale'))
+      calibrate = 1
+      select = 0
+      oDelete = 0
+      removeselection()
+      calibrate1.attr({cx:100,cy:400})
+      calibrate2.attr({cx:900,cy:400})
+      drawCalibrate()
+
     }
   }
+
 
   window.addButton = function() {
     newIndex = 0
@@ -374,7 +423,7 @@ function editPage(){
   }
   let backgroundx = parseInt(window.getComputedStyle(document.getElementById('create')).getPropertyValue("background-Position-X").replace(/px/,""))
   let backgroundy= parseInt(window.getComputedStyle(document.getElementById('create')).getPropertyValue("background-Position-Y").replace(/px/,""))
-  let backgroundsize = 500
+  let backgroundsize = 1500
   let movevalue = 10
   // var backgroundx = parseInt(document.getElementById('create').style.backgroundPositionY)
   window.BackgroundLeft = function(){
@@ -407,27 +456,29 @@ function editPage(){
   window.Trace = function(){
     let tracebutton = document.getElementById('traceButton')
     if (tracebutton.checked){
+      removeselection()
       document.getElementById('create').style.backgroundSize = backgroundsize +"px"
       trace = 1
       Fairways.forEach(function(f){
-        f.opacity(0.4)
+        f.opacity(0.5)
       })
       Greens.forEach(function(g){
-        g.opacity(0.4)
+        g.opacity(0.5)
       })
       Bunkers.forEach(function(g){
-        g.opacity(0.4)
+        g.opacity(0.5)
       })
       Tees.forEach(function(g){
-        g.opacity(0.4)
+        g.opacity(0.5)
       })
       Waters.forEach(function(g){
-        g.opacity(0.4)
+        g.opacity(0.5)
       })
       Roughs.forEach(function(g){
-        g.opacity(0.4)
+        g.opacity(0.5)
       })
     } else {
+      removeselection()
       trace = 0
       document.getElementById('create').style.backgroundSize = 0
       Fairways.forEach(function(f){
@@ -449,8 +500,16 @@ function editPage(){
         g.opacity(1)
       })
     }
-
   }
-
+  window.calibrateMap = function(){
+    if (calibrate == 1){
+    let realDistance = document.getElementById("calibrationNum").value
+    console.log(calibrateDistance)
+    console.log(realDistance)
+    console.log(realDistance/calibrateDistance)
+    console.log(draw.attr('scale'))
+    draw.attr({scale:(realDistance/calibrateDistance)})
+    }
+  }
 }
 

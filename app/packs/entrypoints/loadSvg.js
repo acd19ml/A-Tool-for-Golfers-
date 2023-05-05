@@ -62,5 +62,5 @@ export function loadSvg(loadsvg,parent){
     }
   } 
   )
-  return [Fairways,Greens,Bunkers,Tees,Waters,Roughs,hole]
+  return [Fairways,Greens,Bunkers,Tees,Waters,Roughs,hole,]
 }

@@ -28,6 +28,8 @@ function showPage(){
   let y = 0
   let elements = loadSvg(SVG(document.getElementById("SVGout").innerText),display)
   hole = elements[6]
+  let scalingFactor = SVG(document.getElementById("SVGout").innerText).attr('scale')
+  console.log(scalingFactor)
   setupCalculations()
   
   document.addEventListener('mousedown',function() {plotshot(event,"click")}) 
@@ -45,7 +47,7 @@ function showPage(){
       shotpoint.attr({cx: x-offsetx,cy: y-offsety})
     }
     shotlinec.plot(shotpoint.attr("cx"),shotpoint.attr("cy"),hole.attr("cx"),hole.attr("cy"))
-    distance = Math.round(0.5*Math.sqrt(Math.pow((x-offsetx-hole.attr("cx")),2)+Math.pow((y-offsety-hole.attr("cy")),2)))
+    distance = Math.round(scalingFactor*Math.sqrt(Math.pow((x-offsetx-hole.attr("cx")),2)+Math.pow((y-offsety-hole.attr("cy")),2)))
     name = document.elementFromPoint(x,y).getAttribute("name")
     shotpoint.show()
     shotlinec.show()
@@ -83,6 +85,9 @@ function showPage(){
       baseline = data[baseline]["Baseline"]
     }else{
       baseline = "No Data"
+    }
+    if (terrainOut == "display"){
+      terrainOut = "None"
     }
     document.getElementById("terrainShow").innerText = terrainOut; 
     document.getElementById("distanceShow").innerText = distanceOut; 
