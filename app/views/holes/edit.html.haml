@@ -12,16 +12,6 @@
   .col-lg-5
     .card 
       .card-body
-        .h3.text-center
-          Info Edit
-        .card-body
-        = simple_form_for([$course, @hole], url: course_hole_path($course, @hole) , method: :patch) do |f|
-          .card-body
-            = f.input :holeNumber, wrapper_html: { class: 'mb-3' }
-            = f.input :map, wrapper_html: { class: 'mb-3' }
-            = f.input :note, wrapper_html: { class: 'mb-3' }
-            %button.btn.btn-primary{ type: 'submit' }
-              Save
 
         -# %dl.row.mb-0.text-center
         -#   %dt.col-md-3 Hole:
@@ -32,7 +22,6 @@
         -# .ms-auto.text-center
         -#   = link_to 'edit', course_hole_path($course, $hole), class: 'btn btn-outline-primary ms-auto'
 
-    %hr.border.text-success.border-5.opacity-75
     -# map editor
     .card 
       .card-body
