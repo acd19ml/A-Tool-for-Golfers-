@@ -303,6 +303,8 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
+    shoulda-matchers (5.3.0)
+      activesupport (>= 5.2.0)
     simple_form (5.1.0)
       actionpack (>= 5.2)
       activemodel (>= 5.2)
@@ -385,6 +387,7 @@ DEPENDENCIES
   sentry-rails
   sentry-ruby
   shakapacker
+  shoulda-matchers (~> 5.0)
   simple_form
   simplecov
   tzinfo-data
