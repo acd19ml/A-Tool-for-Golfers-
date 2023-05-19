@@ -3,10 +3,11 @@
 # Table name: userinfos
 #
 #  id         :bigint           not null, primary key
-#  rotation   :decimal(, )
 #  club       :string
 #  distance   :decimal(, )
+#  height     :decimal(, )
 #  length     :decimal(, )
+#  rotation   :decimal(, )
 #  width      :decimal(, )
 #  created_at :datetime         not null
 #  updated_at :datetime         not null

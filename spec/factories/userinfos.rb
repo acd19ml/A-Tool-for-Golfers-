@@ -5,6 +5,7 @@
 #  id         :bigint           not null, primary key
 #  club       :string
 #  distance   :decimal(, )
+#  height     :decimal(, )
 #  length     :decimal(, )
 #  rotation   :decimal(, )
 #  width      :decimal(, )

@@ -10,16 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_19_162921) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "annotations", force: :cascade do |t|
     t.decimal "annotationMap"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "hole_id"
     t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "courses", force: :cascade do |t|
@@ -45,11 +45,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
 
   create_table "holes", force: :cascade do |t|
     t.integer "holeNumber"
-    t.string "map", default: "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:svgjs=\"http://svgjs.dev/svgjs\" width=\"500\" height=\"500\" name=\"draw\"><circle r=\"5\" cx=\"250\" cy=\"250\" fill=\"#ff1100\" name=\"hole\"></circle></svg>"
+    t.string "map"
+    t.string "note"
+    t.integer "course_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "course_id"
-    t.string "note"
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -71,16 +71,20 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
     t.string "club"
     t.decimal "distance"
     t.decimal "length"
+    t.decimal "height"
     t.decimal "width"
     t.decimal "rotation"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
+    t.boolean "admin", default: false, null: false
+    t.boolean "map_creator", default: false, null: false
+    t.boolean "is_suspended", default: false, null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -89,12 +93,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_011846) do
     t.datetime "last_sign_in_at"
     t.string "current_sign_in_ip"
     t.string "last_sign_in_ip"
-    t.string "role", default: "golfer", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "map_creator", default: false
-    t.boolean "admin", default: false
-    t.boolean "is_suspended", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

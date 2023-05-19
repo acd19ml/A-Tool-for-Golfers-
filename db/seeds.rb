@@ -12,7 +12,7 @@ Course.delete_all
 # User.where(email:'acd19ml@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456')
 # User.where(email:'mapcreator@sheffield.ac.uk').first_or_create(password:'123456', password_confirmation:'123456', map_creator: true)
 User.create(email:'golfer@test.com', password:'123456', password_confirmation:'123456')
-User.create(email:'admin@test.com', admin:true,map_creator:true, password:'123456', password_confirmation:'123456')
+User.create(email:'admin@test.com', admin:true, map_creator:true, password:'123456', password_confirmation:'123456')
 User.create(email:'creator@test.com', map_creator:true, password:'123456', password_confirmation:'123456')
 
 
