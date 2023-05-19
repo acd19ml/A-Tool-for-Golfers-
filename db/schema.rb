@@ -45,7 +45,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_19_162921) do
 
   create_table "holes", force: :cascade do |t|
     t.integer "holeNumber"
-    t.string "map"
+    t.string "map", default: "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:svgjs=\"http://svgjs.dev/svgjs\" width=\"500\" height=\"500\" name=\"draw\"><circle r=\"5\" cx=\"250\" cy=\"250\" fill=\"#ff1100\" name=\"hole\"></circle></svg>"
     t.string "note"
     t.integer "course_id"
     t.datetime "created_at", null: false
